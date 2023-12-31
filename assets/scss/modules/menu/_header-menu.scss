@@ -95,6 +95,7 @@
     }
 
     &__list li a {
+        display: flex;
         @media(min-width:1360px) {
             font-size: 0.938vw;
             font-weight: 300;

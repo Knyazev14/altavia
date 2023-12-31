@@ -3,28 +3,31 @@
     @media(min-width:768px){
         margin-bottom: 22.526vw;
     }
-    @media(min-width:1920px){
-        margin-bottom: 255px;
+    @media(min-width:1360px){
+        margin-bottom: 13.281vw;
     }
     &__body {
-        @media(min-width:1920px){
+        @media(min-width:1360px){
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            gap: 1.563vw;
         }
     }
 
     &__left {
         margin-bottom: 14.4vw;
         @media(min-width:768px){
-            margin-bottom: 8.594vw;
+            margin-bottom: 10vw;
         }
-        @media(min-width:1920px){
+        @media(min-width:1360px){
             flex: 0 0 49%;
+            margin-bottom: 0;
         }
     }
 
     &__right {
-        @media(min-width:1920px){
+        @media(min-width:1360px){
             flex: 0 0 49%;
         }
     }
@@ -38,8 +41,11 @@
     &__card {
         margin-bottom: 13.333vw;
         @media(min-width:768px){
-            flex: 0 0 50%;
+            flex: 0 0 46%;
             margin-bottom: 7.813vw;
+        }
+        @media(min-width:1360px){
+           margin-bottom: 3.646vw;
         }
     }
 
@@ -53,6 +59,14 @@
         gap: 2.667vw;
         margin-bottom: 4vw;
         position: relative;
+        @media(min-width:768px){
+            margin-bottom: 2.474vw;
+            gap: 1.302vw;
+        }
+        @media(min-width:1360px){
+            margin-bottom: 0.99vw;
+            gap: 0.521vw;
+        }
     }
 
     &__card-top::before{
@@ -70,6 +84,12 @@
             width: 15.365vw;
             height: 10.417vw;
             top: -4.557vw;
+            background-image: url("../img/bg/tribal-desc.svg");
+        }
+        @media(min-width:1360px){
+          width: 6.146vw;
+          height: 4.367vw;
+          top: -2.05vw;
         }
     }
 
@@ -78,12 +98,20 @@
         @media(min-width:768px){
             font-size: 13.021vw;
         }
+        @media(min-width:1360px){
+            font-size: 5.208vw;
+            line-height: 0;
+            margin-top: 0.26vw;
+        }
     }
 
     &__text-desc {
         font-size: 5.333vw;
         @media(min-width:768px){
             font-size: 3.125vw;
+        }
+        @media(min-width:1360px){
+          font-size: 0.938vw;
         }
     }
 
@@ -102,6 +130,11 @@
             font-size: 2.344vw;
             letter-spacing: -0.026vw;
         }
+        @media(min-width:1360px){
+            max-width: 15.625vw;
+            letter-spacing: -0.01vw;
+            font-size: 0.938vw;
+        }
     }
 
     &__desc br{
@@ -111,15 +144,16 @@
     }
 
     &__left .title{
-        @media(min-width:1920px){
+        @media(min-width:1360px){
             display: none;
         }
     }
 
     &__right .title{
         display: none;
-        @media(min-width:1920px){
+        @media(min-width:1360px){
             display: block;
+            margin-bottom: 5.26vw;
         }
     }
 
@@ -128,8 +162,8 @@
         @media(min-width:768px){
             margin-bottom: 6.51vw;
         }
-        @media(min-width:1920px){
-            margin-bottom: 90px;
+        @media(min-width:1360px){
+            margin-bottom: 4.688vw;
         }
     }
 }

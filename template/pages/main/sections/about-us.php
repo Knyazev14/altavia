@@ -10,7 +10,8 @@
                 <div class="about-us__cards">
                     <article class="about-us__card">
                         <div class="about-us__card-top">
-                            <p class="about-us__text">III</p><p class="about-us__text-desc">группа</p>
+                            <p class="about-us__text">III</p>
+                            <p class="about-us__text-desc">группа</p>
                         </div>
                         <div class="about-us__card-bottom">
                             <p class="about-us__desc">в рейтинге «Право-300» в области «Медицина и фармацевтика»</p>

@@ -1,5 +1,11 @@
 .header {
     box-shadow: 0vw 1.067vw 4vw 0vw rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 2;
+    @media(min-width:1360px){
+        box-shadow: 0vw 0.156vw 0.781vw 0vw rgba(0, 0, 0, 0.06);
+    }
+    
     &__body {
         display: flex;
         justify-content: space-between;
@@ -9,9 +15,11 @@
         @media(min-width:768px){
             justify-content: flex-start;
             padding: 2.083vw 0vw;
+            min-height: 10.417vw;
         }
         @media(min-width:1360px){
            padding: 1.042vw 0;
+           min-height: 5.052vw;
         }
     }
     &__logo{
@@ -52,6 +60,8 @@
         }
         @media(min-width:1360px){
            flex: 0 0 11.51vw;
+           height: auto;
+           padding: 0;
            padding-left: 1.563vw;
            background-color: transparent;
         }
@@ -72,11 +82,14 @@
             position: relative;
             margin-left: 2.604vw;
         }
+        @media(min-width:1360px){
+            margin-left: 1.563vw;
+        }
     }
     & .phone span{
         display: none;
         @media(min-width:1360px){
-            display: inline-block;
+            display: flex;
             font-size: 1.042vw;
             font-weight: 300;
         }
@@ -98,7 +111,7 @@
         }
         @media(min-width:1360px){
            left: 0;
-           transform: translate(0, -57%);
+           transform: translate(0, -50%);
            width: 1.25vw;
            height: 1.25vw;
          }

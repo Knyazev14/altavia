@@ -9,12 +9,14 @@
     align-items: center;
     height: 13.067vw;
     @media(min-width:768px){
+        border-radius: 0.26vw;
         padding: 2.865vw 5.208vw;
         height: 7.682vw;
     }
     @media(min-width:1360px){
-        padding: 26px 40px;
-        max-height: 69px;
+        border-radius: 0.147vw;
+        padding: 1.912vw 2.941vw;
+        height: 3.594vw;
     }
 
     // добавляем анимацию при наведении------
@@ -50,8 +52,8 @@
         @media(min-width:768px){
             font-size: 2.604vw;
         }
-        @media(min-width:1920px){
-            font-size: 24px;
+        @media(min-width:1360px){
+            font-size: 1.25vw;
         }
     }
 }
