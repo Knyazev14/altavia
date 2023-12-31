@@ -1,0 +1,89 @@
+.hero-main {
+    min-height: 200.533vw;
+    background-color: #FCFAFA;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 26.667vw;
+    @media(min-width:768px) {
+        min-height: 122.917vw;
+        margin-bottom: 19.531vw;
+    }
+    @media(min-width:1920px) {
+        min-height: calc(100vh - 107px);
+        margin-bottom: 240px;
+    }
+    &__body {
+        padding-top: 19.733vw;
+        padding-bottom: 68.533vw;
+        @media(min-width:768px){
+            padding-bottom: 37.5vw;
+            padding-top: 10.677vw;
+        }
+    }
+
+    &__shard {
+        position: absolute;
+        z-index: 20;
+    }
+
+    &__title {}
+
+    &__title span:first-child {
+        @extend %mobile-h1;
+        color: $colorGold;
+        margin-bottom: 4vw;
+
+        @media(min-width:1920px) {
+            font-size: 144px;
+        }
+    }
+
+    &__title span:last-child {
+        color: $colorGreen;
+        font-family: $fontStem;
+        font-size: 8vw;
+        font-weight: 200;
+        line-height: 90%;
+        margin-bottom: 13.333vw;
+
+        @media(min-width:768px) {
+            font-size: 9.156vw;
+            line-height: 90%;
+            margin-bottom: 10.417vw;
+
+        }
+
+        @media(min-width:1920px) {
+            font-size: 184px;
+            line-height: 100%;
+        }
+    }
+
+    & .button-normal {
+        @media(min-width:1920px) {
+            max-width: 553px;
+            order: -1;
+        }
+    }
+
+    &__bottom {
+        @media(min-width:1920px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__bottom p {
+        @extend %mobile-t1;
+        margin-bottom: 13.333vw;
+        font-weight: 600;
+        @media(min-width:768px) {}
+
+        @media(min-width:1920px) {
+            max-width: 729px;
+            margin-right: 70px;
+        }
+
+
+    }
+}

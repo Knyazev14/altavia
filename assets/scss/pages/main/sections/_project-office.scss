@@ -1,0 +1,153 @@
+.project-office {
+margin-bottom: 26.667vw;
+@media(min-width:768px){
+    margin-bottom: 180px;
+}
+@media(min-width:1920px){
+    margin-bottom: 250px;
+}
+    &__body {
+    }
+
+    &__top {
+        @media(min-width:1920px){
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__title {
+        @extend %mobile-h2;
+        font-weight: 350;
+        margin-bottom: 8vw;
+        color: $netural-10;
+    }
+
+    &__desc {
+        color: $netural-10;
+        @extend %mobile-t1;
+        margin-bottom: 9.333vw;
+        max-width: 213.333vw;
+        width: 100%;
+    }
+
+    &__bottom {
+    }
+
+    &__cards {
+        @media(min-width:768px){
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+    &__card {
+        border-radius: 0.533vw;
+        background: $colorBackground;
+        padding: 4vw 4vw 5.333vw 4vw;
+        margin-bottom: 4vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @media(min-width:768px){
+            padding: 0.651vw 2.604vw 3.255vw 2.604vw;
+            max-width: 44.792vw;
+            width: 100%;
+            height: 42.969vw;
+            flex: 0 0 48%;
+        }
+        @media(min-width:1920px){
+            max-width: 408px;
+            max-height: 355px;
+            overflow: hidden;
+        }
+    }
+
+    &__card-number {
+        color: $colorGold;
+        font-family: $fontStem;
+        font-size: 16vw;
+        font-weight: 500;
+        line-height: 120%;
+        margin-bottom: 2.667vw;
+        @media(min-width:768px){
+            margin-bottom: 1.302vw;
+            font-size: 11.719vw;
+        }
+    }
+
+    &__card-title {
+        @extend %mobile-h4;
+        margin-bottom: 4vw;
+        color: $netural-10;
+        font-family: $fontManrope;
+        @media(min-width:768px){
+            margin-bottom: 19.999px;
+        }
+        @media(min-width:1920px){
+            margin-bottom: 32px;
+        }
+    }
+
+    &__card-desc {
+        @extend %mobile-textcard;
+        color: $netural-40;
+        max-width: 81.333vw;
+        @media(min-width:768px){
+            letter-spacing: -0.023vw;
+        }
+    }
+
+    & .button-secondary{
+        margin-bottom: 8vw;
+        @media(min-width:768px){
+            display: none;
+        }
+    }
+
+    & .button-normal{
+        @media(min-width:768px){
+        max-width: 44.792vw;
+        width: 100%;
+        margin-top: 35.417vw;
+        flex: 0 0 48%;
+        }
+        @media(min-width:1920px){
+            max-width: 408px;
+            margin-top: 286px;
+        }
+    }
+
+    .project-office__card {
+        display: flex;
+    }
+    
+    .project-office__card.hidden-card {
+        display: none;
+        @media(min-width:768px){
+            display: flex;
+        }
+    }
+
+    // Анимация при наведении----------
+    @media(min-width:1920px){
+    &__card &__card-number {
+        font-size: 140px;
+        margin-bottom: 143px;
+        margin-top: -20px;
+        opacity: 0.4;
+        transition: all 1s ease;
+    }
+    
+    &__card:hover &__card-number {
+        font-size: 90px;
+        margin-bottom: 50px;
+        padding-top: 30px;
+        opacity: 1;
+        margin-top: -40px;
+    }
+    
+}
+    
+}
