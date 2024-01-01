@@ -92,7 +92,7 @@
                             </p>
                         </div>
                     </article>
-                    <?php display_button_secondary('Показать все'); ?>
+                    <?php display_button_secondary('Показать все', true); ?>
 
                     <?php display_button_normal('Читать подробнее'); ?>
                 </div>
