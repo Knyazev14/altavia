@@ -10,7 +10,7 @@
     @media(min-width:1360px){
         width: 44.01vw;
         height: 37.969vw;
-        margin-top: -4.479vw;
+        margin-top: -7.479vw;
     }
     &__item {
         position: absolute;
@@ -59,6 +59,9 @@
         @media(min-width:768px){
             margin-bottom: 11.719vw;
         }
+        @media(min-width:1360px){
+            margin-bottom: 8.719vw;
+        }
     }
     &__item:nth-child(5) &__sub-title-2 {
         margin-top: 18.133vw;
@@ -73,6 +76,9 @@
         margin-bottom: 23.2vw;
         @media(min-width:768px){
             margin-bottom: 11.328vw;
+        }
+        @media(min-width:1360px){
+            margin-bottom: 8.328vw;
         }
     }
 
@@ -140,7 +146,7 @@
         @media(min-width:1360px){
            font-size: 1.25vw;
            letter-spacing: -0.014vw;
-           margin-bottom: 0.677vw;
+           margin-bottom: 0.877vw;
         }
     }
 

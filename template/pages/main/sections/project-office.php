@@ -99,33 +99,4 @@
             </div>
         </div>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const projectOfficeSection = document.querySelector('.project-office');
-
-            projectOfficeSection.addEventListener('click', function (event) {
-                const clickedElement = event.target;
-
-                if (clickedElement.classList.contains('button-secondary')) {
-                    clickedElement.id = 'showAllButton';
-                    clickedElement.setAttribute('onclick', 'toggleCards()');
-                }
-            });
-        });
-        function toggleCards() {
-            const cards = document.querySelectorAll('.project-office__card');
-            const showAllButton = document.getElementById('showAllButton');
-
-            cards.forEach((card, index) => {
-                if (index >= 4) {
-                    if (card.classList.contains('hidden-card')) {
-                        card.classList.remove('hidden-card');
-                    } else {
-                        card.classList.add('hidden-card');
-                    }
-                }
-            });
-        }
-
-    </script>
 </section>

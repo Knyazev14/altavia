@@ -8,7 +8,11 @@ margin-bottom: 26.667vw;
 }
     &__body {}
 
-    &__title {}
+    &__title {
+        @media(min-width:1360px){
+            margin-bottom: 4.688vw;
+        }
+    }
 
     &__content {
         @media(min-width:1360px){
@@ -52,6 +56,11 @@ margin-bottom: 26.667vw;
             gap: 2.604vw;
             margin-bottom: 5.208vw;
         }
+        @media(min-width:1360px){
+            gap: 1.042vw;
+            margin-bottom: 3.125vw;
+
+        }
     }
 
     &__card-left {}
@@ -83,9 +92,17 @@ margin-bottom: 26.667vw;
           margin-bottom: 2.604vw;  
           letter-spacing: -0.032vw;
         }
+        @media(min-width:1360px){
+            font-size: 1.25vw;
+            letter-spacing: -0.014vw;
+            margin-bottom: 1.042vw;
+        }
     }
 
     &__cards-text {
         @extend %mobile-t2;
+        @media(min-width:1360px){
+            max-width: 35.215vw;
+        }
     }
 }
