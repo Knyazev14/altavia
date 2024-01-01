@@ -1,203 +1,207 @@
 .project-office {
-margin-bottom: 26.667vw;
-@media(min-width:768px){
+  margin-bottom: 26.667vw;
+  @media (min-width: 768px) {
     margin-bottom: 23.438vw;
-}
-@media(min-width:1360px){
+  }
+  @media (min-width: 1360px) {
     margin-bottom: 13.021vw;
-}
-    &__body {
-    }
+  }
+  &__body {
+  }
 
-    &__top {
-        @media(min-width:1360px){
-            display: flex;
-            justify-content: space-between;
-        }
+  &__top {
+    @media (min-width: 1360px) {
+      display: flex;
+      justify-content: space-between;
     }
+  }
 
-    &__title {
-        @extend %mobile-h2;
-        font-weight: 350;
-        margin-bottom: 8vw;
-        color: $netural-10;
-        @media(min-width:768px){
-            margin-bottom: 3.906vw;
-        }
-        @media(min-width:1360px){
-            margin-bottom: 2.206vw;
-        }
+  &__title {
+    @extend %mobile-h2;
+    font-weight: 350;
+    margin-bottom: 4vw;
+    color: $netural-10;
+    letter-spacing: -0.088vw;
+    @media (min-width: 768px) {
+      margin-bottom: 3.906vw;
     }
+    @media (min-width: 1360px) {
+      margin-bottom: 2.206vw;
+    }
+  }
 
-    &__desc {
-        color: $netural-10;
-        @extend %mobile-t1;
-        margin-bottom: 9.6vw;
-        max-width: 213.333vw;
-        width: 100%;
-        @media(min-width:768px){
-            margin-bottom: 4.688vw;
-            max-width: 104.167vw;
-        }
-        @media(min-width:1360px){
-            margin-bottom: 1.875vw;
-            max-width: 41.667vw;
-        }
+  &__desc {
+    color: $netural-10;
+    @extend %mobile-t1;
+    margin-bottom: 8vw;
+    max-width: 213.333vw;
+    width: 100%;
+    @media (min-width: 768px) {
+      margin-bottom: 4.688vw;
+      max-width: 104.167vw;
     }
+    @media (min-width: 1360px) {
+      margin-bottom: 1.875vw;
+      max-width: 41.667vw;
+    }
+  }
 
-    &__bottom {
-    }
+  &__bottom {
+  }
 
-    &__cards {
-        @media(min-width:768px){
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        @media(min-width: 1360px){
-            gap: 1.563vw;
-        }
+  &__cards {
+    @media (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
+    @media (min-width: 1360px) {
+      gap: 1.563vw;
+    }
+  }
 
-    &__card {
-        cursor: pointer;
-        border-radius: 0.533vw;
-        background: $colorBackground;
-        padding: 4vw 4vw 5.333vw 4vw;
-        margin-bottom: 4vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        @media(min-width:768px){
-            padding: 0.651vw 2.604vw 3.255vw 2.604vw;
-            max-width: 44.792vw;
-            width: 100%;
-            height: 42.969vw;
-            flex: 0 0 48%;
-            margin-bottom: 1.953vw;
-            border-radius: 0.26vw;
-        }
-        @media(min-width:1360px){
-            flex: 0 0 23.5%;
-            border-radius: 0.104vw;
-            padding: 1.042vw;
-            margin-bottom: 0;
-            max-width: 21.25vw;
-            height: 19.1vw;
-            overflow: hidden;
-        }
+  &__card {
+    cursor: pointer;
+    border-radius: 0.533vw;
+    background: $colorBackground;
+    padding: 0vw 4vw 5.333vw 4vw;
+    margin-bottom: 3.467vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 61.333vw;
+    @media (min-width: 768px) {
+      padding: 0.651vw 2.604vw 3.255vw 2.604vw;
+      max-width: 44.792vw;
+      width: 100%;
+      height: 42.969vw;
+      flex: 0 0 50%;
+      margin-bottom: 1.953vw;
+      border-radius: 0.26vw;
     }
+    @media (min-width: 1360px) {
+      flex: 0 0 23.5%;
+      border-radius: 0.104vw;
+      padding: 1.042vw;
+      margin-bottom: 0;
+      max-width: 21.25vw;
+      height: 19.1vw;
+      overflow: hidden;
+    }
+  }
 
-    &__card-number {
-        color: $colorGold;
-        font-family: $fontStem;
-        font-size: 16vw;
-        font-weight: 500;
-        line-height: 120%;
-        margin-bottom: 2.667vw;
-        @media(min-width:768px){
-            margin-bottom: 1.302vw;
-            font-size: 11.719vw;
-        }
-        @media(min-width:1360px){
-            margin-bottom: 0.521vw;
-            font-size: 4.688vw;
-        }
+  &__card-number {
+    color: $colorGold;
+    font-family: $fontStem;
+    font-size: 16vw;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 2.667vw;
+    @media (min-width: 768px) {
+      margin-bottom: 1.302vw;
+      font-size: 11.719vw;
     }
+    @media (min-width: 1360px) {
+      margin-bottom: 0.521vw;
+      font-size: 4.688vw;
+    }
+  }
 
-    &__card-title {
-        @extend %mobile-h4;
-        margin-bottom: 4vw;
-        color: $netural-10;
-        font-family: $fontManrope;
-        @media(min-width:768px){
-            margin-bottom: 2.604vw;
-        }
-        @media(min-width:1360px){
-            margin-bottom: 1.667vw;
-            min-height: 1.979vw;
-            display: flex;
-            align-items: flex-end;
-        }
+  &__card-title {
+    @extend %mobile-h4;
+    margin-bottom: 1.333vw;
+    color: $netural-10;
+    font-family: $fontManrope;
+    letter-spacing: -0.047vw;
+    @media (min-width: 768px) {
+      margin-bottom: 2.604vw;
     }
+    @media (min-width: 1360px) {
+      margin-bottom: 1.667vw;
+      min-height: 1.979vw;
+      display: flex;
+      align-items: flex-end;
+    }
+  }
 
-    &__card-desc {
-        @extend %mobile-textcard;
-        color: $netural-40;
-        max-width: 304.999px;
-        @media(min-width:768px){
-            letter-spacing: -0.023vw;
-            max-width: 39.714vw;
-        }
-        @media(min-width:1360px){
-            letter-spacing: -0.009vw;
-            max-width: 15.885vw;
-        }
+  &__card-desc {
+    @extend %mobile-textcard;
+    color: $netural-40;
+    max-width: 84vw;
+    @media (min-width: 768px) {
+      letter-spacing: -0.023vw;
+      max-width: 39.714vw;
     }
+    @media (min-width: 1360px) {
+      letter-spacing: -0.009vw;
+      max-width: 15.885vw;
+    }
+  }
 
-    & .button-secondary{
-        margin-bottom: 8vw;
-        @media(min-width:768px){
-            display: none;
-        }
+  & .button-secondary {
+    margin-bottom: 8vw;
+    @media (min-width: 768px) {
+      display: none;
     }
+  }
 
-    & .button-normal{
-        @media(min-width:768px){
-        max-width: 44.792vw;
-        width: 100%;
-        margin-top: 35.417vw;
-        flex: 0 0 48%;
-        }
-        @media(min-width:1360px){
-            max-width: 21.25vw;
-            margin-top: 15.4vw;
-            flex: 0 0 23.5%;
-        }
+  & .button-normal {
+    @media (min-width: 768px) {
+      max-width: 44.792vw;
+      width: 100%;
+      margin-top: 35.417vw;
+      flex: 0 0 50%;
     }
+    @media (min-width: 1360px) {
+      max-width: 21.25vw;
+      margin-top: 15.4vw;
+      flex: 0 0 23.5%;
+    }
+  }
 
-    .project-office__card {
-        display: flex;
+  .project-office__card {
+    display: flex;
+  }
+
+  .project-office__card.hidden-card {
+    @media (min-width: 768px) {
+      display: flex;
     }
+  }
+
+  & .button-arrow{
     
-    .project-office__card.hidden-card {
-        display: none;
-        @media(min-width:768px){
-            display: flex;
-        }
-    }
+    transform: rotate(90deg);
+}
 
-    // Анимация при наведении----------
-    @media(min-width:1360px){
+  // Анимация при наведении----------
+  @media (min-width: 1360px) {
     &__card &__card-number {
-        font-size: 7.292vw;
-        margin-bottom: 6.748vw;
-        margin-top: -1.042vw;
-        opacity: 0.4;
-        transition: all 1s ease;
+      font-size: 7.292vw;
+      margin-bottom: 6.748vw;
+      margin-top: -1.042vw;
+      opacity: 0.4;
+      transition: all 1s ease;
     }
-    
+
     &__card:hover &__card-number {
-        font-size: 24vw;
-        margin-bottom: 13.333vw;
-        padding-top: 8vw;
-        opacity: 1;
-        margin-top: -10.667vw;
-        @media(min-width:768px){
-            font-size: 11.719vw;
-            margin-bottom: 6.51vw;
-            padding-top: 3.906vw;
-            margin-top: -5.208vw;
-        }
-        @media(min-width:1360px){
-            font-size: 4.688vw;
-            margin-bottom: 2.604vw;
-            padding-top: 1.163vw;
-            margin-top: -2.083vw;
-        }
-        
+      font-size: 24vw;
+      margin-bottom: 13.333vw;
+      padding-top: 8vw;
+      opacity: 1;
+      margin-top: -10.667vw;
+      @media (min-width: 768px) {
+        font-size: 11.719vw;
+        margin-bottom: 6.51vw;
+        padding-top: 3.906vw;
+        margin-top: -5.208vw;
+      }
+      @media (min-width: 1360px) {
+        font-size: 4.688vw;
+        margin-bottom: 2.604vw;
+        padding-top: 1.163vw;
+        margin-top: -2.083vw;
+      }
     }
-    
-}
-    
+  }
 }

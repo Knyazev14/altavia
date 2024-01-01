@@ -3,7 +3,7 @@
     background-color: #FCFAFA;
     overflow: hidden;
     position: relative;
-    margin-bottom: 26.667vw;
+    margin-bottom: 25.067vw;
     @media(min-width:768px) {
         min-height: 122.917vw;
         margin-bottom: 19.531vw;
@@ -15,7 +15,7 @@
         
     }
     &__body {
-        padding-top: 19.733vw;
+        padding-top: 17.6vw;
         padding-bottom: 68.533vw;
         @media(min-width:768px){
             padding-bottom: 37.5vw;
@@ -36,8 +36,10 @@
 
     &__title span:first-child {
         @extend %mobile-h1;
+        line-height: 105%;
+        font-size: 14.933vw;
         color: $colorGold;
-        margin-bottom: 4vw;
+        margin-bottom: 2.4vw;
         @media(min-width:768px){
             margin-bottom: 3.255vw;
         }
@@ -50,10 +52,10 @@
     &__title span:last-child {
         color: $colorGreen;
         font-family: $fontStem;
-        font-size: 8vw;
+        font-size: 10.133vw;
         font-weight: 200;
         line-height: 90%;
-        margin-bottom: 13.333vw;
+        margin-bottom: 11.2vw;
 
         @media(min-width:768px) {
             font-size: 9.156vw;
@@ -84,7 +86,7 @@
 
     &__bottom p {
         @extend %mobile-t1;
-        margin-bottom: 13.333vw;
+        margin-bottom: 13.067vw;
         font-weight: 600;
         @media(min-width:768px) {
             margin-bottom: 10.417vw;

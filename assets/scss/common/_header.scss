@@ -33,7 +33,7 @@
         }
         .logo__img{
             width: 100%;
-            flex: 0 0 32.533vw;
+            max-width: 32.8vw;
             @media(min-width:768px){
                 max-width: 20.833vw;
             }
