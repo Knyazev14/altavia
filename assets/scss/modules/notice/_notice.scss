@@ -1,0 +1,96 @@
+.notice {
+margin-bottom: 13.333vw;
+    &__title {
+        color: $netural-30;
+        font-size: 4.8vw;
+        font-weight: 600;
+        line-height: 75%;
+        letter-spacing: -0.053vw;
+        margin-bottom: 5.333vw;
+    }
+    & .button-normal{
+        height: 10.667vw;
+        margin-bottom: 2.667vw;
+    }
+    & .button-normal span{
+        font-size: 4.267vw;
+    }
+    &__form {
+
+    }
+
+    &__form-item {
+        border: 0.267vw solid $netural-80;
+        height: 10.667vw;
+        padding: 2.933vw 4vw 2.933vw 10.667vw;
+        display: flex;
+        align-items: center;
+        margin-bottom: 4vw;
+        position: relative;
+    }
+    &__form-item::before {
+       content: '';
+       position: absolute;
+       top: 3.733vw;
+       left: 4vw;
+       width: 4.267vw;
+       height: 3.2vw;
+       background-image: url('../img/icon/email-input-green.svg');
+       background-repeat: no-repeat;
+       background-size: contain;
+    }
+
+    &__form-input {
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-size: 3.733vw;
+        line-height: 1;
+    }
+    &__form-input::placeholder{
+        font-size: 3.733vw;
+    }
+    & label{
+        position: relative;
+        padding-left: 9.333vw;
+        font-size: 3.733vw;
+        line-height: 140%;
+        letter-spacing: -0.041vw;
+        color: $netural-50;
+        display: block;  
+    }
+    & label a{
+        font-size: 3.733vw;
+        font-weight: 600;
+        line-height: 140%;
+        color: $netural-50;
+        display: inline;
+    }
+    & label::before{
+            content: '';
+            border-radius: 0.533vw;
+            position: absolute;
+            top: 1.333vw;
+            left: 0;
+            width: 5.333vw;
+            height: 5.333vw;
+            border: 0.267vw solid $colorGold;
+    }
+    & label::after{
+           content: '';
+           position: absolute;
+           top: 2.667vw;
+           left: 1.333vw;
+           width: 2.667vw;
+           height: 2.667vw;
+           border-radius: 0.533vw;
+           background-color: $colorGold;
+    }
+    &__btn {}
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__policy {}
+}

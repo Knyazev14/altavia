@@ -1,0 +1,46 @@
+.footer {
+
+    &__menu {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 10.667vw;   
+       margin-bottom: 16vw;
+    }
+
+    &__menu-item {
+        flex: 0 0 43%;
+        display: flex;
+        flex-direction: column;
+        color: $netural-30;
+        gap: 5.866vw;
+        line-height: normal;
+    }
+
+    &__menu-item li:first-child{
+      font-size: 4.8vw;
+      font-weight: 600;
+      letter-spacing: -0.053vw;
+    }
+
+    &__menu-item a{
+        color: $netural-30;
+        font-size: 4.267vw;
+    }
+
+    &__menu-item--services {
+    }
+
+    &__menu-item--company {
+    }
+
+    &__menu-item--info {
+    }
+
+    &__menu-item--office {
+    }
+    &__menu-item--office a{
+        font-size: 4.8vw;
+        font-weight: 600;
+        letter-spacing: -0.053vw;
+    }
+}
