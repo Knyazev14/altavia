@@ -10,6 +10,9 @@
                     <?php get_template_part('template/social/youtube') ?>
                 </div>
             </div>
+            <div class="footer__bottom">
+                
+            </div>
         </div>
     </div>
 </footer>

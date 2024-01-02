@@ -23,10 +23,11 @@
     color: $netural-10;
     letter-spacing: -0.088vw;
     @media (min-width: 768px) {
-      margin-bottom: 3.906vw;
+      margin-bottom: 2.344vw;
     }
     @media (min-width: 1360px) {
       margin-bottom: 2.206vw;
+      letter-spacing: -0.034vw;
     }
   }
 
@@ -169,12 +170,22 @@
     }
   }
 
-  & .button-arrow{
-    
-    transform: rotate(90deg);
-}
+  // Анимация button-arrow-------------
 
-  // Анимация при наведении----------
+  & .button-arrow{
+    left: 5.333vw;
+    transform: rotate(-90deg);
+    background-color: $colorBackground;
+  }
+
+  & .button-arrow__path{
+    fill: $netural-70;
+    stroke: $netural-70;
+  }
+
+  
+
+  // Анимация при наведении--------------
   @media (min-width: 1360px) {
     &__card &__card-number {
       font-size: 7.292vw;
@@ -185,23 +196,11 @@
     }
 
     &__card:hover &__card-number {
-      font-size: 24vw;
-      margin-bottom: 13.333vw;
-      padding-top: 8vw;
+      font-size: 4.688vw;
+      margin-bottom: 2.604vw;
+      padding-top: 1.563vw;
       opacity: 1;
-      margin-top: -10.667vw;
-      @media (min-width: 768px) {
-        font-size: 11.719vw;
-        margin-bottom: 6.51vw;
-        padding-top: 3.906vw;
-        margin-top: -5.208vw;
-      }
-      @media (min-width: 1360px) {
-        font-size: 4.688vw;
-        margin-bottom: 2.604vw;
-        padding-top: 1.163vw;
-        margin-top: -2.083vw;
-      }
+      margin-top: -2.083vw;
     }
   }
 }

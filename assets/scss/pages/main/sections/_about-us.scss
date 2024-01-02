@@ -1,10 +1,10 @@
 .about-us {
     margin-bottom: 12.267vw;
     @media(min-width:768px){
-        margin-bottom: 22.526vw;
+        margin-bottom: 12.891vw;
     }
     @media(min-width:1360px){
-        margin-bottom: 13.281vw;
+        margin-bottom: 11.771vw;
     }
     &__body {
         @media(min-width:1360px){
@@ -18,7 +18,7 @@
     &__left {
         margin-bottom: 15.733vw;
         @media(min-width:768px){
-            margin-bottom: 10vw;
+            margin-bottom: 12vw;
         }
         @media(min-width:1360px){
             flex: 0 0 49%;
@@ -29,6 +29,7 @@
     &__right {
         @media(min-width:1360px){
             flex: 0 0 49%;
+            padding-top: 6.563vw;
         }
     }
 
@@ -42,10 +43,10 @@
         margin-bottom: 13.333vw;
         @media(min-width:768px){
             flex: 0 0 46%;
-            margin-bottom: 7.813vw;
+            margin-bottom: 9.813vw;
         }
         @media(min-width:1360px){
-           margin-bottom: 3.646vw;
+           margin-bottom: 4.646vw;
         }
     }
 
@@ -60,7 +61,7 @@
         margin-bottom: 1.867vw;
         position: relative;
         @media(min-width:768px){
-            margin-bottom: 2.474vw;
+            margin-bottom: 1.302vw;
             gap: 1.302vw;
         }
         @media(min-width:1360px){
@@ -109,6 +110,7 @@
         font-size: 5.333vw;
         @media(min-width:768px){
             font-size: 3.125vw;
+            letter-spacing: -0.026vw;
         }
         @media(min-width:1360px){
           font-size: 0.938vw;
@@ -153,14 +155,16 @@
         display: none;
         @media(min-width:1360px){
             display: block;
-            margin-bottom: 5.26vw;
+            margin-bottom: 6.26vw;
+            letter-spacing: -0.034vw;
         }
     }
 
     &__title{
         color: $netural-10;
         @media(min-width:768px){
-            margin-bottom: 6.51vw;
+            margin-bottom: 5.208vw;
+            letter-spacing: -0.066vw;
         }
         @media(min-width:1360px){
             margin-bottom: 4.688vw;
