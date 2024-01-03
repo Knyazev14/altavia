@@ -6,6 +6,10 @@
     <?php get_template_part('template/pages/main/sections/about-us'); ?>
     <!-- Миссия компании -->
     <?php get_template_part('template/pages/main/sections/mission'); ?>
+    <!-- Услуги -->
+    <?php get_template_part('template/pages/main/sections/services'); ?>
+    <!-- Кадровый учет и обучение -->
+    <?php get_template_part('template/pages/main/sections/personnel'); ?>
     <!-- Проектный оффис -->
     <?php get_template_part('template/pages/main/sections/project-office'); ?>
 </main>

@@ -24,10 +24,6 @@ $netural-100: #FFF;
 
 
 // типография desctop
-%desktop-h3{
-    font-size: 34px;
-    line-height: 120%;
-}
 %desktop-h4{
     font-size: 20px;
     font-weight: 600;
@@ -37,17 +33,8 @@ $netural-100: #FFF;
     font-size: 18px;
     line-height: 140%;
 }
-%desktop-textcard{
-    font-size: 16px;
-    line-height: 150%;
-}
-
 
 //типография tablet
-%tablet-h3{
-    font-size: 30px;
-    line-height: 120%;
-}
 %tablet-h4{
     font-size: 18px;
     font-weight: 600;
@@ -57,10 +44,7 @@ $netural-100: #FFF;
     font-size: 18px;
     line-height: 145%;
 }
-%tablet-textcard{
-    font-size: 16px;
-    line-height: 140%;
-}
+
 
 
 // типография mobile
@@ -92,7 +76,15 @@ $netural-100: #FFF;
 %mobile-h3{
     font-size: 6.4vw;
     line-height: 120%;
-    font-family: $fontStem;
+    $fontManrope: Manrope;
+    @media(min-width:768px){
+        font-size: 3.906vw;
+        line-height: 120%;
+    }
+    @media(min-width:1360px){
+        font-size: 1.771vw;
+        line-height: 120%;
+    }
 }
 %mobile-h4{
     font-size: 4.267vw;

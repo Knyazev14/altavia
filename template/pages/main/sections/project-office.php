@@ -57,7 +57,7 @@
                             </p>
                         </div>
                     </article>
-                    <article class="project-office__card hidden-card">
+                    <article class="project-office__card">
                         <div class="project-office__card-top">
                             <span class="project-office__card-number">5</span>
                         </div>
@@ -68,7 +68,7 @@
                             </p>
                         </div>
                     </article>
-                    <article class="project-office__card hidden-card">
+                    <article class="project-office__card">
                         <div class="project-office__card-top">
                             <span class="project-office__card-number">6</span>
                         </div>
@@ -80,7 +80,7 @@
                             </p>
                         </div>
                     </article>
-                    <article class="project-office__card hidden-card">
+                    <article class="project-office__card">
                         <div class="project-office__card-top">
                             <span class="project-office__card-number">7</span>
                         </div>

@@ -1,10 +1,16 @@
 import * as  headerMenu  from "./modules/menu.js"
 import * as  notice  from "./modules/notice.js"
+import * as  projectOffice  from "./modules/project-office.js"
+import * as  servicesCards  from "./modules/services.js"
 
 document.addEventListener('DOMContentLoaded',function(){
     // Навигация
     headerMenu.headerMenu() 
-    //Notice
+    //Рассылка
     notice.notice()
+    //Проектный офис
+    projectOffice.projectOffice()
+    //Услуги
+    servicesCards.servicesCards()
 })
 

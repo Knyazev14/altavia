@@ -1,0 +1,69 @@
+.personnel {
+    &__img {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    &__body {
+    }
+
+    &__top {
+    }
+
+    &__title {
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        margin-bottom: 30px;
+    }
+
+    &__bottom {
+        position: relative;
+    }
+
+    &__item {
+        height: 330px;
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    &__left {
+        background: $colorBackground-2;
+
+
+    }
+
+    &__item-title {
+        @extend %mobile-h3;
+        margin-bottom: 20px;
+    }
+
+    &__left-title {
+    }
+
+    &__item-text {
+        @extend %mobile-textcard;
+        margin-bottom: 20px;
+        @media(min-width: 1360px){
+            font-size: 20px;
+        }
+    }
+
+    &__left-text {
+    }
+
+    &__link {
+    }
+
+    &__right {
+    }
+
+    &__rigth-title {
+    }
+
+    &__right-text {
+    }
+}
