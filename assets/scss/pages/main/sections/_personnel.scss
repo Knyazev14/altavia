@@ -1,11 +1,34 @@
 .personnel {
+    margin-bottom: 26.667vw;
+    @media(min-width:768px){
+        margin-bottom: 23.438vw;
+    }
     &__img {
         position: absolute;
         right: 0;
         top: 50%;
         transform: translate(0, -50%);
+        width: 42.4vw;
+        height: 66.667vw;
+        object-fit: contain;
+        z-index: 2;
+        @media(min-width:768px){
+            display: none;
+        }
     }
-
+    &__img-tablet{
+        display: none;
+        @media(min-width:768px){
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            max-width: 100.26vw;
+            width: 100%;
+            height: 42.578vw;
+            z-index: 2;
+        }
+    } 
     &__body {
     }
 
@@ -13,21 +36,37 @@
     }
 
     &__title {
-        margin-bottom: 25px;
+        margin-bottom: 6.667vw;
+        @media(min-width:768px){
+            margin-bottom: 3.906vw;
+        }
     }
 
     &__text {
-        margin-bottom: 30px;
+        margin-bottom: 8vw;
+        @media(min-width:768px){
+           margin-bottom: 5.859vw;
+           max-width: 75.13vw;
+        }
     }
 
     &__bottom {
         position: relative;
+        height: 176.533vw;
+        @media(min-width:768px){
+            display: flex;
+            height: 76.563vw;
+        }
     }
 
     &__item {
-        height: 330px;
+        height: 88vw;
         width: 100%;
-        padding: 50px 0;
+        padding: 13.333vw 0;
+        @media(min-width:768px){
+           padding: 5.208vw 0;
+           height: 76.563vw;
+        }
     }
 
     &__left {
@@ -38,7 +77,10 @@
 
     &__item-title {
         @extend %mobile-h3;
-        margin-bottom: 20px;
+        margin-bottom: 5.333vw;
+        @media(min-width:768px){
+            margin-bottom: 3.255vw;
+        }
     }
 
     &__left-title {
@@ -46,9 +88,14 @@
 
     &__item-text {
         @extend %mobile-textcard;
-        margin-bottom: 20px;
+        margin-bottom: 5.333vw;
+        max-width: 83.467vw;
+        @media(min-width:768px){
+            margin-bottom: 2.865vw;
+            max-width: 42.318vw;
+        }
         @media(min-width: 1360px){
-            font-size: 20px;
+            font-size: 1.042vw;
         }
     }
 
@@ -56,9 +103,22 @@
     }
 
     &__link {
+        display: flex;
+        max-width: 68vw;
+        height: 11.733vw;
+        @media(min-width:768px){
+            height: 6.38vw;
+         }
+    }
+    &__link .button-secondary{
+        height: 11.733vw;
+        @media(min-width:768px){
+           height: 6.38vw;
+        }
     }
 
     &__right {
+        background-color: $colorBackground;
     }
 
     &__rigth-title {
