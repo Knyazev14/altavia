@@ -9,6 +9,7 @@
         <div class="personnel__bottom">
             <img class="personnel__img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/bg/personnel-bg.png" alt="Осколок">
             <img class="personnel__img-tablet" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/bg/personnel-bg-tablet.png" alt="Осколок">
+            <img class="personnel__img-desktop" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/bg/personnel-bg-desktop.png" alt="Осколок">
 
             <section class="personnel__item personnel__left">
                 <div class="container">
