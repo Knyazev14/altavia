@@ -27,26 +27,27 @@ margin-bottom: 26.667vw;
         }
     }
     &__top {
-        margin-bottom: 9.333vw;
+        margin-bottom: 8.267vw;
         @media(min-width:768px){
           margin-bottom: 6.51vw;
         }
         @media(min-width:1360px){
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2.604vw;
+            margin-bottom: 0vw;
         }
     }
 
     &__title {
-        
+        @media(min-width:768px){
+            margin-bottom: 2.865vw;
+        }
     }
 
     &__text {
         @extend %mobile-t1;
         @media(min-width:1360px){
-          max-width: 66.719vw;
+          max-width: 66.667vw;
         }
     }
 
@@ -62,7 +63,7 @@ margin-bottom: 26.667vw;
             flex-wrap: wrap;
         }
         @media(min-width:1360px){
-           gap: 1.51vw;
+           gap: 1.563vw;
           }
     }
 }
