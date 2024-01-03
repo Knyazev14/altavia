@@ -1,5 +1,4 @@
 .button-arrow{
-
 width: 8.533vw;
 height: 8.533vw;
 background-color: $netural-100;
@@ -7,7 +6,13 @@ display: flex;
 align-items: center;
 justify-content: center;
 border: 0.267vw solid transparent;
-transition: border-color 0.5s ease;
+transition: border 1s ease;
+@media(min-width:768px){
+    border: 0.13vw solid transparent;
+}
+@media(min-width:1360px){
+    border: 0.052vw solid transparent;
+}
 
     &__path{
         fill: $colorGold;
@@ -16,7 +21,6 @@ transition: border-color 0.5s ease;
     
     &:hover{
         border-color: $colorGold;
-        transition: border-color 0.5s ease;
     }
 
     &:hover &__path{

@@ -174,7 +174,7 @@
 
   & .button-arrow{
     left: 5.333vw;
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     background-color: $colorBackground;
   }
 
@@ -203,4 +203,7 @@
       margin-top: -2.083vw;
     }
   }
+}
+.hidden-card {
+  display: none !important;
 }
