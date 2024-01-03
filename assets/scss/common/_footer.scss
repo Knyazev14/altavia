@@ -79,10 +79,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 16vw;
+        margin-bottom: 13.867vw;
 
         @media(min-width:768px) {
-            margin-bottom: 10.417vw;
+            margin-bottom: 8.724vw;
         }
         @media(min-width:1360px){
             flex-direction: column;
@@ -158,8 +158,9 @@
         @media(min-width:1360px){
             display: flex;
             justify-content: space-between;
-            gap: 8.854vw;
+            gap: 7.135vw;
             flex: 1 1 auto;
+            align-items: baseline;
         }
     }
 }
