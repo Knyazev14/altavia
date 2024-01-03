@@ -5,6 +5,18 @@
        flex-wrap: wrap;
        gap: 10.667vw;   
        margin-bottom: 16vw;
+       @media(min-width:768px) {
+        gap: 1.302vw;
+        margin-bottom: 10.417vw;
+        justify-content: space-between;
+     }
+     @media(min-width:1360px){
+       gap: 0.521vw;
+       max-width: 44.01vw;
+       margin-bottom: 0;
+       width: 100%;
+       flex: 0 0 44.01vw;
+      }
     }
 
     &__menu-item {
@@ -14,17 +26,48 @@
         color: $netural-30;
         gap: 5.866vw;
         line-height: normal;
+        @media(min-width:768px) {
+            flex: 0 0 23%;
+            gap: 2.604vw;
+         }
+         @media(min-width:1360px){
+           gap: 0.938vw;
+           }
     }
-
+    &__menu-item a:hover{
+        color: $colorGreen;
+        font-weight: 500;
+        transition: all .3s;
+    }
+    &__menu-item--office a:hover{
+        color: $colorGreen;
+        font-weight: 600;
+        transition: all .3s;
+    }
     &__menu-item li:first-child{
       font-size: 4.8vw;
       font-weight: 600;
       letter-spacing: -0.053vw;
+      @media(min-width:768px) {
+        font-size: 2.604vw;
+        letter-spacing: -0.029vw;
+     }
+     @media(min-width:1360px){
+       margin-bottom: 0.417vw;
+       font-size: 1.042vw;
+       letter-spacing: -0.011vw;
+        }
     }
 
     &__menu-item a{
         color: $netural-30;
         font-size: 4.267vw;
+        @media(min-width:768px) {
+            font-size: 2.083vw;
+         }
+         @media(min-width:1360px){
+            font-size: 0.833vw;
+             }
     }
 
     &__menu-item--services {
@@ -38,9 +81,22 @@
 
     &__menu-item--office {
     }
+    &__menu-item--office li{
+        @media(min-width:1360px){
+             margin-bottom: 0.521vw;
+        }
+    }
     &__menu-item--office a{
         font-size: 4.8vw;
         font-weight: 600;
         letter-spacing: -0.053vw;
+        @media(min-width:768px) {
+            font-size: 2.604vw;
+            letter-spacing: -0.029vw;
+         }
+         @media(min-width:1360px){
+            font-size: 1.042vw;
+            letter-spacing: -0.019vw;
+             }
     }
 }

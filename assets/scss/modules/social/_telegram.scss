@@ -9,7 +9,16 @@
         position: relative;
         transition: border .3s ease;
         overflow: hidden;
-
+        position: relative;
+        z-index: 1;
+        @media(min-width:768px){
+            border-radius: 0.26vw;
+            border: 0.13vw solid $colorGold;
+        }
+        @media(min-width:1360px){
+            border-radius: 0.104vw;
+            border: 0.052vw solid $colorGold;  
+        }
         &::before{
         content: "";
         position: absolute;
@@ -25,11 +34,23 @@
         border: none;
         border-radius: 0.533vw;
         border-color: $colorGreen;
+        @media(min-width:768px){
+            border-radius: 0.26vw;
+        }
+        @media(min-width:1360px){
+            border-radius: 0.104vw;
+        }
     }
 
     &:hover::before{
         opacity: 1;
         border-radius: 0.533vw;
+        @media(min-width:768px){
+            border-radius: 0.26vw;
+        }
+        @media(min-width:1360px){
+            border-radius: 0.104vw;
+        }
     }
 
 

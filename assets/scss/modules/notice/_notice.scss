@@ -1,5 +1,16 @@
 .notice {
-margin-bottom: 13.333vw;
+    margin-bottom: 13.333vw;
+
+    @media(min-width:768px) {
+        margin-bottom: 10.417vw;
+    }
+
+    @media(min-width:1360px) {
+        margin-bottom: 0;
+        max-width: 21.198vw;
+        width: 100%;
+    }
+
     &__title {
         color: $netural-30;
         font-size: 4.8vw;
@@ -7,17 +18,48 @@ margin-bottom: 13.333vw;
         line-height: 75%;
         letter-spacing: -0.053vw;
         margin-bottom: 5.333vw;
+
+        @media(min-width:768px) {
+            font-size: 2.604vw;
+            letter-spacing: -0.029vw;
+            margin-bottom: 3.906vw;
+        }
+
+        @media(min-width:1360px) {
+            font-size: 1.042vw;
+            letter-spacing: -0.011vw;
+            margin-bottom: 1.563vw;
+        }
     }
-    & .button-normal{
+
+    & .button-normal {
         height: 10.667vw;
         margin-bottom: 2.667vw;
-    }
-    & .button-normal span{
-        font-size: 4.267vw;
-    }
-    &__form {
 
+        @media(min-width:768px) {
+            height: 5.859vw;
+            margin-bottom: 2.604vw;
+        }
+
+        @media(min-width:1360px) {
+            height: 2.344vw;
+            margin-bottom: 0.99vw;
+        }
     }
+
+    & .button-normal span {
+        font-size: 4.267vw;
+
+        @media(min-width:768px) {
+            font-size: 2.344vw;
+        }
+
+        @media(min-width:1360px) {
+            font-size: 0.938vw;
+        }
+    }
+
+    &__form {}
 
     &__form-item {
         border: 0.267vw solid $netural-80;
@@ -27,17 +69,46 @@ margin-bottom: 13.333vw;
         align-items: center;
         margin-bottom: 4vw;
         position: relative;
+
+        @media(min-width:768px) {
+            border: 0.13vw solid $netural-80;
+            height: 6.25vw;
+            padding: 1.693vw 2.604vw 1.693vw 6.901vw;
+            margin-bottom: 3.906vw;
+        }
+
+        @media(min-width:1360px) {
+            height: 2.5vw;
+            padding: 0.729vw 1.042vw 0.729vw 2.76vw;
+            border: 0.052vw solid $netural-80;
+            margin-bottom: 1.563vw;
+        }
     }
+
     &__form-item::before {
-       content: '';
-       position: absolute;
-       top: 3.733vw;
-       left: 4vw;
-       width: 4.267vw;
-       height: 3.2vw;
-       background-image: url('../img/icon/email-input-green.svg');
-       background-repeat: no-repeat;
-       background-size: contain;
+        content: '';
+        position: absolute;
+        top: 3.733vw;
+        left: 4vw;
+        width: 4.267vw;
+        height: 3.2vw;
+        background-image: url('../img/icon/email-input-green.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        @media(min-width:768px) {
+            left: 2.604vw;
+            width: 2.474vw;
+            height: 1.693vw;
+            top: 2.214vw;
+        }
+
+        @media(min-width:1360px) {
+            width: 1.042vw;
+            height: 0.677vw;
+            left: 1.094vw;
+            top: 0.885vw;
+        }
     }
 
     &__form-input {
@@ -46,45 +117,126 @@ margin-bottom: 13.333vw;
         display: block;
         font-size: 3.733vw;
         line-height: 1;
+        background-color: transparent;
+
+        @media(min-width:768px) {
+            font-size: 2.083vw;
+        }
+
+        @media(min-width:1360px) {
+            font-size: 0.833vw;
+        }
     }
-    &__form-input::placeholder{
+
+    &__form-input::placeholder {
         font-size: 3.733vw;
+
+        @media(min-width:768px) {
+            font-size: 2.083vw;
+        }
+
+        @media(min-width:1360px) {
+            font-size: 0.833vw;
+        }
     }
-    & label{
+
+    & label {
         position: relative;
         padding-left: 9.333vw;
         font-size: 3.733vw;
         line-height: 140%;
         letter-spacing: -0.041vw;
         color: $netural-50;
-        display: block;  
+        display: block;
+        cursor: pointer;
+
+        @media(min-width:768px) {
+            font-size: 1.823vw;
+            letter-spacing: -0.02vw;
+            padding-left: 4.557vw;
+        }
+
+        @media(min-width:1360px) {
+            padding-left: 1.823vw;
+            font-size: 0.729vw;
+            letter-spacing: -0.008vw;
+        }
     }
-    & label a{
+
+    & label a {
         font-size: 3.733vw;
         font-weight: 600;
         line-height: 140%;
         color: $netural-50;
         display: inline;
+
+        @media(min-width:768px) {
+            font-size: 1.823vw;
+            letter-spacing: -0.02vw;
+        }
+
+        @media(min-width:1360px) {
+            font-size: 0.729vw;
+            letter-spacing: -0.008vw;
+        }
     }
-    & label::before{
-            content: '';
-            border-radius: 0.533vw;
-            position: absolute;
-            top: 1.333vw;
-            left: 0;
-            width: 5.333vw;
-            height: 5.333vw;
-            border: 0.267vw solid $colorGold;
+
+    & label &__policy::before {
+        content: '';
+        border-radius: 0.533vw;
+        position: absolute;
+        top: 1.333vw;
+        left: 0;
+        width: 5.333vw;
+        height: 5.333vw;
+        border: 0.267vw solid $colorGold;
+
+        @media(min-width:768px) {
+            border: 0.13vw solid $colorGold;
+            width: 2.604vw;
+            height: 2.604vw;
+            border-radius: 0.26vw;
+            top: 0.521vw;
+        }
+
+        @media(min-width:1360px) {
+            width: 1.042vw;
+            height: 1.042vw;
+            border: 0.052vw solid $colorGold;
+            top: 0.156vw;
+            border-radius: 0.104vw;
+        }
     }
-    & label::after{
-           content: '';
-           position: absolute;
-           top: 2.667vw;
-           left: 1.333vw;
-           width: 2.667vw;
-           height: 2.667vw;
-           border-radius: 0.533vw;
-           background-color: $colorGold;
+
+    & label &__policy::after {
+        content: '';
+        position: absolute;
+        top: 2.667vw;
+        left: 1.333vw;
+        width: 2.667vw;
+        height: 2.667vw;
+        border-radius: 0.533vw;
+        background-color: $colorGold;
+        opacity: 0;
+        transition: all .3s ease;
+        @media(min-width:768px) {
+            width: 1.302vw;
+            height: 1.302vw;
+            top: 1.172vw;
+            left: 0.651vw;
+            border-radius: 0.26vw;
+        }
+
+        @media(min-width:1360px) {
+            width: 0.521vw;
+            height: 0.521vw;
+            top: 0.417vw;
+            left: 0.26vw;
+            border-radius: 0.104vw;
+        }
+    }
+    &__checkbox:checked + &__policy::after {
+        opacity: 1;
     }
     &__btn {}
 
