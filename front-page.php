@@ -12,5 +12,7 @@
     <?php get_template_part('template/pages/main/sections/personnel'); ?>
     <!-- Проектный оффис -->
     <?php get_template_part('template/pages/main/sections/project-office'); ?>
+    <!-- Наши победы -->
+    <?php get_template_part('template/pages/main/sections/victories'); ?>
 </main>
 <?php get_footer(); ?>

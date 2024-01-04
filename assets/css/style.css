@@ -172,17 +172,17 @@ a {
   }
 }
 
-.personnel__text, .services__text, .project-office__desc, .hero-main__bottom p {
+.victories__text, .personnel__text, .services__text, .project-office__desc, .hero-main__bottom p {
   font-size: 4.8vw;
   line-height: 145%;
 }
 @media (min-width: 768px) {
-  .personnel__text, .services__text, .project-office__desc, .hero-main__bottom p {
+  .victories__text, .personnel__text, .services__text, .project-office__desc, .hero-main__bottom p {
     font-size: 2.865vw;
   }
 }
 @media (min-width: 1360px) {
-  .personnel__text, .services__text, .project-office__desc, .hero-main__bottom p {
+  .victories__text, .personnel__text, .services__text, .project-office__desc, .hero-main__bottom p {
     font-size: 1.25vw;
   }
 }
@@ -1559,6 +1559,22 @@ body {
 }
 .notice__checkbox {
   display: none;
+}
+.victories__card {
+  background-color: #F7F7F7;
+  height: 285px;
+  width: 100%;
+}
+.victories__card-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 .button-normal {
   padding: 4.8vw 10.667vw;
@@ -3594,4 +3610,14 @@ body {
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
   }
+}
+.victories__left {
+  padding: 22px 15px;
+  height: 202px;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, #F7F7F7), color-stop(50%, #EBF2F1));
+  background: linear-gradient(to bottom right, #F7F7F7 50%, #EBF2F1 50%);
+  margin-bottom: 30px;
+}
+.victories__title {
+  margin-bottom: 25px;
 }
