@@ -4,10 +4,12 @@
             <div class="victories__left">
                 <h2 class="victories__title title">Наши победы</h2>
                 <p class="victories__text">Практика применения законодательства, прогнозы и рекомендации бизнесу в статьях от ведущих экспертов Alta Via</p>
+                <?php display_button_normal('Все кейсы'); ?>
             </div>
             <div class="victories__right">
                 <?php get_template_part('template/victories/blocks/victories-card'); ?>
             </div>
+            <?php display_button_normal('Все кейсы'); ?>
         </div>
     </div>
 </section>

@@ -1,13 +1,20 @@
 export function victoriesFunc() {
-    var victoriesSubCategory = document.querySelectorAll('.victories__card-sub-category')
+    var victoriesCards = document.querySelectorAll('.victories__card')
 
-    victoriesSubCategory.forEach(category => {
-        var sliced = category.textContent.slice(0, 1);
-        if (sliced.length < category.length) {
-            sliced += '...';
-            console.log(sliced)
+    if (window.innerWidth < 768) {
+        for (let i = 2; i < victoriesCards.length; i++) {
+            victoriesCards[i].classList.add('hidden-card');
         }
-
+    }
+    window.addEventListener('resize', () => {
+        if (window.innerWidth < 768) {
+            for (let i = 2; i < victoriesCards.length; i++) {
+                victoriesCards[i].classList.add('hidden-card');
+            }
+        } else {
+            for (let i = 2; i < victoriesCards.length; i++) {
+                victoriesCards[i].classList.remove('hidden-card');
+            }
+        }
     })
-
 }

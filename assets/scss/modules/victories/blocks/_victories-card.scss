@@ -1,9 +1,19 @@
 .victories {
-
     &__card {
         background-color: $colorBackground;
-        height: 285px;
+        height: 76vw;
         width: 100%;
+        border-radius: 12vw 0 0 0 ;
+        @media(min-width:768px){
+           height: 44.401vw;
+           flex: 0 0 48.5%;
+        }
+        @media(min-width:1360px){
+          height: 20.104vw;
+          flex: 0 0 50%;    
+          max-width: 28.854vw;
+          border-radius: 2vw 0 0 0;
+         }
     }
 
     &__card-link {
@@ -14,26 +24,195 @@
     }
 
     &__card-top {
+        display: flex;
+        height: 18.667vw;
+        @media(min-width:768px){
+            height: 9.115vw;
+        }
+        @media(min-width:1360px){
+           height: 3.75vw;
+        }
     }
 
     &__card-category {
+        background-color: $colorGold;
+        padding: 7.467vw 4vw;
+        clip-path: polygon(5.333vw 0%, 100% 0%, 100% 100%, 0% 100%, 0% 5.6vw);
+        font-size: 3.733vw;
+        font-weight: 500;
+        line-height: 1;
+        color: $netural-100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 18.667vw;
+        @media(min-width:768px){
+            clip-path: polygon(2.604vw 0%, 100% 0%, 100% 100%, 0% 100%, 0% 2.734vw);
+            font-size: 1.823vw;
+            height: 9.115vw;
+            padding: 3.646vw 1.953vw;
+         }
+         @media(min-width:1360px){
+            clip-path: polygon(1.042vw 0%, 100% 0%, 100% 100%, 0% 100%, 0% 1.094vw);
+            font-size: 0.833vw;
+            letter-spacing: -0.009vw;
+            padding: 1.354vw 0.833vw;
+            height: 3.75vw;
+         }
     }
 
     &__card-sub-category {
+        padding: 2.133vw 4vw;
+        display: flex;
+        align-items: center;
+        max-width: 42.667vw;
+        @media(min-width:768px){
+            padding: 1.042vw 1.953vw;
+            max-width: 20.833vw;
+         }
+         @media(min-width:1360px){
+            max-width: 18.229vw;
+            padding: 0.417vw 0.781vw;
+         }
     }
-
+    &__card-sub-category span{
+        font-size: 3.733vw;
+        line-height: 120%;
+        color: $netural-60;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        @media(min-width:768px){
+            font-size: 1.823vw;
+         }
+         @media(min-width:1360px){
+            font-size: 0.833vw;
+         }
+    }
     &__card-bottom {
+        padding: 4.8vw 4vw;
+        position: relative;
+        @media(min-width:768px){
+            padding: 3.255vw 2.604vw;
+         }
+         @media(min-width:1360px){
+           padding: 2.083vw 1.042vw 1.563vw 1.042vw;
+         }
+    }
+    &__card-bottom::before {
+      content: '';
+      position: absolute;
+      bottom: 2.667vw;
+      right: 2.667vw;
+      width: 10.667vw;
+      height: 10.667vw;
+      background: linear-gradient(to bottom right, transparent 50%, white 50%);
+      @media(min-width:768px){
+        width: 7.161vw;
+        height: 7.161vw;
+        bottom: 1.302vw;
+        right: 1.302vw;
+     }
+     @media(min-width:1360px){
+       width: 3.75vw;
+       height: 3.75vw;
+       bottom: 0.729vw;
+       right: 0.781vw;
+      }
     }
 
     &__card-content {
+        margin-bottom: 2.667vw;
+        @media(min-width:768px){
+           margin-bottom: 2.604vw;
+         }
+         @media(min-width:1360px){
+            margin-bottom: 1.302vw;
+            overflow: hidden;
+        }
     }
 
     &__card-name {
+        font-size: 3.733vw;
+        font-weight: 500;
+        margin-bottom: 2.667vw;
+        color: $colorGold;
+        @media(min-width:768px){
+            font-size: 1.823vw;
+            margin-bottom: 1.953vw;
+          }
+          @media(min-width:1360px){
+           margin-bottom: 0.781vw;
+           font-size: 0.833vw;
+           transition: margin-top .7s ease;
+         }
     }
 
     &__card-title {
+        @extend %mobile-h4;
+        font-weight: 600;
+        font-family: $fontManrope;
+        color: $netural-10;
+        margin-bottom: 3.2vw;
+        @media(min-width:768px){
+           margin-bottom: 1.953vw;
+          }
+          @media(min-width:1360px){
+           margin-bottom: 0.781vw;
+          }
     }
 
     &__card-text {
+        @extend %mobile-textcard;
+        letter-spacing: -0.047vw;
+        height: 19.467vw;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        color: $netural-40;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        @media(min-width:768px){
+            height: 9.115vw;
+            letter-spacing: -0.023vw;
+           }
+           @media(min-width:1360px){
+            height: 5.104vw;
+            -webkit-line-clamp: 4;
+            font-size: 0.938vw;
+            letter-spacing: 0;
+            transition: height .7s ease;
+           }
     }
+
+    // Анимация
+    &__card:hover &__card-text {
+        @media(min-width: 1360px){
+        height: 7.708vw;
+        text-overflow: unset;
+        -webkit-line-clamp: 10;
+        }
+        
+
+    }
+    &__card:hover  &__card-name {
+        @media(min-width: 1360px){
+         margin-top: -2.604vw;
+        }
+       
+    }
+    &__card:hover  .read-more {
+       @media(min-width: 1360px){
+        font-weight: 600;
+        color: $colorGreen;
+       }
+    }
+    &__card:hover .read-more  .button-arrow__path{
+        @media(min-width:1360px){
+            stroke: $colorGold;
+       }
+    }
+
 }
