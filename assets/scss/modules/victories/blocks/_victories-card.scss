@@ -13,6 +13,8 @@
           flex: 0 0 50%;    
           max-width: 28.854vw;
           border-radius: 2vw 0 0 0;
+          display: flex;
+          flex-direction: column;
          }
     }
 
@@ -37,7 +39,7 @@
     &__card-category {
         background-color: $colorGold;
         padding: 7.467vw 4vw;
-        clip-path: polygon(5.333vw 0%, 100% 0%, 100% 100%, 0% 100%, 0% 5.6vw);
+        clip-path: polygon(6.133vw 0%, 100% 0%, 100% 100%, 0% 100%, 0% 6.133vw);
         font-size: 3.733vw;
         font-weight: 500;
         line-height: 1;
@@ -92,14 +94,19 @@
          }
     }
     &__card-bottom {
-        padding: 4.8vw 4vw;
+        padding: 4vw 4vw;
         position: relative;
         @media(min-width:768px){
             padding: 3.255vw 2.604vw;
          }
          @media(min-width:1360px){
-           padding: 2.083vw 1.042vw 1.563vw 1.042vw;
+           padding: 1.563vw 1.042vw 1.563vw 1.042vw;
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
          }
+
     }
     &__card-bottom::before {
       content: '';
@@ -124,12 +131,12 @@
     }
 
     &__card-content {
-        margin-bottom: 2.667vw;
+        margin-bottom: 6.667vw;
         @media(min-width:768px){
-           margin-bottom: 2.604vw;
+           margin-bottom: 3.385vw;
          }
          @media(min-width:1360px){
-            margin-bottom: 1.302vw;
+            margin-bottom: 0;
             overflow: hidden;
         }
     }
@@ -137,14 +144,14 @@
     &__card-name {
         font-size: 3.733vw;
         font-weight: 500;
-        margin-bottom: 2.667vw;
+        margin-bottom: 1.333vw;
         color: $colorGold;
         @media(min-width:768px){
             font-size: 1.823vw;
-            margin-bottom: 1.953vw;
+            margin-bottom: 0.651vw;
           }
           @media(min-width:1360px){
-           margin-bottom: 0.781vw;
+           margin-bottom: 0.365vw;
            font-size: 0.833vw;
            transition: margin-top .7s ease;
          }
@@ -155,12 +162,16 @@
         font-weight: 600;
         font-family: $fontManrope;
         color: $netural-10;
-        margin-bottom: 3.2vw;
+        margin-bottom: 1.333vw;
+        letter-spacing: -0.047vw;
         @media(min-width:768px){
-           margin-bottom: 1.953vw;
+            letter-spacing: 0px;
+           margin-bottom: 1.302vw;
+           font-size: 2.604vw;
           }
           @media(min-width:1360px){
-           margin-bottom: 0.781vw;
+           margin-bottom: 0.469vw;
+           font-size: 1.146vw;
           }
     }
 
@@ -186,20 +197,28 @@
             transition: height .7s ease;
            }
     }
-
+    &__card .read-more{
+       
+    }
     // Анимация
     &__card:hover &__card-text {
         @media(min-width: 1360px){
-        height: 7.708vw;
+        height: 7.604vw;
         text-overflow: unset;
         -webkit-line-clamp: 10;
         }
         
 
     }
+    &__card:hover &__card-content {
+        @media(min-width: 1360px){
+          
+        }
+
+    }
     &__card:hover  &__card-name {
         @media(min-width: 1360px){
-         margin-top: -2.604vw;
+         margin-top: -2.083vw;
         }
        
     }
