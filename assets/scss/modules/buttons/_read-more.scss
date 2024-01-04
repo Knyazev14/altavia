@@ -1,0 +1,45 @@
+.read-more {
+    display: flex;
+    align-items: center;
+    font-size: 3.733vw;
+    color: $netural-60;
+    transition: all .2s;
+    @media(min-width:768px) {
+        font-size: 1.823vw;
+    }
+    @media(min-width:1360px) {
+       font-size: 0.833vw;
+    }
+
+    & span:first-child {
+        margin-right: 2.667vw;
+        line-height: 1;
+        @media(min-width:768px) {
+            margin-right: 1.302vw;
+        }
+        @media(min-width:1360px) {
+            margin-right: 0.521vw;
+         }
+    }
+
+    & .button-arrow {
+        transform: rotate(180deg);
+        width: 8vw;
+        height: 8vw;
+
+        @media(min-width:768px) {
+            width: 4.167vw;
+            height: 4.167vw;
+        }
+        @media(min-width:1360px) {
+           width: 1.667vw;
+           height: 1.875vw;
+         }
+
+    }
+
+    & .button-arrow .button-arrow__path {
+        stroke: $netural-70;
+    }
+
+}

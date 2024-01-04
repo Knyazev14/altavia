@@ -1,24 +1,84 @@
 .victories {
-
+    margin-bottom: 26.667vw;
+    @media(min-width:768px){
+        margin-bottom: 19.531vw;
+    }
+    @media(min-width:1360px){
+       margin-bottom: 13.021vw;
+    }
     &__body {
+        @media(min-width:1360px){
+            display: flex;
+            height: 41.771vw;
+            gap: 1.51vw;
+        }
     }
 
     &__left {
-        padding: 22px 15px;
-        height: 202px;
+        padding: 5.867vw 4vw;
+        height: 53.867vw;
         background: linear-gradient(to bottom right, #F7F7F7 50%, $colorBackground-2 50%);
-        margin-bottom: 30px;
+        margin-bottom: 8vw;
+        @media(min-width:768px){
+            height: 31.25vw;
+            padding: 5.208vw 2.604vw;
+            margin-bottom: 5.208vw;
+         }
+         @media(min-width:1360px){
+            flex: 0 0 28.802vw;
+            height: 100%;
+            padding: 2.083vw 1.563vw;
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     &__title {
-        margin-bottom: 25px;
+        margin-bottom: 6.667vw;
+        @media(min-width:768px){
+           margin-bottom: 3.906vw;
+        }
+        @media(min-width:1360px){
+           margin-bottom: 1.563vw;
+        }
     }
 
     &__text {
         @extend %mobile-t1;
+        @media(min-width:1360px){
+            flex: 1 1 auto;
+        }
     }
 
     &__right {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        margin-bottom: 8vw;
+        @media(min-width:768px){
+            gap: 2.604vw;
+            margin-bottom: 2.604vw;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        @media(min-width:1360px){
+            margin-bottom: 0;
+            flex: 0 0 59.375vw;
+            gap: 1.563vw;
+         }
+    }
+    &__right + .button-normal{
+        @media(min-width:1360px){
+            display: none;
+         }
+    }
+    &__left + .button-normal{
+        display: none;
+        @media(min-width:1360px){
+            display: flex;
+         }
     }
 }
 
