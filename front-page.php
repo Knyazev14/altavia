@@ -14,5 +14,7 @@
     <?php get_template_part('template/pages/main/sections/project-office'); ?>
     <!-- Наши победы -->
     <?php get_template_part('template/pages/main/sections/victories'); ?>
+    <!-- Нашм доверяют -->
+    <?php get_template_part('template/partners/partners'); ?>
 </main>
 <?php get_footer(); ?>
