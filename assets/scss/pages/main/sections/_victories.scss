@@ -1,0 +1,24 @@
+.victories {
+
+    &__body {
+    }
+
+    &__left {
+        padding: 22px 15px;
+        height: 202px;
+        background: linear-gradient(to bottom right, #F7F7F7 50%, $colorBackground-2 50%);
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        @extend %mobile-t1;
+    }
+
+    &__right {
+    }
+}
+

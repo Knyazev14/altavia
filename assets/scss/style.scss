@@ -20,12 +20,16 @@
 //Notice
 @import "modules/notice/notice";
 
+//На победы
+@import "modules/victories/blocks/victories-card";
+
 //Кнопки---------------------
 @import "modules/buttons/button-normal";
 @import "modules/buttons/button-small";
 @import "modules/buttons/button-secondary";
 @import "modules/buttons/button-services";
 @import "modules/buttons/button-arrow";
+@import "modules/buttons/read-more";
 
 
 //Страницы-----------------------
@@ -41,4 +45,6 @@
 @import "pages/main/blocks/services-card";
 
 @import "pages/main/sections/personnel";
+
+@import "pages/main/sections/victories";
 
