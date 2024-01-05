@@ -26,6 +26,10 @@
 //Нам доверяют
 @import "modules/partners/partners";
 
+//Пресс-центр секция
+@import "modules/press/sections/press";
+@import "modules/press/blocks/press-card";
+
 //Кнопки---------------------
 @import "modules/buttons/button-normal";
 @import "modules/buttons/button-small";
@@ -33,6 +37,8 @@
 @import "modules/buttons/button-services";
 @import "modules/buttons/button-arrow";
 @import "modules/buttons/read-more";
+
+
 
 
 //Страницы-----------------------

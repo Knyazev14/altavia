@@ -1,0 +1,116 @@
+.press {
+
+    &__card {
+    border-radius: 0.533vw;
+    overflow: hidden;
+    height: 108vw;
+    background-color: $colorBackground;
+    @media(min-width:768px){
+        flex: 0 0 344px;
+        height: 580px;
+     }
+    }
+
+    &__card-link {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 100%;
+    }
+
+    &__card-label {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 10.133vw;
+    }
+
+    &__card-category {
+        background-color: $colorGreen;
+        flex: 1 1 auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;
+        clip-path: polygon(0 0, 46.4vw 0, 100% 100%, 0% 100%);
+        z-index: 2;
+        position: relative;
+        max-width: 54.667vw;
+        width: 100%;
+        padding-right: 9.333vw;
+        color: $netural-100;
+        letter-spacing: -0.047vw;
+        font-size: 4.267vw;
+    }
+    &__card-date::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        left: 12.267vw;
+        width: 5.6vw;
+        height: 4.8vw;
+        background-image: url('../img/icon/cal.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &__card-date {
+        color: $netural-100;
+        font-size: 4.267vw;
+        background-color: $colorGold;
+        flex: 0 0 45.867vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 4vw;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        max-width: 45.867vw;
+        z-index: 1;
+    }
+
+    &__card-img {
+        width: 100%;
+        height: 48vw;
+        object-fit: cover;
+    
+    }
+
+    &__card-content {
+    }
+    &__card-bottom{
+        padding: 5.333vw 4vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__card-name {
+        color: $colorGold;
+        font-size: 3.733vw;
+        font-weight: 500;
+        margin-bottom: 3.2vw;
+    }
+
+    &__card-title {
+        @extend %mobile-h4;
+        font-family: $fontManrope;
+        margin-bottom: 2.667vw;
+    }
+
+    &__card-text {
+        @extend %mobile-textcard;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        color: $netural-40;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        margin-bottom: 5.333vw;
+    }
+}

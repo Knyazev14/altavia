@@ -1,5 +1,5 @@
 export function partnersSlider() {
-  const swiper = new Swiper('.partners__slider', {
+  var partnersSlider = new Swiper('.partners__slider', {
     slidesPerView: 'auto',
      speed: 1000,
     loop: true,
