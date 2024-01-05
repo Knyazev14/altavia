@@ -16,6 +16,8 @@
     <?php get_template_part('template/pages/main/sections/victories'); ?>
    <!-- Нашм доверяют -->
     <?php get_template_part('template/partners/partners'); ?>
+     <!-- Пресс-цетнр -->
+     <?php get_template_part('template/press/sections/press'); ?>
     <!-- Контакты -->
     <?php get_template_part('template/pages/main/sections/contacts'); ?>
 </main>
