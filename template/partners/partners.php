@@ -29,18 +29,6 @@
             <div class="swiper-slide partners__slider-slide">
                 <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-8.svg" alt="Партнер">
             </div>
-            <div class="swiper-slide partners__slider-slide">
-                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-7.svg" alt="Партнер">
-            </div>
-            <div class="swiper-slide partners__slider-slide">
-                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-8.svg" alt="Партнер">
-            </div>
-            <div class="swiper-slide partners__slider-slide">
-                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-8.svg" alt="Партнер">
-            </div>
-            <div class="swiper-slide partners__slider-slide">
-                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-8.svg" alt="Партнер">
-            </div>
         
         </div>
     </div>

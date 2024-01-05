@@ -281,26 +281,28 @@ position: relative;
     }
 
     &__sotial .social-telegram{
-       width: 40px;
-       height: 40px;
+       width: 10.667vw;
+       height: 10.667vw;
        @media(min-width:768px){
-            width: 46px;
-            height: 46px;
+            width: 5.99vw;
+            height: 5.99vw;
        }
        @media(min-width:1360px){
-
+        width: 2.396vw;
+        height: 2.396vw;
        }
     }
 
     &__sotial .social-youtube{
-        width: 40px;
-        height: 40px;
+        width: 10.667vw;
+        height: 10.667vw;
         @media(min-width:768px){
-            width: 46px;
-            height: 46px;
+            width: 5.99vw;
+            height: 5.99vw;
         }
         @media(min-width:1360px){
-            
+            width: 2.396vw;
+            height: 2.396vw;
         }
     }
 
