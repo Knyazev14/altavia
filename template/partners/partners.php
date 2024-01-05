@@ -9,29 +9,39 @@
                 <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-1.svg" alt="Партнер">
             </div>
             <div class="swiper-slide partners__slider-slide">
-
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-2.svg" alt="Партнер">
             </div>
             <div class="swiper-slide partners__slider-slide">
-
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-3.png" alt="Партнер">
             </div>
             <div class="swiper-slide partners__slider-slide">
-
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-4.svg" alt="Партнер">
             </div>
             <div class="swiper-slide partners__slider-slide">
-
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-5.svg" alt="Партнер">
             </div>
             <div class="swiper-slide partners__slider-slide">
-
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-6.png" alt="Партнер">
             </div>
             <div class="swiper-slide partners__slider-slide">
-
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-7.svg" alt="Партнер">
             </div>
             <div class="swiper-slide partners__slider-slide">
-
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-8.svg" alt="Партнер">
             </div>
-
-   
-            
+            <div class="swiper-slide partners__slider-slide">
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-7.svg" alt="Партнер">
+            </div>
+            <div class="swiper-slide partners__slider-slide">
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-8.svg" alt="Партнер">
+            </div>
+            <div class="swiper-slide partners__slider-slide">
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-8.svg" alt="Партнер">
+            </div>
+            <div class="swiper-slide partners__slider-slide">
+                <img class="partners__slide-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/partners-8.svg" alt="Партнер">
+            </div>
+        
         </div>
     </div>
 </section>

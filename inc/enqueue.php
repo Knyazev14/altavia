@@ -2,12 +2,12 @@
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 function theme_name_scripts() {
 	//Стили
-	wp_enqueue_style( 'swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
+	wp_enqueue_style( 'swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
 	wp_enqueue_style( 'style', get_template_directory_uri() .'/assets/css/style.css');
     
 
 	//Скпипты
-	wp_enqueue_script( 'swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js');
+	wp_enqueue_script( 'swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js');
 	wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/app.js');
 
 }
