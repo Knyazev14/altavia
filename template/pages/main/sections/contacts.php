@@ -14,9 +14,7 @@
                         <ul class="contacts__list">
                             <li class="contacts__list-item">
                                 <div class="contacts__list-item-left">
-                                    <img class="contacts__list-item-img"
-                                        src="<?php bloginfo('template_url'); ?>/assets/img/icon/location.svg"
-                                        alt="Локация">
+                                    <img class="contacts__list-item-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/location.svg" alt="Локация">
                                 </div>
                                 <div class="contacts__list-item-right">
                                     <p class="contacts__list-item-text">Ул. Малая Дмитровка, 16с4</p>
@@ -24,9 +22,7 @@
                             </li>
                             <li class="contacts__list-item">
                                 <div class="contacts__list-item-left">
-                                    <img class="contacts__list-item-img"
-                                        src="<?php bloginfo('template_url'); ?>/assets/img/icon/contacts-phone.svg"
-                                        alt="Телефон">
+                                    <img class="contacts__list-item-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/contacts-phone.svg" alt="Телефон">
                                 </div>
                                 <div class="contacts__list-item-right">
                                     <a class="contacts__list-item-link" href="tel:+74993505579">
@@ -36,9 +32,7 @@
                             </li>
                             <li class="contacts__list-item">
                                 <div class="contacts__list-item-left">
-                                    <img class="contacts__list-item-img"
-                                        src="<?php bloginfo('template_url'); ?>/assets/img/icon/contacts-email.svg"
-                                        alt="Почта">
+                                    <img class="contacts__list-item-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/contacts-email.svg" alt="Почта">
                                 </div>
                                 <div class="contacts__list-item-right">
                                     <a class="contacts__list-item-link" href="mailto:info@alta-via.ru">
@@ -48,8 +42,7 @@
                             </li>
                             <li class="contacts__list-item">
                                 <div class="contacts__list-item-left">
-                                    <img class="contacts__list-item-img"
-                                        src="<?php bloginfo('template_url'); ?>/assets/img/icon/time.svg" alt="Время">
+                                    <img class="contacts__list-item-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/time.svg" alt="Время">
                                 </div>
                                 <div class="contacts__list-item-right">
                                     <p class="contacts__list-item-text">9:00 — 18:00</p>
@@ -62,9 +55,7 @@
                         <ul class="contacts__list">
                             <li class="contacts__list-item">
                                 <div class="contacts__list-item-left">
-                                    <img class="contacts__list-item-img"
-                                        src="<?php bloginfo('template_url'); ?>/assets/img/icon/location.svg"
-                                        alt="Локация">
+                                    <img class="contacts__list-item-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/location.svg" alt="Локация">
                                 </div>
                                 <div class="contacts__list-item-right">
                                     <p class="contacts__list-item-text">Ул. 8 Марта, 8</p>
@@ -72,9 +63,7 @@
                             </li>
                             <li class="contacts__list-item">
                                 <div class="contacts__list-item-left">
-                                    <img class="contacts__list-item-img"
-                                        src="<?php bloginfo('template_url'); ?>/assets/img/icon/contacts-phone.svg"
-                                        alt="Телефон">
+                                    <img class="contacts__list-item-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/contacts-phone.svg" alt="Телефон">
                                 </div>
                                 <div class="contacts__list-item-right">
                                     <a class="contacts__list-item-link" href="tel:+74993505579">
@@ -84,9 +73,7 @@
                             </li>
                             <li class="contacts__list-item">
                                 <div class="contacts__list-item-left">
-                                    <img class="contacts__list-item-img"
-                                        src="<?php bloginfo('template_url'); ?>/assets/img/icon/contacts-email.svg"
-                                        alt="Почта">
+                                    <img class="contacts__list-item-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/contacts-email.svg" alt="Почта">
                                 </div>
                                 <div class="contacts__list-item-right">
                                     <a class="contacts__list-item-link" href="mailto:omsk-info@alta-via.ru">
@@ -96,8 +83,7 @@
                             </li>
                             <li class="contacts__list-item">
                                 <div class="contacts__list-item-left">
-                                    <img class="contacts__list-item-img"
-                                        src="<?php bloginfo('template_url'); ?>/assets/img/icon/time.svg" alt="Время">
+                                    <img class="contacts__list-item-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/time.svg" alt="Время">
                                 </div>
                                 <div class="contacts__list-item-right">
                                     <p class="contacts__list-item-text">9:00 — 18:00</p>
@@ -111,7 +97,18 @@
                     <div class="contacts__sotial-body">
                         <!-- Соц сети -->
                         <?php get_template_part('template/social/telegram') ?>
-                        <?php get_template_part('template/social/youtube') ?>
+                        <a class="social-youtube" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="21" viewBox="0 0 27 21" fill="none">
+                                <rect class="social-youtube__rect" width="27" height="21" rx="2" fill="url(#2)" />
+                                <path class="social-youtube__path" d="M9.5 6.81953L17.2641 10.814L9.5 14.8085V6.81953Z" stroke="white" />
+                                <defs>
+                                    <linearGradient id="2" x1="13.5" y1="0" x2="13.5" y2="21" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#2C4646" />
+                                        <stop offset="1" stop-color="#678E96" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>

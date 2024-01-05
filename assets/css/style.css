@@ -1913,19 +1913,22 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 20vw;
+  margin-right: 4vw;
 }
 @media (min-width: 768px) {
   .partners__slider-slide {
     height: 22.786vw;
+    width: 17.969vw;
+    margin-right: 3.906vw;
   }
 }
 @media (min-width: 1360px) {
   .partners__slider-slide {
     height: 14.792vw;
+    width: 10.625vw;
+    margin-right: 2.083vw;
   }
-}
-.partners__slide-wrap {
-  width: 100%;
 }
 .partners__slide-img {
   position: relative;
@@ -1983,10 +1986,10 @@ body {
 }
 @media (min-width: 1360px) {
   .partners__slider-slide:nth-child(even)::before {
-    border-bottom: 282.989px solid #F7F7F7;
+    border-bottom: 14.739vw solid #F7F7F7;
     border-left: 12.292vw solid transparent;
     border-right: 12.292vw solid transparent;
-    bottom: -5.99px;
+    bottom: -0.312vw;
   }
 }
 .partners__slider-slide:nth-child(odd)::before {
@@ -2010,10 +2013,10 @@ body {
 }
 @media (min-width: 1360px) {
   .partners__slider-slide:nth-child(odd)::before {
-    border-bottom: 282.989px solid #F7F7F7;
+    border-bottom: 14.739vw solid #F7F7F7;
     border-left: 12.292vw solid transparent;
     border-right: 12.292vw solid transparent;
-    bottom: -5.99px;
+    bottom: -0.312vw;
   }
 }
 .partners__slider-slide:nth-child(odd) .partners__slide-img {
@@ -4615,23 +4618,35 @@ body {
   }
 }
 .contacts__sotial .social-telegram {
-  width: 40px;
-  height: 40px;
+  width: 10.667vw;
+  height: 10.667vw;
 }
 @media (min-width: 768px) {
   .contacts__sotial .social-telegram {
-    width: 46px;
-    height: 46px;
+    width: 5.99vw;
+    height: 5.99vw;
+  }
+}
+@media (min-width: 1360px) {
+  .contacts__sotial .social-telegram {
+    width: 2.396vw;
+    height: 2.396vw;
   }
 }
 .contacts__sotial .social-youtube {
-  width: 40px;
-  height: 40px;
+  width: 10.667vw;
+  height: 10.667vw;
 }
 @media (min-width: 768px) {
   .contacts__sotial .social-youtube {
-    width: 46px;
-    height: 46px;
+    width: 5.99vw;
+    height: 5.99vw;
+  }
+}
+@media (min-width: 1360px) {
+  .contacts__sotial .social-youtube {
+    width: 2.396vw;
+    height: 2.396vw;
   }
 }
 .contacts__sotial-text {
