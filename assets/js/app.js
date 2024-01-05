@@ -3,6 +3,7 @@ import * as  notice  from "./modules/notice.js"
 import * as  projectOffice  from "./modules/project-office.js"
 import * as  servicesCards  from "./modules/services.js"
 import * as  victoriesFunc  from "./modules/victories.js"
+import * as  partnersSlider  from "./modules/partners.js"
 
 document.addEventListener('DOMContentLoaded',function(){
     // Навигация
@@ -15,5 +16,7 @@ document.addEventListener('DOMContentLoaded',function(){
     servicesCards.servicesCards()
     //Наши победы
     victoriesFunc.victoriesFunc()
+    //Нам доверяют
+    partnersSlider.partnersSlider()
 })
 

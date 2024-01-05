@@ -1,10 +1,14 @@
 <?php
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 function theme_name_scripts() {
-	
+	//Стили
+	wp_enqueue_style( 'swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
 	wp_enqueue_style( 'style', get_template_directory_uri() .'/assets/css/style.css');
     
-	wp_enqueue_script( 'newscript', get_template_directory_uri() . '/assets/js/app.js');
+
+	//Скпипты
+	wp_enqueue_script( 'swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js');
+	wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/app.js');
 
 }
 
@@ -17,7 +21,7 @@ add_filter( 'script_loader_tag', 'add_type_attribute' , 10, 3 );
 
 function add_type_attribute($tag, $handle, $src) {
 	// if not your script, do nothing and return original $tag
-	if ( 'newscript' !== $handle ) {
+	if ( 'script' !== $handle ) {
 		return $tag;
 	}
 	// change the script tag by adding type="module" and return it.
