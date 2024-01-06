@@ -1,0 +1,219 @@
+.basis-form {
+
+    &__wrapper {
+        padding: 25px 15px;
+        background: rgba(247, 247, 247, 0.90);
+        backdrop-filter: blur(7.5px);
+        @media(min-width:768px){
+            padding: 70px 30px;
+        }
+    }
+}
+.form {
+display: flex;
+flex-direction: column;
+gap: 29px;
+    &__item {
+    }
+
+    &__input {
+        font-size: 16px;
+        line-height: 150%;
+        padding: 10px 15px;
+        width: 100%;
+        border-radius: 2px;
+        border: 1px solid $netural-80;
+        background: rgba(247, 247, 247, 0.90);
+        @media(min-width:768px){
+            font-size: 18px;
+            padding: 16px 20px;
+        }
+        
+    }
+
+    &__input:hover {
+        border: 1px solid $colorGreen;
+    }
+
+    &__input::placeholder {
+        color: $netural-70;
+    }
+
+    &__item-email{
+        position: relative;
+    }
+
+    &__item-email .form__input{
+        padding-left: 45px;
+        @media(min-width:768px){
+            padding: 21px 10px 21px 57px;
+        }
+    }
+
+    &__item-email::before{
+            position: absolute;
+            content: "";
+            background-image: url('../img/icon/email-input-green.svg');
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            top: 14px;
+            left: 15px;
+            z-index: 1;
+            @media(min-width: 768px){
+                top: 28px;
+                left: 20px;
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+    &__item-textarea {
+        position: relative;
+    }
+
+    &__item-textarea::before{
+        position: absolute;
+        content: "";
+        background-image: url('../img/icon/pen.svg');
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 12px;
+        left: 17px;
+        z-index: 1;
+        @media(min-width: 768px){
+            left: 20px;
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    &__textarea {
+        font-size: 16px;
+        line-height: 150%;
+        width: 100%;
+        padding: 10px 15px 10px 45px;
+        height: 150px;
+        border-radius: 2px;
+        border: 1px solid $netural-80;
+        background: rgba(247, 247, 247, 0.90);
+        @media(min-width:768px){
+            font-size: 18px;
+            height: 190px;
+            padding: 16px 15px 10px 52px;
+        }
+    }
+
+    &__textarea:hover {
+        border: 1px solid $colorGreen;
+    }
+
+    &__textarea::placeholder {
+        color: $netural-70;
+    }
+
+    &__checkbox-button {
+    }
+
+    &__item-checkbox{
+    }
+
+    &__checkbox {
+    }
+
+    &__label-checkbox {
+    }
+
+    &__label-link {
+        color: $colorGold;
+        font-weight: 600;
+        display: inline;
+    }
+
+    & .wpcf7-list-item-label{
+        font-size: 14px;
+        color: $netural-50;
+        line-height: 140%;
+        letter-spacing: -0.154px;
+        padding-left: 39px;
+        @media(min-width:768px){
+            font-size: 16px;
+            max-width: 609px;
+            letter-spacing: -0.154px;
+            padding-left: 39px;
+        }
+    }
+
+    & .wpcf7-list-item{
+        margin: 0;
+    }
+
+    & .wpcf7-list-item label{
+        display: flex;
+        gap: 15px;
+        align-items: baseline;
+
+    }
+    //Стилизация ошибки Email
+    & .wpcf7-not-valid-tip{
+        color: #D94C4C;
+        font-size: 14px;
+        line-height: 150%; 
+    }
+    //---------------------------
+    
+    .wpcf7-form-control-wrap{
+        width: 100%;
+    }
+
+
+    // Стилизация пользовательского соглашения
+    &__checkbox{
+        display: none;
+    }
+
+    &__checkbox + .wpcf7-list-item-label::before {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: 0px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid $colorGold;
+        @media(min-width:768px){
+            top: 9px;
+            left: 2px;
+            width: 22px;
+            height: 22px;
+        }
+    }
+
+    &__checkbox:checked + .wpcf7-list-item-label::after{
+        content: "";
+        position: absolute;
+        top: 13px;
+        left: 5px;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border-radius: 1px;
+        background-color: $colorGold;
+         @media(min-width:768px){
+            top: 15px;
+            left: 8px;
+        }
+    }
+
+    .wpcf7-list-item{
+        margin: 0;
+    }
+    //-----------------
+    
+    //Стилизация кнопки
+
+    
+}

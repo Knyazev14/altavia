@@ -18,6 +18,8 @@
     <?php get_template_part('template/partners/partners'); ?>
      <!-- Пресс-цетнр -->
      <?php get_template_part('template/press/sections/press'); ?>
+     <!-- Связаться с нами -->
+     <?php get_template_part('template/forms/basis-form'); ?>
     <!-- Контакты -->
     <?php get_template_part('template/pages/main/sections/contacts'); ?>
 </main>
