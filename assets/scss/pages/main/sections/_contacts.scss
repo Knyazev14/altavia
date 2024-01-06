@@ -126,7 +126,7 @@ position: relative;
         justify-content: space-between;
         margin-bottom: 13.333vw;
         @media(min-width:768px){
-            margin-bottom: 9.115vw;
+            margin-bottom: 9.635vw;
         }
         @media(min-width:1360px){
             margin-bottom: 0px;
@@ -201,67 +201,70 @@ position: relative;
     &__list {
         display: flex;
         flex-direction: column;
-        gap: 2.933vw;
+        gap: 3.467vw;
         @media(min-width:768px){
-            gap: 0.391vw;
+            gap: 1.432vw;
         }
         @media(min-width:1360px){
-            gap: 0.26vw;
+            gap: 0.417vw;
         }
     }
 
     &__list-item {
-        display: flex;
-        gap: 1.333vw;
-        @media(min-width:768px){
-            gap: 0.391vw;
-        }
-        @media(min-width:1360px){
-            gap: 0.417vw;
-            align-items: flex-end;
-        }
+        position: relative;
     }
 
-    &__list-item:nth-child(1),
-    &__list-item:nth-child(4){
-        align-items: center;
-    }
-
-    &__list-item-left {
-        @media(min-width:1360px){
-            width: 1.146vw;
-            height: 1.25vw;
-        }
-    }
-
-    &__list-item-img {
+    &__list-item::before{
+        position: absolute;
+        content: '';
         width: 4.8vw;
-        height: 6.133vw;
+        height: 5.867vw;
+        background-repeat: no-repeat;
+        top: 60%;
+        transform: translateY(-50%);
+        background-size: contain;
         @media(min-width:768px){
             width: 2.865vw;
-            height: 3.906vw;
+            height: 3.125vw;
         }
         @media(min-width:1360px){
             width: 1.146vw;
             height: 1.25vw;
         }
+        
     }
 
-    &__list-item-right {
+    &__list-item:nth-child(1)::before{
+        background-image: url('../img/icon/location.svg');
+    }
+
+    &__list-item:nth-child(2)::before{
+        background-image: url('../img/icon/contacts-phone.svg');
+    }
+    &__list-item:nth-child(3)::before{
+        background-image: url('../img/icon/contacts-email.svg');
+    }
+    &__list-item:nth-child(4)::before{
+        background-image: url('../img/icon/time.svg');
     }
 
     &__list-item-text {
         font-size: 3.733vw;
         line-height: 120%;
         color: $netural-30;
-        max-width: 38.667vw;
+        max-width: 44vw;
+        padding-left: 5.333vw;
         @media(min-width:768px){
             font-size: 2.083vw;
+            padding-left: 3.906vw;
         }
         @media(min-width:1360px){
             font-size: 0.833vw;
+            padding-left: 1.615vw;
         }
     }
+
+
 
     &__list-item-link {
     }
