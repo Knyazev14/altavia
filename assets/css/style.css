@@ -2060,7 +2060,24 @@ body {
 }
 @media (min-width: 768px) {
   .press {
-    margin-bottom: 180px;
+    margin-bottom: 23.438vw;
+  }
+}
+@media (min-width: 1360px) {
+  .press {
+    margin-bottom: 250px;
+  }
+}
+@media (min-width: 1360px) {
+  .press__top {
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 195px;
   }
 }
 .press__text {
@@ -2068,7 +2085,13 @@ body {
 }
 @media (min-width: 768px) {
   .press__text {
-    margin-bottom: 45px;
+    margin-bottom: 5.859vw;
+  }
+}
+@media (min-width: 1360px) {
+  .press__text {
+    margin-bottom: 0;
+    max-width: 1137px;
   }
 }
 .press__bottom {
@@ -2088,8 +2111,14 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 20px;
+    gap: 2.604vw;
+    margin-bottom: 3.906vw;
+  }
+}
+@media (min-width: 1360px) {
+  .press__bottom {
     margin-bottom: 30px;
+    gap: 30px;
   }
 }
 
@@ -2102,9 +2131,17 @@ body {
 @media (min-width: 768px) {
   .press__card {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 344px;
-            flex: 0 0 344px;
-    height: 580px;
+        -ms-flex: 0 0 44.792vw;
+            flex: 0 0 44.792vw;
+    height: 75.521vw;
+  }
+}
+@media (min-width: 1360px) {
+  .press__card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 553px;
+            flex: 0 0 553px;
+    height: 586px;
   }
 }
 .press__card-link {
@@ -2127,6 +2164,18 @@ body {
   right: 0;
   width: 100%;
   height: 10.133vw;
+}
+@media (min-width: 768px) {
+  .press__card-label {
+    height: 4.948vw;
+  }
+}
+@media (min-width: 1360px) {
+  .press__card-label {
+    height: 38px;
+    max-width: 172px;
+    overflow: hidden;
+  }
 }
 .press__card-category {
   background-color: #446467;
@@ -2155,6 +2204,17 @@ body {
   letter-spacing: -0.047vw;
   font-size: 4.267vw;
 }
+@media (min-width: 768px) {
+  .press__card-category {
+    padding-left: 1.953vw;
+    -webkit-clip-path: polygon(0 0, 22.656vw 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 22.656vw 0, 100% 100%, 0% 100%);
+    max-width: 26.693vw;
+    padding-right: 4.557vw;
+    letter-spacing: -0.023vw;
+    font-size: 2.083vw;
+  }
+}
 .press__card-date::before {
   content: "";
   position: absolute;
@@ -2167,6 +2227,13 @@ body {
   background-image: url("../img/icon/cal.svg");
   background-repeat: no-repeat;
   background-size: contain;
+}
+@media (min-width: 768px) {
+  .press__card-date::before {
+    left: 5.99vw;
+    width: 2.734vw;
+    height: 2.344vw;
+  }
 }
 .press__card-date {
   color: #FFF;
@@ -2193,11 +2260,39 @@ body {
   max-width: 45.867vw;
   z-index: 1;
 }
+@media (min-width: 768px) {
+  .press__card-date {
+    font-size: 2.083vw;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 22.396vw;
+            flex: 0 0 22.396vw;
+    padding-right: 1.953vw;
+    max-width: 22.396vw;
+  }
+}
 .press__card-img {
   width: 100%;
   height: 48vw;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (min-width: 768px) {
+  .press__card-img {
+    height: 41.146vw;
+  }
+}
+.press__card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  height: 100%;
 }
 .press__card-bottom {
   padding: 5.333vw 4vw;
@@ -2211,6 +2306,14 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+@media (min-width: 768px) {
+  .press__card-bottom {
+    padding: 2.604vw 1.953vw;
+  }
 }
 .press__card-name {
   color: #BFA380;
@@ -2218,9 +2321,21 @@ body {
   font-weight: 500;
   margin-bottom: 3.2vw;
 }
+@media (min-width: 768px) {
+  .press__card-name {
+    font-size: 1.823vw;
+    letter-spacing: -0.02vw;
+    margin-bottom: 1.953vw;
+  }
+}
 .press__card-title {
   font-family: Manrope;
   margin-bottom: 2.667vw;
+}
+@media (min-width: 768px) {
+  .press__card-title {
+    margin-bottom: 1.953vw;
+  }
 }
 .press__card-text {
   overflow: hidden;
@@ -2230,6 +2345,11 @@ body {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   margin-bottom: 5.333vw;
+}
+@media (min-width: 768px) {
+  .press__card-text {
+    margin-bottom: 3.646vw;
+  }
 }
 
 .button-normal {
