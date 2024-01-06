@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'altavia_db' );
 
 /** Имя пользователя базы данных */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'altavia_user' );
 
 /** Пароль к базе данных */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'razzylom123' );
 
 /** Имя сервера базы данных */
 define( 'DB_HOST', 'localhost' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'F1RmQoe9x:v`!HxgV^hCv=$f/|;#!0|uYkb#8^!BRh`k.q4(=4XZ&e9hYafs<,Xe' );
-define( 'SECURE_AUTH_KEY',  ' l]Et8_|5&t0l8lo.7$LhBr5cJUD@mmdiH0%n2]aoCKj2CkSpP1h}^O>>op)ixxk' );
-define( 'LOGGED_IN_KEY',    ')!HN }[$aGoU%qq^OJ;nkW)Gq},pwm0{i2uqxeZ;^XZ04Tu`#@g,)zQ?|4e75OST' );
-define( 'NONCE_KEY',        'voxE6#`lr]@1aZpsYAM]cZ!PNdy&c8f* ZfHfsf9.< SVPuQ/k8n]@|=b^3{b=2|' );
-define( 'AUTH_SALT',        '|3PR96MzK|uIEnRh-@DwC>V}CfiyB}EJ4ofiH`droB)|5)wKwjrbpIE}en6:Z*w;' );
-define( 'SECURE_AUTH_SALT', '2ljVO&l0BOCYl/{91,xll6){ho!A.!FrYY*DAB_d33bm*PW]SCo9h0UY)Ua]DA^,' );
-define( 'LOGGED_IN_SALT',   '%DcIT-XOC&6bnJ)E@kYyh*u2<5*z~6t5GGw*oV*)h>9l&Gx`M,304!q_7LM&UANx' );
-define( 'NONCE_SALT',       'Epm5rw8Udj`c$T/MQf@@sN9}?-oFvQFakd4lQH`_3XBZRX9)_b-=%lE,0]S5?5M/' );
+define( 'AUTH_KEY',         '0N39cESI[]uKE?3;.@TdGN@MM9)}gx_/5dZ4kq;7$54YLiaD`Cf4FrJ^fj@b#N[/' );
+define( 'SECURE_AUTH_KEY',  'nHHrixoglE_ lIfiKv y1%1 7zDf(xViF1@L:4,b[rE/D)%p3[*x1#~|?MS7rGL0' );
+define( 'LOGGED_IN_KEY',    'wShXCHHHeHXqn|9-qpVUnF*;4yPy7o%c#)!Yi?%CF+E6N+}l:d=pwNW<U5VckBIm' );
+define( 'NONCE_KEY',        '~NI`<ro<=bhbhV4%$WNPqxh>eh1O+7BR&H mk`V|;5e3&w[rK0cW$E`5%s?|i~rP' );
+define( 'AUTH_SALT',        'R]Enaq}&YJ1z ,:JkOK`dlrns@pO2!KRr}S-Bl14b:UZEy@$pfoy2%&FYb dZ{iZ' );
+define( 'SECURE_AUTH_SALT', '_YlfI`S6T72C[FTI;8hVsuC4`;E!w|VeY&et*Av>}[^9(qU&cyTY@D|B>:sh(owF' );
+define( 'LOGGED_IN_SALT',   '5P>kp:Y%(|{Z2yt2#zE/?p-H{(o7sM73hwK@qDJTD^&_*[,y;1soqYHA|ut/m=qY' );
+define( 'NONCE_SALT',       'j%[v[H2bsv::sVf&qaS&oxk)@l<},BjCZ-c4TH-HFWkl1pQM&_bgY)ttG1qG zhh' );
 
 /**#@-*/
 

@@ -1,0 +1,31 @@
+name: deploy
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - stage
+      - main
+
+jobs:
+  
+  deploy:
+    runs-on: wp-stage
+
+    steps:
+      
+    - name: Delete old environment
+      run: |        
+        pwd                  
+        docker compose down -v || true
+
+    - name: Checkout files
+      uses: actions/checkout@v2
+
+    - name: Deploy new environment
+      env:
+        GITHUB_REPOSITORY: ${{ github.repository }}
+      run: |        
+        pwd                  
+        sudo chmod +x init/project_preparation.sh
+        ./init/project_preparation.sh $GITHUB_REPOSITORY
+        docker compose up -d      
