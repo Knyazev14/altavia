@@ -6,9 +6,13 @@
     height: 108vw;
     background-color: $colorBackground;
     @media(min-width:768px){
-        flex: 0 0 344px;
-        height: 580px;
+        flex: 0 0 44.792vw;
+        height: 75.521vw;
      }
+     @media(min-width:1360px){
+        flex: 0 0 553px;
+        height: 586px;
+       }
     }
 
     &__card-link {
@@ -25,6 +29,14 @@
         right: 0;
         width: 100%;
         height: 10.133vw;
+        @media(min-width:768px){
+            height: 4.948vw;
+        }
+        @media(min-width:1360px){
+            height: 38px;
+            max-width: 172px;
+            overflow: hidden;
+           }
     }
 
     &__card-category {
@@ -44,6 +56,14 @@
         color: $netural-100;
         letter-spacing: -0.047vw;
         font-size: 4.267vw;
+        @media(min-width:768px){
+           padding-left: 1.953vw;
+           clip-path: polygon(0 0, 22.656vw 0, 100% 100%, 0% 100%);
+           max-width: 26.693vw;
+           padding-right: 4.557vw;
+           letter-spacing: -0.023vw;
+           font-size: 2.083vw;
+        }
     }
     &__card-date::before{
         content: '';
@@ -56,6 +76,11 @@
         background-image: url('../img/icon/cal.svg');
         background-repeat: no-repeat;
         background-size: contain;
+        @media(min-width:768px){
+            left: 5.99vw;
+            width: 2.734vw;
+            height: 2.344vw;
+         }
     }
     &__card-date {
         color: $netural-100;
@@ -73,34 +98,59 @@
         width: 100%;
         max-width: 45.867vw;
         z-index: 1;
+        @media(min-width:768px){
+            font-size: 2.083vw;
+            flex: 0 0 22.396vw;
+            padding-right: 1.953vw;
+            max-width: 22.396vw;
+         }
     }
 
     &__card-img {
         width: 100%;
         height: 48vw;
         object-fit: cover;
-    
+        @media(min-width:768px){
+            height: 41.146vw;
+         }
     }
 
     &__card-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        height: 100%;
     }
     &__card-bottom{
         padding: 5.333vw 4vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        flex: 1 1 auto;
+        @media(min-width:768px){
+            padding: 2.604vw 1.953vw;
+          
+         }
     }
     &__card-name {
         color: $colorGold;
         font-size: 3.733vw;
         font-weight: 500;
         margin-bottom: 3.2vw;
+        @media(min-width:768px){
+            font-size: 1.823vw;
+            letter-spacing: -0.02vw;
+            margin-bottom: 1.953vw;
+         }
     }
 
     &__card-title {
         @extend %mobile-h4;
         font-family: $fontManrope;
         margin-bottom: 2.667vw;
+        @media(min-width:768px){
+          margin-bottom: 1.953vw;
+         }
     }
 
     &__card-text {
@@ -112,5 +162,8 @@
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         margin-bottom: 5.333vw;
+        @media(min-width:768px){
+           margin-bottom: 3.646vw;
+           }
     }
 }
