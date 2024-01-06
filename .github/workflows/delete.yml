@@ -1,0 +1,15 @@
+name: delete
+on:
+  workflow_dispatch:
+
+jobs:
+  
+  delete:
+    runs-on: wp-stage
+
+    steps:
+        
+    - name: Delete environment
+      run: |        
+        pwd                  
+        docker compose down -v || true
