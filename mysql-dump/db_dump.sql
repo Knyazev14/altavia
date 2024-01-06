@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Янв 06 2024 г., 20:31
+-- Время создания: Янв 06 2024 г., 20:41
 -- Версия сервера: 8.0.30
 -- Версия PHP: 7.4.30
 
@@ -2489,7 +2489,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (19, 13, '_locale', 'ru_RU'),
 (20, 13, '_hash', 'e9a3f74826d5ba3d23abb5411e0354efc92fb068'),
 (28, 13, '_config_validation', 'a:2:{s:11:\"mail.sender\";a:1:{i:0;a:2:{s:4:\"code\";s:22:\"invalid_mailbox_syntax\";s:4:\"args\";a:3:{s:7:\"message\";s:99:\"Использован некорректный синтаксис почтового адреса.\";s:6:\"params\";a:0:{}s:4:\"link\";s:68:\"https://contactform7.com/configuration-errors/invalid-mailbox-syntax\";}}}s:23:\"mail.additional_headers\";a:1:{i:0;a:2:{s:4:\"code\";s:22:\"invalid_mailbox_syntax\";s:4:\"args\";a:3:{s:7:\"message\";s:125:\"Был использован некорректный синтаксис почтового адреса в поле %name%.\";s:6:\"params\";a:1:{s:4:\"name\";s:8:\"Reply-To\";}s:4:\"link\";s:68:\"https://contactform7.com/configuration-errors/invalid-mailbox-syntax\";}}}}'),
-(29, 14, '_edit_lock', '1704562291:1');
+(29, 14, '_edit_lock', '1704562836:1');
 
 -- --------------------------------------------------------
 
