@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Янв 06 2024 г., 20:23
+-- Время создания: Янв 06 2024 г., 20:31
 -- Версия сервера: 8.0.30
 -- Версия PHP: 7.4.30
 
@@ -2489,7 +2489,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (19, 13, '_locale', 'ru_RU'),
 (20, 13, '_hash', 'e9a3f74826d5ba3d23abb5411e0354efc92fb068'),
 (28, 13, '_config_validation', 'a:2:{s:11:\"mail.sender\";a:1:{i:0;a:2:{s:4:\"code\";s:22:\"invalid_mailbox_syntax\";s:4:\"args\";a:3:{s:7:\"message\";s:99:\"Использован некорректный синтаксис почтового адреса.\";s:6:\"params\";a:0:{}s:4:\"link\";s:68:\"https://contactform7.com/configuration-errors/invalid-mailbox-syntax\";}}}s:23:\"mail.additional_headers\";a:1:{i:0;a:2:{s:4:\"code\";s:22:\"invalid_mailbox_syntax\";s:4:\"args\";a:3:{s:7:\"message\";s:125:\"Был использован некорректный синтаксис почтового адреса в поле %name%.\";s:6:\"params\";a:1:{s:4:\"name\";s:8:\"Reply-To\";}s:4:\"link\";s:68:\"https://contactform7.com/configuration-errors/invalid-mailbox-syntax\";}}}}'),
-(29, 14, '_edit_lock', '1704561567:1');
+(29, 14, '_edit_lock', '1704562291:1');
 
 -- --------------------------------------------------------
 
@@ -2540,9 +2540,10 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (11, 1, '2024-01-02 16:18:26', '2024-01-02 13:18:26', '[mailpoet_page]', 'MailPoet Page', '', 'publish', 'closed', 'closed', '', 'subscriptions', '', '', '2024-01-02 16:18:26', '2024-01-02 13:18:26', '', 0, 'http://altavia/?p=11', 0, 'mailpoet_page', '', 0),
 (12, 1, '2024-01-05 16:15:38', '0000-00-00 00:00:00', '', 'Черновик', '', 'auto-draft', 'open', 'open', '', '', '', '', '2024-01-05 16:15:38', '0000-00-00 00:00:00', '', 0, 'http://altavia/?p=12', 0, 'post', '', 0),
 (13, 1, '2024-01-05 16:16:56', '2024-01-05 13:16:56', '<div class=\"basis-form__wrapper form\">\r\n        <div class=\"form__item\">\r\n            <input class=\"form__input\" type=\"text\" name=\"text\" id=\"text\" placeholder=\"Тема обращения\" />\r\n        </div>\r\n        <div class=\"form__item form__item-email\">\r\n[email* email-931 id:email class:form__input placeholder \"Ваш E-mail\"]\r\n        </div>\r\n        <div class=\"form__item-textarea\">\r\n[textarea textarea-618 id:message class:form__textarea placeholder \"Сообщение\"]\r\n        </div>\r\n        <div class=\"form__checkbox-button\">\r\n            [submit \"Отправить\"]\r\n        </div>\r\n        <div class=\"form__item-checkbox\">\r\n                [acceptance acceptance-440 class:form__checkbox optional]Нажимая на кнопку «Отправить» вы даете согласие\r\n                    на <a class=\"form__label-link\" href=\"#\">обработку персональных данных</a> и соглашаетесь с <a\r\n                        class=\"form__label-link\" href=\"#\">политикой конфиденциальности</a>[/acceptance]\r\n                <label class=\"form__label-checkbox\" for=\"checkbox\">\r\n                </label>\r\n        </div>\r\n    </div>\n1\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@altavia>\n[_site_admin_email]\nОт: [your-name] [your-email]\r\nТема: [your-subject]\r\n\r\nСообщение:\r\n[your-message]\r\n\r\n-- \r\nЭто уведомление о том, что на вашем веб-сайте ([_site_title] [_site_url]) была отправлена контактная форма.\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@altavia>\n[your-email]\nСообщение:\r\n[your-message]\r\n\r\n-- \r\nЭто письмо является квитанцией об отправке контактной формы на нашем веб-сайте ([_site_title] [_site_url]), в которой использовался ваш адрес электронной почты. Если это были не вы, пожалуйста, проигнорируйте это сообщение.\nReply-To: [_site_admin_email]\n\n\n\nСпасибо за Ваше сообщение. Оно успешно отправлено.\nПри отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.\nОдно или несколько полей содержат ошибочные данные. Пожалуйста, проверьте их и попробуйте ещё раз.\nПри отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.\nВы должны принять условия и положения перед отправкой вашего сообщения.\nВаш E-mail введен неверно\nВ это поле вставлен слишком большой объем данных.\nВ это поле вставлен слишком малый объем данных.\nПри загрузке файла произошла неизвестная ошибка.\nВам не разрешено загружать файлы этого типа.\nЗагруженный файл слишком большой.\nПри загрузке файла произошла ошибка.\nВведите дату в формате ГГГГ-ММ-ДД.\nВ это поле введена слишком ранняя дата.\nВ это поле введена слишком поздняя дата.\nВведите число.\nВ это поле введено слишком маленькое число.\nВ это поле введено слишком большое число.\nНеверный ответ на проверочный вопрос.\nВведите адрес электронной почты.\nВведите URL.\nВведите номер телефона.', 'Форма  снизу сайта', '', 'publish', 'closed', 'closed', '', '%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%bd%d0%b0%d1%8f-%d1%84%d0%be%d1%80%d0%bc%d0%b0-1', '', '', '2024-01-06 19:49:21', '2024-01-06 16:49:21', '', 0, 'http://altavia/?post_type=wpcf7_contact_form&#038;p=13', 0, 'wpcf7_contact_form', '', 0),
-(14, 1, '2024-01-06 20:13:34', '2024-01-06 17:13:34', '<!-- wp:paragraph -->\n<p>Кто прочел тот пидор</p>\n<!-- /wp:paragraph -->', 'О компании', '', 'publish', 'closed', 'closed', '', '%d0%be-%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8', '', '', '2024-01-06 20:21:51', '2024-01-06 17:21:51', '', 0, 'http://altavia/?page_id=14', 0, 'page', '', 0),
+(14, 1, '2024-01-06 20:13:34', '2024-01-06 17:13:34', '<!-- wp:paragraph -->\n<p>Тест</p>\n<!-- /wp:paragraph -->', 'О компании', '', 'publish', 'closed', 'closed', '', '%d0%be-%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8', '', '', '2024-01-06 20:31:41', '2024-01-06 17:31:41', '', 0, 'http://altavia/?page_id=14', 0, 'page', '', 0),
 (15, 1, '2024-01-06 20:13:34', '2024-01-06 17:13:34', '', 'О компании', '', 'inherit', 'closed', 'closed', '', '14-revision-v1', '', '', '2024-01-06 20:13:34', '2024-01-06 17:13:34', '', 14, 'http://altavia/?p=15', 0, 'revision', '', 0),
-(16, 1, '2024-01-06 20:21:51', '2024-01-06 17:21:51', '<!-- wp:paragraph -->\n<p>Кто прочел тот пидор</p>\n<!-- /wp:paragraph -->', 'О компании', '', 'inherit', 'closed', 'closed', '', '14-revision-v1', '', '', '2024-01-06 20:21:51', '2024-01-06 17:21:51', '', 14, 'http://altavia/?p=16', 0, 'revision', '', 0);
+(16, 1, '2024-01-06 20:21:51', '2024-01-06 17:21:51', '<!-- wp:paragraph -->\n<p>Кто прочел тот пидор</p>\n<!-- /wp:paragraph -->', 'О компании', '', 'inherit', 'closed', 'closed', '', '14-revision-v1', '', '', '2024-01-06 20:21:51', '2024-01-06 17:21:51', '', 14, 'http://altavia/?p=16', 0, 'revision', '', 0),
+(17, 1, '2024-01-06 20:31:41', '2024-01-06 17:31:41', '<!-- wp:paragraph -->\n<p>Тест</p>\n<!-- /wp:paragraph -->', 'О компании', '', 'inherit', 'closed', 'closed', '', '14-revision-v1', '', '', '2024-01-06 20:31:41', '2024-01-06 17:31:41', '', 14, 'http://altavia/?p=17', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -3423,7 +3424,7 @@ ALTER TABLE `wp_postmeta`
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `ID` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`
