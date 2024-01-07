@@ -267,7 +267,21 @@
         @media(min-width:1360px) {
             max-width: 100%;
         }
-
     }
-
+    &__card:hover  .read-more {
+        @media(min-width: 1360px){
+         font-weight: 600;
+         color: $colorGreen;
+        }
+     }
+    &__card:hover  .read-more span:first-child{
+        @media(min-width: 1360px){
+            margin-right: 25px;
+        }
+     }
+     &__card:hover .read-more  .button-arrow__path{
+         @media(min-width:1360px){
+             stroke: $colorGold;
+        }
+     }
 }

@@ -12,10 +12,15 @@ margin-bottom: 26.667vw;
     &__link{
      @media(min-width:1360px){
         width: 100%;
-        display: flex;
+        display: block;
         max-width: 28.802vw;
-
      }
+    }
+    &__wrap-link{
+        @media(min-width:1360px){
+           display: flex;
+           justify-content: flex-end;
+         }
     }
     &__top {
         @media(min-width:1360px){
