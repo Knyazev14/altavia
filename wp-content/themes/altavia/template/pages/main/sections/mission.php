@@ -10,7 +10,7 @@
                     <div class="mission__cards">
                         <article class="mission__card">
                             <div class="mission__card-left">
-                                <img class="mission__card-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/mission-1.svg" alt="Качество">
+                                <img class="mission__card-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/icon/mission-1.svg" alt="Качество">
                             </div>
                             <div class="mission__card-right">
                                 <h3 class="mission__cards-title">
@@ -24,7 +24,7 @@
                         </article>
                         <article class="mission__card">
                             <div class="mission__card-left">
-                                <img class="mission__card-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/mission-2.svg" alt="Качество">
+                                <img class="mission__card-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/icon/mission-2.svg" alt="Качество">
                             </div>
                             <div class="mission__card-right">
                                 <h3 class="mission__cards-title">
@@ -38,7 +38,7 @@
                         </article>
                         <article class="mission__card">
                             <div class="mission__card-left">
-                                <img class="mission__card-img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/mission-3.svg" alt="Качество">
+                                <img class="mission__card-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/icon/mission-3.svg" alt="Качество">
                             </div>
                             <div class="mission__card-right">
                                 <h3 class="mission__cards-title">
