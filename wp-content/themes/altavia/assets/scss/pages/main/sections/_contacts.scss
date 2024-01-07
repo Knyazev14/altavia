@@ -188,7 +188,7 @@ position: relative;
         }
     }
 
-    &__sotial-text.contacts__item-span::before{
+    &__social-text.contacts__item-span::before{
         top: 0;
         @media(min-width:768px){
             top: -4.948vw;
@@ -269,10 +269,10 @@ position: relative;
     &__list-item-link {
     }
 
-    &__sotial {
+    &__social {
     }
 
-    &__sotial-body{
+    &__social-body{
         display: flex;
         gap: 2.667vw;
         @media(min-width:768px){
@@ -283,7 +283,7 @@ position: relative;
         }
     }
 
-    &__sotial .social-telegram{
+    &__social .social-telegram{
        width: 10.667vw;
        height: 10.667vw;
        @media(min-width:768px){
@@ -296,7 +296,7 @@ position: relative;
        }
     }
 
-    &__sotial .social-youtube{
+    &__social .social-youtube{
         width: 10.667vw;
         height: 10.667vw;
         @media(min-width:768px){
@@ -309,7 +309,7 @@ position: relative;
         }
     }
 
-    &__sotial-text{
+    &__social-text{
         max-width: 34.933vw;
         line-height: 100%;
         @media(min-width:768px){

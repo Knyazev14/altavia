@@ -52,9 +52,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="contacts__sotial">
-                    <span class="contacts__sotial-text contacts__item-span">Присоединиться к нам</span>
-                    <div class="contacts__sotial-body">
+                <div class="contacts__social">
+                    <span class="contacts__social-text contacts__item-span">Присоединиться к нам</span>
+                    <div class="contacts__social-body">
                         <!-- Соц сети -->
                         <?php get_template_part('template/social/telegram') ?>
                         <a class="social-youtube" href="#">
