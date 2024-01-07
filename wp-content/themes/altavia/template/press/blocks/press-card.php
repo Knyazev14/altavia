@@ -4,7 +4,7 @@
             <span class="press__card-category">Видеоаналитика</span>
             <span class="press__card-date">10.01.2023</span>
         </div>
-        <img class="press__card-img" src="<?php bloginfo('template_url'); ?>/assets/img/content/press-1.jpg" alt="Картинка">
+        <img class="press__card-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/press-1.jpg" alt="Картинка">
         <div class="press__card-bottom">
             <div class="press__card-content">
                 <span class="press__card-name">Тынченко Карина</span>
@@ -22,7 +22,7 @@
             <span class="press__card-category">Статья</span>
             <span class="press__card-date">10.01.2023</span>
         </div>
-        <img class="press__card-img" src="<?php bloginfo('template_url'); ?>/assets/img/content/press-2.jpg" alt="Картинка">
+        <img class="press__card-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/press-2.jpg" alt="Картинка">
         <div class="press__card-bottom">
             <div class="press__card-content">
                 <span class="press__card-name">Тынченко Карина</span>
@@ -40,7 +40,7 @@
             <span class="press__card-category">Статья</span>
             <span class="press__card-date">10.01.2023</span>
         </div>
-        <img class="press__card-img" src="<?php bloginfo('template_url'); ?>/assets/img/content/press-3.jpg" alt="Картинка">
+        <img class="press__card-img" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/content/press-3.jpg" alt="Картинка">
         <div class="press__card-bottom">
             <div class="press__card-content">
                 <span class="press__card-name">Тынченко Карина</span>
