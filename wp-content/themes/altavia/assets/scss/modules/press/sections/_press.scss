@@ -4,17 +4,25 @@ margin-bottom: 26.667vw;
     margin-bottom: 23.438vw;
 }
 @media(min-width:1360px){
-   margin-bottom: 250px;
+   margin-bottom: 13.021vw;
 }
     &__body {
+       
     }
+    &__link{
+     @media(min-width:1360px){
+        width: 100%;
+        display: flex;
+        max-width: 28.802vw;
 
+     }
+    }
     &__top {
         @media(min-width:1360px){
-            margin-bottom: 50px;
+            margin-bottom: 2.604vw;
             display: flex;
             justify-content: space-between;
-            gap: 195px;
+            gap: 10.156vw;
           }
     }
 
@@ -29,7 +37,7 @@ margin-bottom: 26.667vw;
         }
         @media(min-width:1360px){
            margin-bottom: 0;
-           max-width: 1137px;
+           max-width: 59.219vw;
          }
     }
 
@@ -44,8 +52,8 @@ margin-bottom: 26.667vw;
             margin-bottom: 3.906vw;
          }
          @media(min-width:1360px){
-           margin-bottom: 30px;
-           gap: 30px;
+           margin-bottom: 1.563vw;
+           gap: 1.563vw;
           }
     }
 }

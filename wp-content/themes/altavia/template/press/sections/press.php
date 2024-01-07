@@ -8,7 +8,10 @@
             <div class="press__bottom">
                 <?php get_template_part('template/press/blocks/press-card'); ?>
             </div>
-            <?php display_button_normal('Все публикации');?>   
+            <a class="press__link" href="">
+                 <?php display_button_normal('Все публикации');?>   
+            </a>
+           
         </div>
     </div>
 </section>

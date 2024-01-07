@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Главная страница
+ */
+
+ get_header(); ?>
 <main class="main">
     <!-- Главный баннер -->
     <?php get_template_part('template/pages/main/sections/hero'); ?>
