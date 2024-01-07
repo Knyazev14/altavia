@@ -1,38 +1,66 @@
 .basis-form {
-
+    @media(min-width:1360px){
+        width: 44.01vw;
+        height: 34.688vw;
+    }
+   
     &__wrapper {
-        padding: 25px 15px;
+        padding: 6.667vw 4vw;
         background: rgba(247, 247, 247, 0.90);
         backdrop-filter: blur(7.5px);
         @media(min-width:768px){
-            padding: 70px 30px;
+            padding: 9.115vw 3.906vw;
+        }
+        @media(min-width:1360px){
+            padding: 3.333vw 1.563vw;
         }
     }
 }
 .form {
 display: flex;
 flex-direction: column;
-gap: 29px;
+gap: 4.267vw;
+@media(min-width:768px){
+gap: 3.776vw;
+}
+@media(min-width:1360px){
+gap: 1.51vw;
+}
     &__item {
     }
 
     &__input {
-        font-size: 16px;
+        font-size: 4.267vw;
         line-height: 150%;
-        padding: 10px 15px;
+        padding: 2.667vw 4vw;
         width: 100%;
-        border-radius: 2px;
-        border: 1px solid $netural-80;
+        border-radius: 0.533vw;
+        border: 0.267vw solid $netural-80;
         background: rgba(247, 247, 247, 0.90);
+        color: $colorGreen;
         @media(min-width:768px){
-            font-size: 18px;
-            padding: 16px 20px;
+            font-size: 2.344vw;
+            padding: 2.083vw 2.604vw;
+            border-radius: 0.13vw;
+            border: 0.13vw solid $netural-80;
+        }
+        @media(min-width:1360px){
+            font-size: 0.938vw;
+            padding: 0.833vw 1.042vw;
+            border-radius: 0.052vw;
+            border: 0.052vw solid $netural-80;
         }
         
     }
 
     &__input:hover {
-        border: 1px solid $colorGreen;
+        border: 0.267vw solid $colorGreen;
+        @media(min-width:768px){
+            border: 0.13vw solid $colorGreen;
+        }
+        @media(min-width:1360px){
+            border: 0.052vw solid $colorGreen;
+        }
     }
 
     &__input::placeholder {
@@ -44,9 +72,12 @@ gap: 29px;
     }
 
     &__item-email .form__input{
-        padding-left: 45px;
+        padding-left: 12vw;
         @media(min-width:768px){
-            padding: 21px 10px 21px 57px;
+            padding: 2.734vw 1.302vw 2.734vw 7.422vw;
+        }
+        @media(min-width:1360px){
+            padding: 1.094vw 0.521vw 1.094vw 2.969vw;
         }
     }
 
@@ -54,61 +85,97 @@ gap: 29px;
             position: absolute;
             content: "";
             background-image: url('../img/icon/email-input-green.svg');
-            width: 20px;
-            height: 20px;
+            width: 5.333vw;
+            height: 5.333vw;
             background-repeat: no-repeat;
             background-size: contain;
-            top: 14px;
-            left: 15px;
+            top: 3.733vw;
+            left: 4vw;
             z-index: 1;
             @media(min-width: 768px){
-                top: 28px;
-                left: 20px;
-                width: 24px;
-                height: 24px;
+                top: 3.646vw;
+                left: 2.604vw;
+                width: 3.125vw;
+                height: 3.125vw;
+            }
+            @media(min-width:1360px){
+                top: 1.458vw;
+                left: 1.042vw;
+                width: 1.25vw;
+                height: 1.25vw;
             }
         }
 
     &__item-textarea {
         position: relative;
+        margin-bottom: -2.133vw;
+        @media(min-width: 768px){
+            margin-bottom: 0;
+        }
+        @media(min-width:1360px){
+            margin-bottom: -0.781vw;
+        }
     }
 
     &__item-textarea::before{
         position: absolute;
         content: "";
         background-image: url('../img/icon/pen.svg');
-        width: 20px;
-        height: 20px;
+        width: 5.333vw;
+        height: 5.333vw;
         background-repeat: no-repeat;
         background-size: contain;
-        top: 12px;
-        left: 17px;
+        top: 3.2vw;
+        left: 4.533vw;
         z-index: 1;
         @media(min-width: 768px){
-            left: 20px;
-            width: 24px;
-            height: 24px;
+            left: 2.604vw;
+            top: 2.474vw;
+            width: 3.125vw;
+            height: 3.125vw;
+        }
+        @media(min-width:1360px){
+            left: 1.042vw;
+            top: 0.99vw;
+            width: 1.25vw;
+            height: 1.25vw;
         }
     }
 
     &__textarea {
-        font-size: 16px;
+        font-size: 4.267vw;
         line-height: 150%;
         width: 100%;
-        padding: 10px 15px 10px 45px;
-        height: 150px;
-        border-radius: 2px;
-        border: 1px solid $netural-80;
+        padding: 2.667vw 4vw 2.667vw 12vw;
+        height: 40vw;
+        border-radius: 0.533vw;
+        border: 0.267vw solid $netural-80;
+        color: $colorGreen;
         background: rgba(247, 247, 247, 0.90);
         @media(min-width:768px){
-            font-size: 18px;
-            height: 190px;
-            padding: 16px 15px 10px 52px;
+            font-size: 2.344vw;
+            height: 24.74vw;
+            padding: 2.083vw 1.953vw 1.302vw 6.771vw;
+            border-radius: 0.26vw;
+            border: 0.13vw solid $netural-80;
+        }
+        @media(min-width:1360px){
+            font-size: 0.938vw;
+            height: 9.896vw;
+            padding: 0.833vw 0.781vw 0.521vw 2.708vw;
+            border-radius: 0.104vw;
+            border: 0.052vw solid $netural-80;
         }
     }
 
     &__textarea:hover {
-        border: 1px solid $colorGreen;
+        border: 0.267vw solid $colorGreen;
+        @media(min-width:768px){
+            border: 0.13vw solid $colorGreen;
+        }
+        @media(min-width:1360px){
+            border: 0.052vw solid $colorGreen;
+        }
     }
 
     &__textarea::placeholder {
@@ -133,17 +200,23 @@ gap: 29px;
         display: inline;
     }
 
-    & .wpcf7-list-item-label{
-        font-size: 14px;
+    &__item-checkbox .wpcf7-list-item-label{
+        font-size: 3.733vw;
         color: $netural-50;
         line-height: 140%;
-        letter-spacing: -0.154px;
-        padding-left: 39px;
+        letter-spacing: -0.041vw;
+        padding-left: 10.4vw;
         @media(min-width:768px){
-            font-size: 16px;
-            max-width: 609px;
-            letter-spacing: -0.154px;
-            padding-left: 39px;
+            font-size: 2.083vw;
+            max-width: 84.635vw;
+            letter-spacing: -0.02vw;
+            padding-left: 5.078vw;
+        }
+        @media(min-width:1360px){
+            font-size: 0.833vw;
+            max-width: 36.979vw;
+            letter-spacing: -0.008vw;
+            padding-left: 2.031vw;
         }
     }
 
@@ -151,21 +224,21 @@ gap: 29px;
         margin: 0;
     }
 
-    & .wpcf7-list-item label{
-        display: flex;
-        gap: 15px;
-        align-items: baseline;
-
-    }
     //Стилизация ошибки Email
-    & .wpcf7-not-valid-tip{
+    &__item-email .wpcf7-not-valid-tip{
         color: #D94C4C;
-        font-size: 14px;
-        line-height: 150%; 
+        font-size: 3.733vw;
+        line-height: 150%;
+        @media(min-width:768px){
+            font-size: 1.823vw;
+        }
+        @media(min-width:1360px){
+            font-size: 0.729vw;
+        }
     }
     //---------------------------
     
-    .wpcf7-form-control-wrap{
+    & .wpcf7-form-control-wrap{
         width: 100%;
     }
 
@@ -178,42 +251,127 @@ gap: 29px;
     &__checkbox + .wpcf7-list-item-label::before {
         content: "";
         position: absolute;
-        top: 8px;
-        left: 0px;
+        top: 1.6vw;
+        left: 0.267vw;
         display: inline-block;
-        width: 20px;
-        height: 20px;
-        border: 1px solid $colorGold;
+        width: 5.867vw;
+        height: 5.867vw;
+        border: 0.267vw solid $colorGold;
+        cursor: pointer;
         @media(min-width:768px){
-            top: 9px;
-            left: 2px;
-            width: 22px;
-            height: 22px;
+            top: 1.042vw;
+            left: 0.26vw;
+            width: 2.865vw;
+            height: 2.865vw;
+            border: 0.13vw solid $colorGold;
+        }
+        @media(min-width:1360px){
+            top: 0.417vw;
+            left: 0.104vw;
+            width: 1.146vw;
+            height: 1.146vw;
+            border: 0.052vw solid $colorGold;
         }
     }
 
     &__checkbox:checked + .wpcf7-list-item-label::after{
         content: "";
         position: absolute;
-        top: 13px;
-        left: 5px;
-        width: 10px;
-        height: 10px;
+        top: 3.2vw;
+        left: 1.867vw;
+        width: 2.667vw;
+        height: 2.667vw;
         display: inline-block;
-        border-radius: 1px;
+        border-radius: 0.267vw;
         background-color: $colorGold;
          @media(min-width:768px){
-            top: 15px;
-            left: 8px;
+            top: 1.823vw;
+            left: 1.042vw;
+            width: 1.302vw;
+            height: 1.302vw;
+            border-radius: 0.13vw;
+        }
+        @media(min-width:1360px){
+            top: 0.729vw;
+            left: 0.417vw;
+            width: 0.521vw;
+            height: 0.521vw;
+            border-radius: 0.052vw;
         }
     }
 
-    .wpcf7-list-item{
+    &__item-checkbox .wpcf7-list-item{
         margin: 0;
     }
     //-----------------
     
     //Стилизация кнопки
+    &__checkbox-button{
+    padding: 4.8vw 10.667vw;
+    background: linear-gradient(180deg, #2C4646 0%, #678E96 100%);
+    border-radius: 0.533vw;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13.067vw;
+    margin-bottom: -6px;
+    cursor: pointer;
+    @media(min-width:768px){
+        border-radius: 0.26vw;
+        padding: 2.865vw 5.208vw;
+        height: 7.682vw;
+    }
+    @media(min-width:1360px){
+        border-radius: 0.147vw;
+        padding: 1.354vw;
+        height: 3.594vw;
+    }
+    // добавляем анимацию при наведении------
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0vw;
+        left: 0vw;
+        width: 100%;
+        height: 100%;
+        transition: all .5s ease;
+        background: linear-gradient(180deg, #487373 0%, #7BA9B2 100%);
+        box-shadow: 0px 0px 15px 0px rgba(81, 135, 146, 0.40);
+        opacity: 0;
+    }
 
-    
+    &:hover::before {
+        opacity: 1;
+    }
+
+    // анимация при нажатии----
+    &:hover:active::before{
+        display: none;
+    }
+    &:active{
+        background: #3C5A5C;
+    }
+
+    //-----------------
+    & .wpcf7-form-control{
+        background-color: inherit;
+        color: #fff;
+        font-weight: 600;
+        font-size: 4.8vw;
+        position: relative;
+        @media(min-width:768px){
+            font-size: 2.604vw;
+        }
+        @media(min-width:1360px){
+            font-size: 1.25vw;
+        }
+    }
+
+    & .wpcf7-spinner{
+        display: none;
+    }
+    }
+
 }
