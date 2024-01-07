@@ -10,11 +10,11 @@
     <div class="container">
         <div class="hero-main__body">
             <h1 class="hero-main__title">
-                <span>Избавим вас от преград</span>
-                <span>на пути к вершине</span>
+                <span><?php echo CFS()->get( 'hero_main_title' ); ?></span>
+                <span><?php echo CFS()->get( 'hero_main_sub-title' ); ?></span>
             </h1>
             <div class="hero-main__bottom">
-                      <p>Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации систем массового участия.</p>
+                      <p><?php echo CFS()->get( 'hero_main_text' ); ?></p>
             <?php display_button_normal('Расчистить путь');?>   
             </div>
         

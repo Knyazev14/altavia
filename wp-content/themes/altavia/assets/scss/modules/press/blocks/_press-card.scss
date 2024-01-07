@@ -1,18 +1,22 @@
 .press {
 
     &__card {
-    border-radius: 0.533vw;
-    overflow: hidden;
-    height: 108vw;
-    background-color: $colorBackground;
-    @media(min-width:768px){
-        flex: 0 0 44.792vw;
-        height: 75.521vw;
-     }
-     @media(min-width:1360px){
-        flex: 0 0 553px;
-        height: 586px;
-       }
+        border-radius: 0.533vw;
+        overflow: hidden;
+        height: 108vw;
+        background-color: $colorBackground;
+
+        @media(min-width:768px) {
+            flex: 0 0 44.792vw;
+            height: 75.521vw;
+            border-radius: 0.26vw;
+        }
+
+        @media(min-width:1360px) {
+            flex: 0 0 28.802vw;
+            height: 30.521vw;
+            border-radius: 0.104vw;
+        }
     }
 
     &__card-link {
@@ -29,14 +33,16 @@
         right: 0;
         width: 100%;
         height: 10.133vw;
-        @media(min-width:768px){
+
+        @media(min-width:768px) {
             height: 4.948vw;
         }
-        @media(min-width:1360px){
-            height: 38px;
-            max-width: 172px;
+
+        @media(min-width:1360px) {
+            height: 1.979vw;
+            max-width: 100%;
             overflow: hidden;
-           }
+        }
     }
 
     &__card-category {
@@ -56,16 +62,29 @@
         color: $netural-100;
         letter-spacing: -0.047vw;
         font-size: 4.267vw;
-        @media(min-width:768px){
-           padding-left: 1.953vw;
-           clip-path: polygon(0 0, 22.656vw 0, 100% 100%, 0% 100%);
-           max-width: 26.693vw;
-           padding-right: 4.557vw;
-           letter-spacing: -0.023vw;
-           font-size: 2.083vw;
+        transition: all .5s ease;
+
+        @media(min-width:768px) {
+            padding-left: 1.953vw;
+            clip-path: polygon(0 0, 22.656vw 0, 100% 100%, 0% 100%);
+            max-width: 26.693vw;
+            padding-right: 4.557vw;
+            letter-spacing: -0.023vw;
+            font-size: 2.083vw;
+        }
+
+        @media(min-width:1360px) {
+            max-width: 8.958vw;
+            padding-left: 0.885vw;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            letter-spacing: -0.009vw;
+            font-size: 0.833vw;
+            right: 0;
+            position: absolute;
         }
     }
-    &__card-date::before{
+
+    &__card-date::before {
         content: '';
         position: absolute;
         top: 50%;
@@ -76,12 +95,21 @@
         background-image: url('../img/icon/cal.svg');
         background-repeat: no-repeat;
         background-size: contain;
-        @media(min-width:768px){
+
+        @media(min-width:768px) {
             left: 5.99vw;
             width: 2.734vw;
             height: 2.344vw;
-         }
+        }
+
+        @media(min-width:1360px) {
+            width: 1.042vw;
+            height: 0.885vw;
+            left: 2.448vw;
+            top: 0.99vw;
+        }
     }
+
     &__card-date {
         color: $netural-100;
         font-size: 4.267vw;
@@ -98,21 +126,38 @@
         width: 100%;
         max-width: 45.867vw;
         z-index: 1;
-        @media(min-width:768px){
+
+        @media(min-width:768px) {
             font-size: 2.083vw;
             flex: 0 0 22.396vw;
             padding-right: 1.953vw;
             max-width: 22.396vw;
-         }
+        }
+
+        @media(min-width:1360px) {
+            font-size: 0.833vw;
+            letter-spacing: -0.009vw;
+            flex: 0 0 8.958vw;
+            max-width: 8.958vw;
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 1.406vw 100%);
+            z-index: 2;
+            padding-right: 0.729vw;
+        }
     }
 
     &__card-img {
         width: 100%;
         height: 48vw;
         object-fit: cover;
-        @media(min-width:768px){
+
+        @media(min-width:768px) {
             height: 41.146vw;
-         }
+        }
+
+        @media(min-width:1360px) {
+            height: 0;
+            flex: 1 1 12.552vw;
+        }
     }
 
     &__card-content {
@@ -120,37 +165,62 @@
         flex-direction: column;
         flex: 1 1 auto;
         height: 100%;
+        transition: all .8s ease;
+
+        @media(min-width:1360px) {
+            margin-bottom: -60px;
+        }
     }
-    &__card-bottom{
+
+    &__card-bottom {
         padding: 5.333vw 4vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         flex: 1 1 auto;
-        @media(min-width:768px){
+
+        @media(min-width:768px) {
             padding: 2.604vw 1.953vw;
-          
-         }
+
+        }
+
+        @media(min-width:1360px) {
+            padding: 1.042vw;
+        }
     }
+
     &__card-name {
         color: $colorGold;
         font-size: 3.733vw;
         font-weight: 500;
         margin-bottom: 3.2vw;
-        @media(min-width:768px){
+
+        @media(min-width:768px) {
             font-size: 1.823vw;
             letter-spacing: -0.02vw;
             margin-bottom: 1.953vw;
-         }
+        }
+
+        @media(min-width:1360px) {
+            font-size: 0.833vw;
+            letter-spacing: -0.009vw;
+            margin-bottom: 0.781vw;
+        }
     }
 
     &__card-title {
         @extend %mobile-h4;
         font-family: $fontManrope;
         margin-bottom: 2.667vw;
-        @media(min-width:768px){
-          margin-bottom: 1.953vw;
-         }
+
+        @media(min-width:768px) {
+            margin-bottom: 1.953vw;
+        }
+
+        @media(min-width:1360px) {
+            margin-bottom: 0.781vw;
+            font-size: 1.016vw;
+        }
     }
 
     &__card-text {
@@ -162,8 +232,42 @@
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         margin-bottom: 5.333vw;
-        @media(min-width:768px){
-           margin-bottom: 3.646vw;
-           }
+        transition: all .8s ease;
+
+        @media(min-width:768px) {
+            margin-bottom: 3.646vw;
+        }
+
+        @media(min-width:1360px) {
+            margin-bottom: 0.26vw;
+            height: 3.646vw;
+
+        }
     }
+
+    //Анимация
+    &__card:hover &__card-text {
+        @media(min-width:1360px) {
+            -webkit-line-clamp: 10;
+            text-overflow: unset;
+            height: 7.813vw;
+            margin-bottom: -2.083vw;
+        }
+
+    }
+
+    &__card:hover &__card-content {
+        @media(min-width:1360px) {
+            margin-bottom: 0;
+        }
+
+    }
+
+    &__card:hover &__card-category {
+        @media(min-width:1360px) {
+            max-width: 100%;
+        }
+
+    }
+
 }
