@@ -223,8 +223,33 @@ body {
   font-family: Manrope;
   background-color: #FFF;
   color: #383027;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-animation: loadPage 0.1s ease forwards 0.4s;
+          animation: loadPage 0.1s ease forwards 0.4s;
 }
 
+@-webkit-keyframes loadPage {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes loadPage {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
 .wrapper {
   overflow: hidden;
 }
@@ -5433,7 +5458,7 @@ body {
 }
 @media (min-width: 1360px) {
   .feedback__contact-form {
-    background-image: url("../img/bg/feedback-bg-1920.png");
+    background-image: url("../img/bg/feedback-bg-1920.jpg");
   }
 }
 
