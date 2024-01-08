@@ -1,0 +1,57 @@
+.feedback {
+    margin-bottom: 25.067vw;
+    @media(min-width:768px){
+        margin-bottom: 17.318vw;
+    }
+    @media(min-width:1360px){
+        margin-bottom: 12.708vw;
+    }
+    &__body {
+    }
+
+    &__top{
+        @media(min-width:1360px){
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 54px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 4vw;
+        letter-spacing: -0.088vw;
+        @media(min-width:768px){
+            letter-spacing: -0.066vw;
+            margin-bottom: 2.214vw;
+        }
+        @media(min-width:1360px){
+            letter-spacing: -0.034vw;
+            margin-bottom: 0;
+        }
+    }
+
+    &__text {
+        @extend %mobile-t1;
+        margin-bottom: 6.133vw;
+        @media(min-width:768px){
+            margin-bottom: 5.599vw;
+        }
+        @media(min-width:1360px){
+            max-width: 43.958vw;
+            margin-bottom: 0;
+        }
+    }
+
+    &__contact-form {
+        @media(min-width:768px){
+            background-image: url('../img/bg/feedback-bg-768.png');
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+            @media(min-width:1360px){
+                background-image: url('../img/bg/feedback-bg-1920.png');
+            }
+    }
+}

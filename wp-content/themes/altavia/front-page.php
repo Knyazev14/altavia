@@ -24,7 +24,7 @@
      <!-- Пресс-цетнр -->
      <?php get_template_part('template/press/sections/press'); ?>
      <!-- Связаться с нами -->
-     <?php get_template_part('template/forms/basis-form'); ?>
+     <?php get_template_part('template/pages/main/sections/feedback'); ?>
     <!-- Контакты -->
     <?php get_template_part('template/pages/main/sections/contacts'); ?>
 </main>
