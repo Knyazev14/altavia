@@ -11,7 +11,7 @@ require_once( dirname(__FILE__) . '/inc/admin-navbar.php');
 //Загрузка картинок в формате svg
 require_once( dirname(__FILE__) . '/inc/svg-fix.php');
 
-
+add_filter('wpcf7_form_response_output', '__return_empty_string');
 
 show_admin_bar(false);
 
