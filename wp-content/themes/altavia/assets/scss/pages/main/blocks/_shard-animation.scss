@@ -1,35 +1,253 @@
-.shard-1{
+.shard-1 {
     top: 0;
-    left: 0;
-    // width: calc($index * 10.7364);
-    // height: calc($index * 33.6299);
-  
+    left: -238.999px;
+    width: 387px;
+    height: 385.999px;
+    z-index: 3;
+    @extend %shard-anime;
+    @media(min-width:768px){
+        width: 538px;
+        height: 687px;
+        top: -213px;
+        left: -295.999px;
+    }
 }
-.shard-2{
-    top: 0;
-    left: 12%;
-    // width: calc($index * 29.2812779);
-    // height: calc($index * 49.9556349);
+
+.shard-2 {
+    top: -52.999px;
+    left: 39px;
+    width: 331.999px;
+    height: 622.001px;
+    @extend %shard-anime-2;
+    z-index: 3;
+    @media(min-width:768px){
+     width: 525px;
+     height: 971px;
+     top: -213.999px;
+     left: 124px;
+    }
 }
-.shard-3{
-    top: 0;
-    right: 0;
-    // width: calc($index * 22.62649);
-    // height: calc($index * 21.829);
+
+.shard-3 {
+    top: -357px;
+    right: -124.999px;
+    width: 349.999px;
+    height: 660px;
+    @extend %shard-anime-3;
+    z-index: 1;
+    @media(min-width:768px){
+      width: 545px;
+      height: 1029px;
+      top: -765px;
+      right: -16.999px;
+       }
 }
-.shard-4{
-    top: 28%;
-    left: 0;
+
+.shard-4 {
+    top: 216px;
+    left: -370.001px;
+    width: 565.001px;
+    height: 540px;
+    @extend %shard-anime-4;
+    @media(min-width:768px){
+        width: 882px;
+        height: 843px;
+        top: 184px;
+    left: -557.001px;
+          }
 }
-.shard-5{
-    top: -8%;
-    right: 0;
+
+.shard-5 {
+    bottom: -100.001px;
+    right: -256.999px;
+    width: 796.999px;
+    height: 376.001px;
+    @extend %shard-anime-5;
+    z-index: 2;
+    @media(min-width:768px){
+       width: 1242px;
+       height: 587px;
+       bottom: -234.001px;
+    right: -235.999px;
+          }
 }
-.shard-6{
-    bottom: 0;
-    left: 0;
+
+.shard-6 {
+    bottom: 190.999px;
+    right: -556.001px;
+    width: 601.999px;
+    height: 976.999px;
+    @extend %shard-anime-6;
+    @media(min-width:768px){
+       width: 940px;
+       height: 1524px;
+       bottom: 187.999px;
+       right: -754.001px;
+         }
 }
-.shard-7{
-    top: 11%;
-    right: 0;
+
+.shard-7 {
+    right: -553.999px;
+    width: 603px;
+    height: 610.001px;
+    bottom: 6px;
+    @extend %shard-anime-7;
+    @media(min-width:768px){
+       width: 939px;
+       height: 950px;
+       right: -751.999px;
+       bottom: -99px;
+           }
+}
+
+
+%shard-anime {
+    animation: shard-1 .7s ease forwards .9s;
+    @media(min-width:768px){
+        animation: shard-1-768 .7s ease forwards .9s;
+    }
+}
+
+%shard-anime-2 {
+    animation: shard-2 1s ease forwards .9s;
+    @media(min-width:768px){
+        animation: shard-2-768 1s ease forwards .9s;
+    }
+}
+
+%shard-anime-3 {
+    animation: shard-3 .8s ease forwards .9s;
+    @media(min-width:768px){
+        animation: shard-3-768 .8s ease forwards .9s;
+    }
+}
+
+%shard-anime-4 {
+    animation: shard-4 .8s ease forwards .9s;
+}
+%shard-anime-5 {
+    animation: shard-5 .8s ease forwards .9s;
+}
+%shard-anime-6 {
+    animation: shard-6 .8s ease forwards .9s;
+}
+%shard-anime-7 {
+    animation: shard-7 .8s ease forwards .9s;
+}
+
+//-----------
+
+
+
+@keyframes shard-1 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(0, 120%) rotate(75deg);
+    }
+}
+@keyframes shard-1-768 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(0, 105%) rotate(83deg);
+    }
+}
+
+
+
+
+
+@keyframes shard-2 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(0, 95%) rotate(45deg);
+    }
+}
+@keyframes shard-2-768 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-12%, 76%) rotate(-74deg);
+    }
+}
+
+
+
+
+@keyframes shard-3 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-10%, 110%) rotate(76deg);
+    }
+}
+@keyframes shard-3-768 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(16%, 120%) rotate(95deg);
+    }
+}
+
+
+
+@keyframes shard-4 {
+    from {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        top: auto;
+        left: -412.999px;
+        bottom: -271.999px;
+        transform: rotate(19deg);
+    }
+}
+
+@keyframes shard-5 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-5%, 32%) rotate(18deg);
+    }
+}
+@keyframes shard-6 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-7%, 74%) rotate(34deg);
+    }
+}
+@keyframes shard-7 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(4%, 14%) rotate(4deg);
+        z-index: 1;
+    }
 }
