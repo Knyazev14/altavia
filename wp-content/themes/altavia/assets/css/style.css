@@ -3497,6 +3497,10 @@ body {
     margin-bottom: 4.729vw;
   }
 }
+.hero-main .button-normal {
+  -webkit-animation: show-btn 0.7s ease forwards 1.5s;
+          animation: show-btn 0.7s ease forwards 1.5s;
+}
 @media (min-width: 1360px) {
   .hero-main .button-normal {
     max-width: 28.802vw;
@@ -3931,143 +3935,231 @@ body {
 
 .shard-1 {
   top: 0;
-  left: -238.999px;
-  width: 387px;
-  height: 385.999px;
+  left: -63.733vw;
+  width: 103.2vw;
+  height: 102.933vw;
   z-index: 3;
 }
 @media (min-width: 768px) {
   .shard-1 {
-    width: 538px;
-    height: 687px;
-    top: -213px;
-    left: -295.999px;
+    width: 70.052vw;
+    height: 89.453vw;
+    top: -27.734vw;
+    left: -38.542vw;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-1 {
+    width: 31.25vw;
+    height: 39.948vw;
+    top: -23.958vw;
+    left: -4.896vw;
   }
 }
 
 .shard-2 {
-  top: -52.999px;
-  left: 39px;
-  width: 331.999px;
-  height: 622.001px;
+  top: -14.133vw;
+  left: 10.4vw;
+  width: 88.533vw;
+  height: 165.867vw;
   z-index: 3;
 }
 @media (min-width: 768px) {
   .shard-2 {
-    width: 525px;
-    height: 971px;
-    top: -213.999px;
-    left: 124px;
+    width: 68.359vw;
+    height: 126.432vw;
+    top: -27.864vw;
+    left: 16.146vw;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-2 {
+    top: -23.854vw;
+    left: 19.323vw;
+    width: 30.729vw;
+    height: 56.458vw;
   }
 }
 
 .shard-3 {
-  top: -357px;
-  right: -124.999px;
-  width: 349.999px;
-  height: 660px;
+  top: -95.2vw;
+  right: -33.333vw;
+  width: 93.333vw;
+  height: 176vw;
   z-index: 1;
 }
 @media (min-width: 768px) {
   .shard-3 {
-    width: 545px;
-    height: 1029px;
-    top: -765px;
-    right: -16.999px;
+    width: 70.964vw;
+    height: 133.984vw;
+    top: -99.609vw;
+    right: -2.213vw;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-3 {
+    width: 31.771vw;
+    height: 59.896vw;
+    left: 27.917vw;
+    top: -53.802vw;
   }
 }
 
 .shard-4 {
-  top: 216px;
-  left: -370.001px;
-  width: 565.001px;
-  height: 540px;
+  top: 57.6vw;
+  left: -98.667vw;
+  width: 150.667vw;
+  height: 144vw;
 }
 @media (min-width: 768px) {
   .shard-4 {
-    width: 882px;
-    height: 843px;
-    top: 184px;
-    left: -557.001px;
+    width: 114.844vw;
+    height: 109.766vw;
+    top: 23.958vw;
+    left: -72.526vw;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-4 {
+    width: 51.354vw;
+    height: 49.063vw;
+    top: 0.156vw;
+    left: -18.75vw;
   }
 }
 
 .shard-5 {
-  bottom: -100.001px;
-  right: -256.999px;
-  width: 796.999px;
-  height: 376.001px;
+  bottom: -26.667vw;
+  right: -68.533vw;
+  width: 212.533vw;
+  height: 100.267vw;
   z-index: 2;
 }
 @media (min-width: 768px) {
   .shard-5 {
-    width: 1242px;
-    height: 587px;
-    bottom: -234.001px;
-    right: -235.999px;
+    width: 161.719vw;
+    height: 76.432vw;
+    bottom: -30.469vw;
+    right: -30.729vw;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-5 {
+    width: 76.563vw;
+    height: 35.209vw;
+    bottom: -9.375vw;
+    right: 25.053vw;
   }
 }
 
 .shard-6 {
-  bottom: 190.999px;
-  right: -556.001px;
-  width: 601.999px;
-  height: 976.999px;
+  bottom: 50.933vw;
+  right: -148.267vw;
+  width: 160.533vw;
+  height: 260.533vw;
 }
 @media (min-width: 768px) {
   .shard-6 {
-    width: 940px;
-    height: 1524px;
-    bottom: 187.999px;
-    right: -754.001px;
+    width: 122.396vw;
+    height: 198.438vw;
+    bottom: 24.479vw;
+    right: -98.177vw;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-6 {
+    width: 54.635vw;
+    height: 88.75vw;
+    top: -56.094vw;
+    left: 46.042vw;
   }
 }
 
 .shard-7 {
-  right: -553.999px;
-  width: 603px;
-  height: 610.001px;
-  bottom: 6px;
+  right: -147.733vw;
+  width: 160.8vw;
+  height: 162.667vw;
+  bottom: 1.6vw;
 }
 @media (min-width: 768px) {
   .shard-7 {
-    width: 939px;
-    height: 950px;
-    right: -751.999px;
-    bottom: -99px;
+    width: 122.266vw;
+    height: 123.698vw;
+    right: -97.917vw;
+    bottom: -12.891vw;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-7 {
+    width: 54.688vw;
+    height: 55.313vw;
+    bottom: 0;
+    right: auto;
+    left: 45.99vw;
+  }
+}
+
+.shard-8 {
+  display: none;
+}
+@media (min-width: 1360px) {
+  .shard-8 {
+    display: block;
+    top: -3.333vw;
+    right: -44.167vw;
+    width: 72.708vw;
+    height: 90.677vw;
   }
 }
 
 .shard-1 {
-  -webkit-animation: shard-1 0.7s ease forwards 0.9s;
-          animation: shard-1 0.7s ease forwards 0.9s;
+  -webkit-animation: shard-1 0.7s ease-in-out forwards 0.9s;
+          animation: shard-1 0.7s ease-in-out forwards 0.9s;
 }
 @media (min-width: 768px) {
   .shard-1 {
-    -webkit-animation: shard-1-768 0.7s ease forwards 0.9s;
-            animation: shard-1-768 0.7s ease forwards 0.9s;
+    -webkit-animation: shard-1-768 0.7s ease-in-out forwards 0.9s;
+            animation: shard-1-768 0.7s ease-in-out forwards 0.9s;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-1 {
+    -webkit-animation: shard-1-1360 0.7s ease-in-out forwards 0.9s;
+            animation: shard-1-1360 0.7s ease-in-out forwards 0.9s;
   }
 }
 
 .shard-2 {
-  -webkit-animation: shard-2 1s ease forwards 0.9s;
-          animation: shard-2 1s ease forwards 0.9s;
+  -webkit-animation: shard-2 1s ease-in-out forwards 0.9s;
+          animation: shard-2 1s ease-in-out forwards 0.9s;
 }
 @media (min-width: 768px) {
   .shard-2 {
-    -webkit-animation: shard-2-768 1s ease forwards 0.9s;
-            animation: shard-2-768 1s ease forwards 0.9s;
+    -webkit-animation: shard-2-768 1s ease-in-out forwards 0.9s;
+            animation: shard-2-768 1s ease-in-out forwards 0.9s;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-2 {
+    -webkit-animation: shard-2-1360 1s ease-in-out forwards 0.9s;
+            animation: shard-2-1360 1s ease-in-out forwards 0.9s;
   }
 }
 
 .shard-3 {
-  -webkit-animation: shard-3 0.8s ease forwards 0.9s;
-          animation: shard-3 0.8s ease forwards 0.9s;
+  -webkit-animation: shard-3 0.8s ease-in-out forwards 0.9s;
+          animation: shard-3 0.8s ease-in-out forwards 0.9s;
 }
 @media (min-width: 768px) {
   .shard-3 {
-    -webkit-animation: shard-3-768 0.8s ease forwards 0.9s;
-            animation: shard-3-768 0.8s ease forwards 0.9s;
+    -webkit-animation: shard-3-768 0.8s ease-in-out forwards 0.9s;
+            animation: shard-3-768 0.8s ease-in-out forwards 0.9s;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-3 {
+    -webkit-animation: shard-3-1360 0.8s ease-in-out forwards 0.9s;
+            animation: shard-3-1360 0.8s ease-in-out forwards 0.9s;
   }
 }
 
@@ -4075,20 +4167,77 @@ body {
   -webkit-animation: shard-4 0.8s ease forwards 0.9s;
           animation: shard-4 0.8s ease forwards 0.9s;
 }
+@media (min-width: 768px) {
+  .shard-4 {
+    z-index: 1;
+    -webkit-animation: shard-4-768 0.8s ease forwards 0.9s;
+            animation: shard-4-768 0.8s ease forwards 0.9s;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-4 {
+    z-index: 1;
+    -webkit-animation: shard-4-1360 0.8s ease forwards 0.9s;
+            animation: shard-4-1360 0.8s ease forwards 0.9s;
+  }
+}
 
 .shard-5 {
   -webkit-animation: shard-5 0.8s ease forwards 0.9s;
           animation: shard-5 0.8s ease forwards 0.9s;
+}
+@media (min-width: 768px) {
+  .shard-5 {
+    -webkit-animation: shard-5-768 0.8s ease forwards 0.9s;
+            animation: shard-5-768 0.8s ease forwards 0.9s;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-5 {
+    -webkit-animation: shard-5-1360 0.8s ease forwards 0.9s;
+            animation: shard-5-1360 0.8s ease forwards 0.9s;
+  }
 }
 
 .shard-6 {
   -webkit-animation: shard-6 0.8s ease forwards 0.9s;
           animation: shard-6 0.8s ease forwards 0.9s;
 }
+@media (min-width: 768px) {
+  .shard-6 {
+    -webkit-animation: shard-6-768 0.8s ease forwards 0.9s;
+            animation: shard-6-768 0.8s ease forwards 0.9s;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-6 {
+    -webkit-animation: shard-6-1360 0.8s ease-in-out forwards 0.9s;
+            animation: shard-6-1360 0.8s ease-in-out forwards 0.9s;
+  }
+}
 
 .shard-7 {
   -webkit-animation: shard-7 0.8s ease forwards 0.9s;
           animation: shard-7 0.8s ease forwards 0.9s;
+}
+@media (min-width: 768px) {
+  .shard-7 {
+    -webkit-animation: shard-7-768 0.8s ease forwards 0.9s;
+            animation: shard-7-768 0.8s ease forwards 0.9s;
+  }
+}
+@media (min-width: 1360px) {
+  .shard-7 {
+    -webkit-animation: shard-7-1360 0.8s ease forwards 0.9s;
+            animation: shard-7-1360 0.8s ease forwards 0.9s;
+  }
+}
+
+@media (min-width: 1360px) {
+  .shard-8 {
+    -webkit-animation: shard-8-1360 0.8s ease forwards 0.9s;
+            animation: shard-8-1360 0.8s ease forwards 0.9s;
+  }
 }
 
 @-webkit-keyframes shard-1 {
@@ -4132,10 +4281,32 @@ body {
             transform: translate(0, 105%) rotate(83deg);
   }
 }
-@-webkit-keyframes shard-2 {
+@-webkit-keyframes shard-1-1360 {
   from {
     -webkit-transform: translate(0) rotate(0);
             transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-41%, 149%) rotate(26deg);
+            transform: translate(-41%, 149%) rotate(26deg);
+    z-index: 4;
+  }
+}
+@keyframes shard-1-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-41%, 149%) rotate(26deg);
+            transform: translate(-41%, 149%) rotate(26deg);
+    z-index: 4;
+  }
+}
+@-webkit-keyframes shard-2 {
+  from {
+    -webkit-transform: translate(0) rotate(-120deg);
+            transform: translate(0) rotate(-120deg);
   }
   to {
     -webkit-transform: translate(0, 95%) rotate(45deg);
@@ -4144,8 +4315,8 @@ body {
 }
 @keyframes shard-2 {
   from {
-    -webkit-transform: translate(0) rotate(0);
-            transform: translate(0) rotate(0);
+    -webkit-transform: translate(0) rotate(-120deg);
+            transform: translate(0) rotate(-120deg);
   }
   to {
     -webkit-transform: translate(0, 95%) rotate(45deg);
@@ -4170,6 +4341,28 @@ body {
   to {
     -webkit-transform: translate(-12%, 76%) rotate(-74deg);
             transform: translate(-12%, 76%) rotate(-74deg);
+  }
+}
+@-webkit-keyframes shard-2-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-12%, 84%) rotate(87deg);
+            transform: translate(-12%, 84%) rotate(87deg);
+    z-index: 2;
+  }
+}
+@keyframes shard-2-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-12%, 84%) rotate(87deg);
+            transform: translate(-12%, 84%) rotate(87deg);
+    z-index: 2;
   }
 }
 @-webkit-keyframes shard-3 {
@@ -4198,8 +4391,8 @@ body {
             transform: translate(0) rotate(0);
   }
   to {
-    -webkit-transform: translate(16%, 120%) rotate(95deg);
-            transform: translate(16%, 120%) rotate(95deg);
+    -webkit-transform: translate(-14%, 137%) rotate(-76deg);
+            transform: translate(-14%, 137%) rotate(-76deg);
   }
 }
 @keyframes shard-3-768 {
@@ -4208,8 +4401,30 @@ body {
             transform: translate(0) rotate(0);
   }
   to {
-    -webkit-transform: translate(16%, 120%) rotate(95deg);
-            transform: translate(16%, 120%) rotate(95deg);
+    -webkit-transform: translate(-14%, 137%) rotate(-76deg);
+            transform: translate(-14%, 137%) rotate(-76deg);
+  }
+}
+@-webkit-keyframes shard-3-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-14%, 137%) rotate(-76deg);
+            transform: translate(-14%, 137%) rotate(-76deg);
+    z-index: 3;
+  }
+}
+@keyframes shard-3-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-14%, 137%) rotate(-76deg);
+            transform: translate(-14%, 137%) rotate(-76deg);
+    z-index: 3;
   }
 }
 @-webkit-keyframes shard-4 {
@@ -4222,8 +4437,8 @@ body {
   to {
     opacity: 1;
     top: auto;
-    left: -412.999px;
-    bottom: -271.999px;
+    left: -110.133vw;
+    bottom: -72.533vw;
     -webkit-transform: rotate(19deg);
             transform: rotate(19deg);
   }
@@ -4238,10 +4453,52 @@ body {
   to {
     opacity: 1;
     top: auto;
-    left: -412.999px;
-    bottom: -271.999px;
+    left: -110.133vw;
+    bottom: -72.533vw;
     -webkit-transform: rotate(19deg);
             transform: rotate(19deg);
+  }
+}
+@-webkit-keyframes shard-4-768 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(15%, 67%) rotate(40deg);
+            transform: translate(15%, 67%) rotate(40deg);
+    opacity: 0.7;
+  }
+}
+@keyframes shard-4-768 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(15%, 67%) rotate(40deg);
+            transform: translate(15%, 67%) rotate(40deg);
+    opacity: 0.7;
+  }
+}
+@-webkit-keyframes shard-4-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-30%, 61%) rotate(-43deg);
+            transform: translate(-30%, 61%) rotate(-43deg);
+  }
+}
+@keyframes shard-4-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-30%, 61%) rotate(-43deg);
+            transform: translate(-30%, 61%) rotate(-43deg);
   }
 }
 @-webkit-keyframes shard-5 {
@@ -4264,6 +4521,48 @@ body {
             transform: translate(-5%, 32%) rotate(18deg);
   }
 }
+@-webkit-keyframes shard-5-768 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-5%, 36%) rotate(18deg);
+            transform: translate(-5%, 36%) rotate(18deg);
+  }
+}
+@keyframes shard-5-768 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-5%, 36%) rotate(18deg);
+            transform: translate(-5%, 36%) rotate(18deg);
+  }
+}
+@-webkit-keyframes shard-5-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-6%, 51%) rotate(-43deg);
+            transform: translate(-6%, 51%) rotate(-43deg);
+    z-index: 2;
+  }
+}
+@keyframes shard-5-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(-6%, 51%) rotate(-43deg);
+            transform: translate(-6%, 51%) rotate(-43deg);
+    z-index: 2;
+  }
+}
 @-webkit-keyframes shard-6 {
   from {
     -webkit-transform: translate(0) rotate(0);
@@ -4282,6 +4581,46 @@ body {
   to {
     -webkit-transform: translate(-7%, 74%) rotate(34deg);
             transform: translate(-7%, 74%) rotate(34deg);
+  }
+}
+@-webkit-keyframes shard-6-768 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(1%, 74%) rotate(71deg);
+            transform: translate(1%, 74%) rotate(71deg);
+  }
+}
+@keyframes shard-6-768 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(1%, 74%) rotate(71deg);
+            transform: translate(1%, 74%) rotate(71deg);
+  }
+}
+@-webkit-keyframes shard-6-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(11%, 80%) rotate(-98deg);
+            transform: translate(11%, 80%) rotate(-98deg);
+  }
+}
+@keyframes shard-6-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(11%, 80%) rotate(-98deg);
+            transform: translate(11%, 80%) rotate(-98deg);
   }
 }
 @-webkit-keyframes shard-7 {
@@ -4304,6 +4643,88 @@ body {
     -webkit-transform: translate(4%, 14%) rotate(4deg);
             transform: translate(4%, 14%) rotate(4deg);
     z-index: 1;
+  }
+}
+@-webkit-keyframes shard-7-768 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(4%, 37%) rotate(32deg);
+            transform: translate(4%, 37%) rotate(32deg);
+    z-index: 1;
+  }
+}
+@keyframes shard-7-768 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(4%, 37%) rotate(32deg);
+            transform: translate(4%, 37%) rotate(32deg);
+    z-index: 1;
+  }
+}
+@-webkit-keyframes shard-7-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(4%, 50%) rotate(50deg);
+            transform: translate(4%, 50%) rotate(50deg);
+    z-index: 1;
+  }
+}
+@keyframes shard-7-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(4%, 50%) rotate(50deg);
+            transform: translate(4%, 50%) rotate(50deg);
+    z-index: 1;
+  }
+}
+@-webkit-keyframes shard-8-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(0, 25%) rotate(23deg);
+            transform: translate(0, 25%) rotate(23deg);
+    z-index: 1;
+  }
+}
+@keyframes shard-8-1360 {
+  from {
+    -webkit-transform: translate(0) rotate(0);
+            transform: translate(0) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(0, 25%) rotate(23deg);
+            transform: translate(0, 25%) rotate(23deg);
+    z-index: 1;
+  }
+}
+@-webkit-keyframes show-btn {
+  from {
+    z-index: 0;
+  }
+  to {
+    z-index: 10;
+  }
+}
+@keyframes show-btn {
+  from {
+    z-index: 0;
+  }
+  to {
+    z-index: 10;
   }
 }
 .ruby {
