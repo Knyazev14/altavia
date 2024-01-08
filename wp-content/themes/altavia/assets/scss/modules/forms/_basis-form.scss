@@ -1,20 +1,40 @@
 .basis-form {
-    @media(min-width:1360px){
-        width: 44.01vw;
-        height: 34.688vw;
-    }
-   
+    display: flex;
+    justify-content: center;
     &__wrapper {
         padding: 6.667vw 4vw;
         background: rgba(247, 247, 247, 0.90);
-        backdrop-filter: blur(7.5px);
         @media(min-width:768px){
             padding: 9.115vw 3.906vw;
+            width: 92.188vw;
+            height: 86.719vw;
+            backdrop-filter: blur(3.5px);
         }
         @media(min-width:1360px){
             padding: 3.333vw 1.563vw;
+            width: 44.01vw;
+            height: 34.688vw;
         }
     }
+//Стилизация обертки формы получить консультацию
+    &__wrap {
+        padding: 40px 15px;
+        background: linear-gradient(to bottom left, #F7F7F7 48%, #EBF2F1 52%);
+        backdrop-filter: blur(3.5px);
+        height: 580px;
+        @media(min-width:768px){
+            padding: 9.115vw 3.906vw;
+            width: 708px;
+            height: 690px;
+        }
+        @media(min-width:1360px){
+            padding: 3.333vw 1.563vw;
+            width: 845px;
+            height: 684px;
+        }
+    }
+
+
 }
 .form {
 display: flex;
@@ -36,7 +56,7 @@ gap: 1.51vw;
         width: 100%;
         border-radius: 0.533vw;
         border: 0.267vw solid $netural-80;
-        background: rgba(247, 247, 247, 0.90);
+        background: transparent;
         color: $colorGreen;
         @media(min-width:768px){
             font-size: 2.344vw;
@@ -106,6 +126,31 @@ gap: 1.51vw;
             }
         }
 
+        &__item-email::after{
+            position: absolute;
+            content: '';
+            background-image: url('../img/icon/form-error.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 4.8vw;
+            height: 4.8vw;
+            top: 3.733vw;
+            right: 4vw;
+            z-index: 1;
+            @media(min-width:768px){
+                width: 2.344vw;
+                height: 2.344vw;
+                top: 3.385vw;
+                right: 2.344vw;
+            }
+            @media(min-width:1360px){
+                width: 0.938vw;
+                height: 0.938vw;
+                top: 1.354vw;
+                right: 0.938vw;
+            }
+        }
+
     &__item-textarea {
         position: relative;
         margin-bottom: -2.133vw;
@@ -151,7 +196,7 @@ gap: 1.51vw;
         border-radius: 0.533vw;
         border: 0.267vw solid $netural-80;
         color: $colorGreen;
-        background: rgba(247, 247, 247, 0.90);
+        background: transparent;
         @media(min-width:768px){
             font-size: 2.344vw;
             height: 24.74vw;
@@ -236,6 +281,8 @@ gap: 1.51vw;
             font-size: 0.729vw;
         }
     }
+
+    
     //---------------------------
     
     & .wpcf7-form-control-wrap{
@@ -293,7 +340,7 @@ gap: 1.51vw;
         }
         @media(min-width:1360px){
             top: 0.729vw;
-            left: 0.417vw;
+            left: 0.417vw;        
             width: 0.521vw;
             height: 0.521vw;
             border-radius: 0.052vw;
@@ -372,6 +419,58 @@ gap: 1.51vw;
     & .wpcf7-spinner{
         display: none;
     }
+
     }
+    
+    //Стилизация формы Получить консультацию
+
+    &__item-tel{
+        position: relative;
+    }
+
+    &__item-tel .form__input{
+        padding-left: 12vw;
+        @media(min-width:768px){
+            padding: 2.734vw 1.302vw 2.734vw 7.422vw;
+        }
+        @media(min-width:1360px){
+            padding: 1.094vw 0.521vw 1.094vw 2.969vw;
+        }
+    }
+
+    &__item-tel::before{
+            position: absolute;
+            content: "";
+            background-image: url('../img/icon/phone.svg');
+            width: 5.333vw;
+            height: 5.333vw;
+            background-repeat: no-repeat;
+            background-size: contain;
+            top: 3.733vw;
+            left: 4vw;
+            z-index: 1;
+            @media(min-width: 768px){
+                top: 3.646vw;
+                left: 2.604vw;
+                width: 3.125vw;
+                height: 3.125vw;
+            }
+            @media(min-width:1360px){
+                top: 1.458vw;
+                left: 1.042vw;
+                width: 1.25vw;
+                height: 1.25vw;
+            }
+        }
+
+    &__title{
+        margin-bottom: 0;
+    }
+
+    &__text{
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
 
 }

@@ -172,17 +172,17 @@ a {
   }
 }
 
-.victories__text, .personnel__text, .services__text, .project-office__desc, .hero-main__bottom p, .press__text {
+.victories__text, .personnel__text, .services__text, .feedback__text, .project-office__desc, .hero-main__bottom p, .press__text {
   font-size: 4.8vw;
   line-height: 145%;
 }
 @media (min-width: 768px) {
-  .victories__text, .personnel__text, .services__text, .project-office__desc, .hero-main__bottom p, .press__text {
+  .victories__text, .personnel__text, .services__text, .feedback__text, .project-office__desc, .hero-main__bottom p, .press__text {
     font-size: 2.865vw;
   }
 }
 @media (min-width: 1360px) {
-  .victories__text, .personnel__text, .services__text, .project-office__desc, .hero-main__bottom p, .press__text {
+  .victories__text, .personnel__text, .services__text, .feedback__text, .project-office__desc, .hero-main__bottom p, .press__text {
     font-size: 1.25vw;
   }
 }
@@ -2068,9 +2068,11 @@ body {
     margin-bottom: 13.021vw;
   }
 }
+.press__link {
+  width: 100%;
+}
 @media (min-width: 1360px) {
   .press__link {
-    width: 100%;
     display: block;
     max-width: 28.802vw;
   }
@@ -2875,26 +2877,54 @@ body {
   stroke: #B3B3B3;
 }
 
-@media (min-width: 1360px) {
-  .basis-form {
-    width: 44.01vw;
-    height: 34.688vw;
-  }
+.basis-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .basis-form__wrapper {
   padding: 6.667vw 4vw;
   background: rgba(247, 247, 247, 0.9);
-  -webkit-backdrop-filter: blur(7.5px);
-          backdrop-filter: blur(7.5px);
 }
 @media (min-width: 768px) {
   .basis-form__wrapper {
     padding: 9.115vw 3.906vw;
+    width: 92.188vw;
+    height: 86.719vw;
+    -webkit-backdrop-filter: blur(3.5px);
+            backdrop-filter: blur(3.5px);
   }
 }
 @media (min-width: 1360px) {
   .basis-form__wrapper {
     padding: 3.333vw 1.563vw;
+    width: 44.01vw;
+    height: 34.688vw;
+  }
+}
+.basis-form__wrap {
+  padding: 40px 15px;
+  background: -webkit-gradient(linear, right top, left bottom, color-stop(48%, #F7F7F7), color-stop(52%, #EBF2F1));
+  background: linear-gradient(to bottom left, #F7F7F7 48%, #EBF2F1 52%);
+  -webkit-backdrop-filter: blur(3.5px);
+          backdrop-filter: blur(3.5px);
+  height: 580px;
+}
+@media (min-width: 768px) {
+  .basis-form__wrap {
+    padding: 9.115vw 3.906vw;
+    width: 708px;
+    height: 690px;
+  }
+}
+@media (min-width: 1360px) {
+  .basis-form__wrap {
+    padding: 3.333vw 1.563vw;
+    width: 845px;
+    height: 684px;
   }
 }
 
@@ -2925,7 +2955,7 @@ body {
   width: 100%;
   border-radius: 0.533vw;
   border: 0.267vw solid #CCC;
-  background: rgba(247, 247, 247, 0.9);
+  background: transparent;
   color: #446467;
 }
 @media (min-width: 768px) {
@@ -3016,6 +3046,34 @@ body {
     height: 1.25vw;
   }
 }
+.form__item-email::after {
+  position: absolute;
+  content: "";
+  background-image: url("../img/icon/form-error.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 4.8vw;
+  height: 4.8vw;
+  top: 3.733vw;
+  right: 4vw;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .form__item-email::after {
+    width: 2.344vw;
+    height: 2.344vw;
+    top: 3.385vw;
+    right: 2.344vw;
+  }
+}
+@media (min-width: 1360px) {
+  .form__item-email::after {
+    width: 0.938vw;
+    height: 0.938vw;
+    top: 1.354vw;
+    right: 0.938vw;
+  }
+}
 .form__item-textarea {
   position: relative;
   margin-bottom: -2.133vw;
@@ -3067,7 +3125,7 @@ body {
   border-radius: 0.533vw;
   border: 0.267vw solid #CCC;
   color: #446467;
-  background: rgba(247, 247, 247, 0.9);
+  background: transparent;
 }
 @media (min-width: 768px) {
   .form__textarea {
@@ -3305,6 +3363,57 @@ body {
 }
 .form__checkbox-button .wpcf7-spinner {
   display: none;
+}
+.form__item-tel {
+  position: relative;
+}
+.form__item-tel .form__input {
+  padding-left: 12vw;
+}
+@media (min-width: 768px) {
+  .form__item-tel .form__input {
+    padding: 2.734vw 1.302vw 2.734vw 7.422vw;
+  }
+}
+@media (min-width: 1360px) {
+  .form__item-tel .form__input {
+    padding: 1.094vw 0.521vw 1.094vw 2.969vw;
+  }
+}
+.form__item-tel::before {
+  position: absolute;
+  content: "";
+  background-image: url("../img/icon/phone.svg");
+  width: 5.333vw;
+  height: 5.333vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 3.733vw;
+  left: 4vw;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .form__item-tel::before {
+    top: 3.646vw;
+    left: 2.604vw;
+    width: 3.125vw;
+    height: 3.125vw;
+  }
+}
+@media (min-width: 1360px) {
+  .form__item-tel::before {
+    top: 1.458vw;
+    left: 1.042vw;
+    width: 1.25vw;
+    height: 1.25vw;
+  }
+}
+.form__title {
+  margin-bottom: 0;
+}
+.form__text {
+  max-width: 300px;
+  margin-bottom: 20px;
 }
 
 .hero-main {
@@ -4494,6 +4603,75 @@ body {
 
 .hidden-card {
   display: none !important;
+}
+
+.feedback {
+  margin-bottom: 25.067vw;
+}
+@media (min-width: 768px) {
+  .feedback {
+    margin-bottom: 17.318vw;
+  }
+}
+@media (min-width: 1360px) {
+  .feedback {
+    margin-bottom: 12.708vw;
+  }
+}
+@media (min-width: 1360px) {
+  .feedback__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 54px;
+  }
+}
+.feedback__title {
+  margin-bottom: 4vw;
+  letter-spacing: -0.088vw;
+}
+@media (min-width: 768px) {
+  .feedback__title {
+    letter-spacing: -0.066vw;
+    margin-bottom: 2.214vw;
+  }
+}
+@media (min-width: 1360px) {
+  .feedback__title {
+    letter-spacing: -0.034vw;
+    margin-bottom: 0;
+  }
+}
+.feedback__text {
+  margin-bottom: 6.133vw;
+}
+@media (min-width: 768px) {
+  .feedback__text {
+    margin-bottom: 5.599vw;
+  }
+}
+@media (min-width: 1360px) {
+  .feedback__text {
+    max-width: 43.958vw;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .feedback__contact-form {
+    background-image: url("../img/bg/feedback-bg-768.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 1360px) {
+  .feedback__contact-form {
+    background-image: url("../img/bg/feedback-bg-1920.png");
+  }
 }
 
 .services {
