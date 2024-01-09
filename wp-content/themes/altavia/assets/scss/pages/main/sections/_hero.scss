@@ -1,16 +1,16 @@
 .hero-main {
-    min-height: 200.533vw;
+    min-height: 199.533vw;
     background-color: #FCFAFA;
     overflow: hidden;
     position: relative;
     margin-bottom: 25.067vw;
     @media(min-width:768px) {
-        min-height: 122.917vw;
+        min-height: 120.917vw;
         margin-bottom: 18.75vw;
         background: #d9d9d911;
     }
     @media(min-width:1360px) {
-        min-height: 48.438vw;
+        min-height: 46.438vw;
         margin-bottom: 10.5vw;
         
     }
@@ -22,7 +22,7 @@
             padding-top: 9.245vw;
         }
         @media(min-width:1360px){
-            padding-bottom: 19.792vw;
+            padding-bottom: 19.492vw;
             padding-top: 4.271vw;
         }
     }
@@ -30,6 +30,7 @@
     &__shard {
         position: absolute;
         z-index: 20;
+        pointer-events: none;
     }
 
     &__title {}

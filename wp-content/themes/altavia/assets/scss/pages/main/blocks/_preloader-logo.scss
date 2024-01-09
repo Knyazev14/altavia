@@ -1,0 +1,194 @@
+.preloader-logo {
+    position: absolute;
+    top: 70.933vw;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 20;
+    gap: 3.2vw;
+    @media(min-width:768px){
+       top: 44.922vw;
+       gap: 3.385vw;
+    }
+    @media(min-width:1360px){
+       top: 15.365vw;
+       gap: 3.385vw;
+    }
+    &__img {
+
+    }
+
+    &__img-1 {
+        width: 12.533vw;
+        height: 13.333vw;
+        animation: letter-1 .7s forwards ease 1.2s;
+        @media(min-width:768px){
+            width: 12.5vw;
+            height: 13.281vw;
+        }
+        @media(min-width:1360px){
+          width: 10.156vw;
+          height: 10.729vw;
+        }
+    }
+    &__img-2 {
+        width: 9.333vw;
+        height: 13.333vw;
+        animation: letter-2 .7s forwards ease 1.2s;
+        @media(min-width:768px){
+            width: 9.505vw;
+            height: 13.281vw;
+        }
+        @media(min-width:1360px){
+            width: 7.656vw;
+            height: 10.729vw;
+          }
+    }
+    &__img-3 {
+        width: 10.133vw;
+        height: 13.333vw;
+        animation: letter-3 .7s forwards ease 1.2s;
+        @media(min-width:768px){
+            width: 10.156vw;
+            height: 13.281vw;
+        }
+        @media(min-width:1360px){
+            width: 8.229vw;
+            height: 10.729vw;
+          }
+    }
+    &__img-4 {
+        width: 10.933vw;
+        height: 13.333vw;
+        animation: letter-4 .7s forwards ease 1.2s;
+        @media(min-width:768px){
+            width: 11.198vw;
+            height: 13.281vw;
+        }
+        @media(min-width:1360px){
+            width: 9.01vw;
+            height: 10.729vw;
+          }
+    }
+    &__img-5 {
+        width: 10.933vw;
+        height: 13.333vw;
+        animation: letter-5 .7s forwards ease 1.2s;
+        @media(min-width:768px){
+            width: 11.198vw;
+            height: 13.281vw;
+        }
+        @media(min-width:1360px){
+            width: 9.01vw;
+            height: 10.729vw;
+          }
+    }
+    &__img-6 {
+        width: 8.267vw;
+        height: 13.333vw;
+        animation: letter-6 .7s forwards ease 1.2s;
+        @media(min-width:768px){
+            width: 8.333vw;
+            height: 13.281vw;
+        }
+        @media(min-width:1360px){
+            width: 6.615vw;
+            height: 10.729vw;
+          }
+    }
+    &__img-7 {
+        width: 10.933vw;
+        height: 13.333vw;
+        animation: letter-7 .7s forwards ease 1.2s;
+        @media(min-width:768px){
+            width: 11.198vw;
+            height: 13.281vw;
+        }
+        @media(min-width:1360px){
+            width: 9.01vw;
+            height: 10.729vw;
+          }
+    }
+}
+
+
+@keyframes letter-1{
+    from{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    to{
+        opacity: 0;
+        transform: translate(0, 32vw);
+        visibility: hidden;
+    }
+}
+@keyframes letter-2{
+    from{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    to{
+        opacity: 0;
+        transform: translate(0, 45.333vw);
+        visibility: hidden;
+    }
+}
+@keyframes letter-3{
+    from{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    to{
+        opacity: 0;
+        transform: translate(0, 58.667vw);
+        visibility: hidden;
+    }
+}
+@keyframes letter-4{
+    from{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    to{
+        opacity: 0;
+        transform: translate(0, 72vw);
+        visibility: hidden;
+    }
+}
+@keyframes letter-5{
+    from{
+        opacity: 1;
+        transform: translate(0, 0);
+        visibility: hidden;
+    }
+    to{
+        opacity: 0;
+        transform: translate(0, 85.333vw);
+        visibility: hidden;
+    }
+}
+@keyframes letter-6{
+    from{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    to{
+        opacity: 0;
+        transform: translate(0, 98.667vw);
+        visibility: hidden;
+    }
+}
+@keyframes letter-7{
+    from{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    to{
+        opacity: 0;
+        transform: translate(0, 112vw);
+        visibility: hidden;
+    }
+}

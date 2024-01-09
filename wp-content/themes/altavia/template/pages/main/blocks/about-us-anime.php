@@ -7,7 +7,8 @@
         <img class="about-us__animation-after about-us__image" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/bg/about-us-after-mob.svg" alt="Картинка">
         <img class="about-us__animation-before-2 about-us__image" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/bg/about-us-before-1.svg" alt="Картинка">
         <img class="about-us__animation-after-2 about-us__image" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/bg/about-us-after-2.svg" alt="Картинка">
-        <img class="about-us__animation-centr about-us__image" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/bg/about-us-center.png" alt="Картинка">
+        <img class="about-us__animation-centr about-us__image" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/bg/about-us-center.svg" alt="Картинка">
+        <img class="about-us__animation-centr-2 about-us__image" loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/bg/about-us-center-2.png" alt="Картинка">
     </div>
    
 </div>

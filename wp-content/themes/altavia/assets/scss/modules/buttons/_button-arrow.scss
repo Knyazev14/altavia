@@ -9,11 +9,26 @@ border: 0.267vw solid transparent;
 transition: border 1s ease;
 @media(min-width:768px){
     border: 0.13vw solid transparent;
+    width: 5.208vw;
+    height: 5.208vw;
 }
 @media(min-width:1360px){
     border: 0.052vw solid transparent;
+    width: 1.667vw;
+    height: 1.667vw;
 }
-
+& svg{
+    width: 4.8vw;
+    height: 4.8vw;
+    @media(min-width:768px){
+        width: 2.344vw;
+        height: 2.344vw;
+    }
+    @media(min-width:1360px){
+        width: 0.938vw;
+        height: 0.938vw;
+    }
+}
     &__path{
         fill: $colorGold;
         stroke: $colorGold;
