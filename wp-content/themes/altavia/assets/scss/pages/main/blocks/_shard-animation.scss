@@ -158,76 +158,76 @@
 
 
 %shard-anime {
-    animation: shard-1 .7s ease-in-out forwards .9s;
+    animation: shard-1 .7s ease-in-out forwards 1.2s;
     @media(min-width:768px){
-        animation: shard-1-768 .7s ease-in-out forwards .9s;
+        animation: shard-1-768 .7s ease-in-out forwards 1.2s;
     }
     @media(min-width:1360px){
-        animation: shard-1-1360 .7s ease-in-out forwards .9s;
+        animation: shard-1-1360 .7s ease-in-out forwards 1.2s;
     }
 }
 
 %shard-anime-2 {
-    animation: shard-2 1s ease-in-out forwards .9s;
+    animation: shard-2 1s ease-in-out forwards 1.2s;
     @media(min-width:768px){
-        animation: shard-2-768 1s ease-in-out forwards .9s;
+        animation: shard-2-768 1s ease-in-out forwards 1.2s;
     }
     @media(min-width:1360px){
-        animation: shard-2-1360 1s ease-in-out forwards .9s;
+        animation: shard-2-1360 1s ease-in-out forwards 1.2s;
     }
 }
 
 %shard-anime-3 {
-    animation: shard-3 .8s ease-in-out forwards .9s;
+    animation: shard-3 .8s ease-in-out forwards 1.2s;
     @media(min-width:768px){
-        animation: shard-3-768 .8s ease-in-out forwards .9s;
+        animation: shard-3-768 .8s ease-in-out forwards 1.2s;
     }
     @media(min-width:1360px){
-        animation: shard-3-1360 .8s ease-in-out forwards .9s;
+        animation: shard-3-1360 .8s ease-in-out forwards 1.2s;
     }
 }
 
 %shard-anime-4 {
-    animation: shard-4 .8s ease forwards .9s;
+    animation: shard-4 .8s ease forwards 1.2s;
     @media(min-width:768px){
         z-index: 1;
-        animation: shard-4-768 .8s ease forwards .9s;
+        animation: shard-4-768 .8s ease forwards 1.2s;
     }
     @media(min-width:1360px){
         z-index: 1;
-        animation: shard-4-1360 .8s ease forwards .9s;
+        animation: shard-4-1360 .8s ease forwards 1.2s;
     }
 }
 %shard-anime-5 {
-    animation: shard-5 .8s ease forwards .9s;
+    animation: shard-5 .8s ease forwards 1.2s;
     @media(min-width:768px){
-        animation: shard-5-768 .8s ease forwards .9s;
+        animation: shard-5-768 .8s ease forwards 1.2s;
     }
     @media(min-width:1360px){
-        animation: shard-5-1360 .8s ease forwards .9s;
+        animation: shard-5-1360 .8s ease forwards 1.2s;
     }
 }
 %shard-anime-6 {
-    animation: shard-6 .8s ease forwards .9s;
+    animation: shard-6 .8s ease forwards 1.2s;
     @media(min-width:768px){
-        animation: shard-6-768 .8s ease forwards .9s;
+        animation: shard-6-768 .8s ease forwards 1.2s;
     }
     @media(min-width:1360px){
-        animation: shard-6-1360 .8s ease-in-out forwards .9s;
+        animation: shard-6-1360 .8s ease-in-out forwards 1.2s;
     }
 }
 %shard-anime-7 {
-    animation: shard-7 .8s ease forwards .9s;
+    animation: shard-7 .8s ease forwards 1.2s;
     @media(min-width:768px){
-        animation: shard-7-768 .8s ease forwards .9s;
+        animation: shard-7-768 .8s ease forwards 1.2s;
     }
     @media(min-width:1360px){
-        animation: shard-7-1360 .8s ease forwards .9s;
+        animation: shard-7-1360 .8s ease forwards 1.2s;
     }
 }
 %shard-anime-8 {
     @media(min-width:1360px){
-        animation: shard-8-1360 .8s ease forwards .9s;
+        animation: shard-8-1360 .8s ease forwards 1.2s;
     }
 }
 
@@ -261,6 +261,7 @@
     to {
         transform: translate(-41%, 149%) rotate(26deg);
         z-index: 4;
+        
     }
 }
 
@@ -270,7 +271,7 @@
 
 @keyframes shard-2 {
     from {
-        transform: translate(0) rotate(-120deg);
+        transform: translate(0) rotate(0);
     }
 
     to {
@@ -314,7 +315,7 @@
     }
 
     to {
-            transform: translate(-14%, 137%) rotate(-76deg);
+        transform: translate(21%, 119%) rotate(85deg);
     }
 }
 @keyframes shard-3-1360 {
