@@ -1,35 +1,491 @@
-.shard-1{
+.shard-1 {
     top: 0;
-    left: 0;
-    // width: calc($index * 10.7364);
-    // height: calc($index * 33.6299);
-  
+    left: -63.733vw;
+    width: 103.2vw;
+    height: 102.933vw;
+    z-index: 3;
+    @extend %shard-anime;
+    @media(min-width:768px){
+        width: 70.052vw;
+        height: 89.453vw;
+        top: -27.734vw;
+        left: -38.542vw;
+    }
+    @media(min-width:1360px){
+        width: 31.25vw;
+        height: 39.948vw;
+        top: -23.958vw;
+        left: -4.896vw;
+    }
 }
-.shard-2{
-    top: 0;
-    left: 12%;
-    // width: calc($index * 29.2812779);
-    // height: calc($index * 49.9556349);
+
+.shard-2 {
+    top: -14.133vw;
+    left: 10.4vw;
+    width: 88.533vw;
+    height: 165.867vw;
+    @extend %shard-anime-2;
+    z-index: 3;
+    @media(min-width:768px){
+     width: 68.359vw;
+     height: 126.432vw;
+     top: -27.864vw;
+     left: 16.146vw;
+    }
+    @media(min-width:1360px){
+        top: -23.854vw;
+        left: 19.323vw;
+        width: 30.729vw;
+        height: 56.458vw;
+    }
 }
-.shard-3{
-    top: 0;
-    right: 0;
-    // width: calc($index * 22.62649);
-    // height: calc($index * 21.829);
+
+.shard-3 {
+    top: -95.2vw;
+    right: -33.333vw;
+    width: 93.333vw;
+    height: 176vw;
+    @extend %shard-anime-3;
+    z-index: 1;
+    @media(min-width:768px){
+      width: 70.964vw;
+      height: 133.984vw;
+      top: -99.609vw;
+      right: -2.213vw;
+       }
+       @media(min-width:1360px){
+        width: 31.771vw;
+        height: 59.896vw;
+        left: 27.917vw;
+        top: -53.802vw;
+    }
 }
-.shard-4{
-    top: 28%;
-    left: 0;
+
+.shard-4 {
+    top: 57.6vw;
+    left: -98.667vw;
+    width: 150.667vw;
+    height: 144vw;
+    @extend %shard-anime-4;
+    @media(min-width:768px){
+        width: 114.844vw;
+        height: 109.766vw;
+        top: 23.958vw;
+    left: -72.526vw;
+          }
+          @media(min-width:1360px){
+            width: 51.354vw;
+            height: 49.063vw;
+            top: 0.156vw;
+            left: -18.75vw;
+        
+        }
 }
-.shard-5{
-    top: -8%;
-    right: 0;
+
+.shard-5 {
+    bottom: -26.667vw;
+    right: -68.533vw;
+    width: 212.533vw;
+    height: 100.267vw;
+    @extend %shard-anime-5;
+    z-index: 2;
+    @media(min-width:768px){
+       width: 161.719vw;
+       height: 76.432vw;
+       bottom: -30.469vw;
+    right: -30.729vw;
+          }
+          @media(min-width:1360px){
+            width: 76.563vw;
+            height: 35.209vw;
+            bottom: -9.375vw;
+            right: 25.053vw;
+        
+        }
 }
-.shard-6{
-    bottom: 0;
-    left: 0;
+
+.shard-6 {
+    bottom: 50.933vw;
+    right: -148.267vw;
+    width: 160.533vw;
+    height: 260.533vw;
+    @extend %shard-anime-6;
+    @media(min-width:768px){
+       width: 122.396vw;
+       height: 198.438vw;
+       bottom: 24.479vw;
+       right: -98.177vw;
+         }
+         @media(min-width:1360px){
+            width: 54.635vw;
+            height: 88.75vw;
+            top: -56.094vw;
+            left: 46.042vw;
+          }
 }
-.shard-7{
-    top: 11%;
-    right: 0;
+
+.shard-7 {
+    right: -147.733vw;
+    width: 160.8vw;
+    height: 162.667vw;
+    bottom: 1.6vw;
+    @extend %shard-anime-7;
+    @media(min-width:768px){
+       width: 122.266vw;
+       height: 123.698vw;
+       right: -97.917vw;
+       bottom: -12.891vw;
+    }
+    @media(min-width:1360px){
+        width: 54.688vw;
+        height: 55.313vw;
+        bottom: 0;
+        right: auto;
+        left: 45.99vw;
+      }
 }
+.shard-8 {
+   display: none;
+   @extend %shard-anime-8;
+    @media(min-width:1360px){
+        display: block;
+        top: -3.333vw;
+        right: -44.167vw;
+        width: 72.708vw;
+        height: 90.677vw;
+      }
+}
+
+
+%shard-anime {
+    animation: shard-1 .7s ease-in-out forwards 1.2s;
+    @media(min-width:768px){
+        animation: shard-1-768 .7s ease-in-out forwards 1.2s;
+    }
+    @media(min-width:1360px){
+        animation: shard-1-1360 .7s ease-in-out forwards 1.2s;
+    }
+}
+
+%shard-anime-2 {
+    animation: shard-2 1s ease-in-out forwards 1.2s;
+    @media(min-width:768px){
+        animation: shard-2-768 1s ease-in-out forwards 1.2s;
+    }
+    @media(min-width:1360px){
+        animation: shard-2-1360 1s ease-in-out forwards 1.2s;
+    }
+}
+
+%shard-anime-3 {
+    animation: shard-3 .8s ease-in-out forwards 1.2s;
+    @media(min-width:768px){
+        animation: shard-3-768 .8s ease-in-out forwards 1.2s;
+    }
+    @media(min-width:1360px){
+        animation: shard-3-1360 .8s ease-in-out forwards 1.2s;
+    }
+}
+
+%shard-anime-4 {
+    animation: shard-4 .8s ease forwards 1.2s;
+    @media(min-width:768px){
+        z-index: 1;
+        animation: shard-4-768 .8s ease forwards 1.2s;
+    }
+    @media(min-width:1360px){
+        z-index: 1;
+        animation: shard-4-1360 .8s ease forwards 1.2s;
+    }
+}
+%shard-anime-5 {
+    animation: shard-5 .8s ease forwards 1.2s;
+    @media(min-width:768px){
+        animation: shard-5-768 .8s ease forwards 1.2s;
+    }
+    @media(min-width:1360px){
+        animation: shard-5-1360 .8s ease forwards 1.2s;
+    }
+}
+%shard-anime-6 {
+    animation: shard-6 .8s ease forwards 1.2s;
+    @media(min-width:768px){
+        animation: shard-6-768 .8s ease forwards 1.2s;
+    }
+    @media(min-width:1360px){
+        animation: shard-6-1360 .8s ease-in-out forwards 1.2s;
+    }
+}
+%shard-anime-7 {
+    animation: shard-7 .8s ease forwards 1.2s;
+    @media(min-width:768px){
+        animation: shard-7-768 .8s ease forwards 1.2s;
+    }
+    @media(min-width:1360px){
+        animation: shard-7-1360 .8s ease forwards 1.2s;
+    }
+}
+%shard-anime-8 {
+    @media(min-width:1360px){
+        animation: shard-8-1360 .8s ease forwards 1.2s;
+    }
+}
+
+//-----------
+
+
+
+@keyframes shard-1 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(0, 120%) rotate(75deg);
+    }
+}
+@keyframes shard-1-768 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(0, 105%) rotate(83deg);
+    }
+}
+@keyframes shard-1-1360 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-41%, 149%) rotate(26deg);
+        z-index: 4;
+        
+    }
+}
+
+
+
+
+
+@keyframes shard-2 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(0, 95%) rotate(45deg);
+    }
+}
+@keyframes shard-2-768 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-12%, 76%) rotate(-74deg);
+    }
+}
+@keyframes shard-2-1360 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-12%, 84%) rotate(87deg);
+        z-index: 2;
+    }
+}
+
+
+
+@keyframes shard-3 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-10%, 110%) rotate(76deg);
+    }
+}
+@keyframes shard-3-768 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(21%, 119%) rotate(85deg);
+    }
+}
+@keyframes shard-3-1360 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-14%, 137%) rotate(-76deg);
+        z-index: 3;
+    }
+}
+
+
+
+
+@keyframes shard-4 {
+    from {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        top: auto;
+        left: -110.133vw;
+        bottom: -72.533vw;
+        transform: rotate(19deg);
+    }
+}
+@keyframes shard-4-768 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+    to {
+        transform: translate(15%, 67%) rotate(40deg);
+        opacity: .7;
+    }
+}
+@keyframes shard-4-1360 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+    to {
+        transform: translate(-30%, 61%) rotate(-43deg);
+    }
+}
+
+
+
+
+@keyframes shard-5 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-5%, 32%) rotate(18deg);
+    }
+}
+@keyframes shard-5-768 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-5%, 36%) rotate(18deg);
+    }
+}
+@keyframes shard-5-1360 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-6%, 51%) rotate(-43deg);
+        z-index: 2;
+    }
+}
+
+
+
+
+
+@keyframes shard-6 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(-7%, 74%) rotate(34deg);
+    }
+}
+@keyframes shard-6-768 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(1%, 74%) rotate(71deg);
+    }
+}
+@keyframes shard-6-1360 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(11%, 80%) rotate(-98deg);
+    }
+}
+
+
+
+
+@keyframes shard-7 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(4%, 14%) rotate(4deg);
+        z-index: 1;
+    }
+}
+@keyframes shard-7-768 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(4%, 37%) rotate(32deg);
+        z-index: 1;
+    }
+}
+@keyframes shard-7-1360 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(4%, 50%) rotate(50deg);
+        z-index: 1;
+    }
+}
+
+
+@keyframes shard-8-1360 {
+    from {
+        transform: translate(0) rotate(0);
+    }
+
+    to {
+        transform: translate(0, 25%) rotate(23deg);
+        z-index: 1;
+    }
+}
+
+
+
+@keyframes show-btn{
+    from {
+        z-index: 0;
+    }
+
+    to {
+      z-index: 10;
+    }
+}
+

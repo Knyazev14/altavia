@@ -1,16 +1,30 @@
 export function partnersSlider() {
-  var partnersSlider = new Swiper('.partners__slider', {
-    slidesPerView: 'auto',
-     speed: 1000,
-    loop: true,
-    freeMode: true,
-    grabCursor: true,
-    autoplay: {
-      delay: 1,
-      disableOnInteraction: true
+  // new Swiper('.partners__slider', {
+  //   slidesPerView: 'auto',
+  //   speed: 650,
+  //   loop: true,
+  //   grabCursor: true,
+  //   autoplay: {
+  //     delay: 0,
+  //     disableOnInteraction: false
+  //   },
+  // });
+
+
+  const splide = new Splide( '.splide', {
+    type   : 'loop',
+    drag   : 'free',
+    arrows: false,
+    perPage: 9,
+    breakpoints: {
+      768 : { perPage: 5,  autoScroll: {
+        speed: 1,
+      }, },
     },
-    freeModeMomentum: false,
-    rewind: true
-  });
+    autoScroll: {
+      speed: 2,
+    },
+  } );
+  splide.mount(window.splide.Extensions);
 
 }
