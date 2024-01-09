@@ -186,6 +186,7 @@
     }
     &__link .button-secondary{
         height: 11.733vw;
+        z-index: 2;
         @media(min-width:768px){
            height: 6.38vw;
         }
