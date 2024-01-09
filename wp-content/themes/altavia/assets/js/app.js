@@ -5,6 +5,7 @@ import * as  servicesCards  from "./modules/services.js"
 import * as  victoriesFunc  from "./modules/victories.js"
 import * as  partnersSlider  from "./modules/partners.js"
 import * as  pressFunc  from "./modules/press.js"
+import * as  basisForm  from "./modules/basis-form.js"
 
 document.addEventListener('DOMContentLoaded',function(){
     // Навигация
@@ -21,5 +22,6 @@ document.addEventListener('DOMContentLoaded',function(){
     partnersSlider.partnersSlider()
     //Пресс-центр
     pressFunc.pressFunc()
+    //Контактная форма
+    basisForm.basisForm()
 })
-

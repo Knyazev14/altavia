@@ -4,6 +4,9 @@
     &__wrapper {
         padding: 6.667vw 4vw;
         background: rgba(247, 247, 247, 0.90);
+        width: 92vw;
+        height: 125.6vw;
+        overflow: hidden;
         @media(min-width:768px){
             padding: 9.115vw 3.906vw;
             width: 92.188vw;
@@ -16,11 +19,27 @@
             height: 34.688vw;
         }
     }
+//Добавление успешной отправки заявки
+    &.form__success form{
+        display: none;  
+      }
+    &.form__success .form__sent{
+        display: block;
+        position: relative;
+        
+        @media(min-width:1360px){
+            padding-left: 0.833vw;
+        }
+    }
+
+    &.form__success &__wrapper{
+        background: linear-gradient(to bottom left, #F7F7F7 50%, #EBF2F1 50%);
+        backdrop-filter: none;
+    }
 //Стилизация обертки формы получить консультацию
     &__wrap {
         padding: 40px 15px;
         background: linear-gradient(to bottom left, #F7F7F7 48%, #EBF2F1 52%);
-        backdrop-filter: blur(3.5px);
         height: 580px;
         @media(min-width:768px){
             padding: 9.115vw 3.906vw;
@@ -37,15 +56,19 @@
 
 }
 .form {
-display: flex;
-flex-direction: column;
-gap: 4.267vw;
-@media(min-width:768px){
-gap: 3.776vw;
-}
-@media(min-width:1360px){
-gap: 1.51vw;
-}
+
+    &__body{
+        display: flex;
+        flex-direction: column;
+        gap: 4.267vw;
+        @media(min-width:768px){
+            gap: 3.776vw;
+        }
+        @media(min-width:1360px){
+            gap: 1.51vw;
+        }
+    }
+
     &__item {
     }
 
@@ -274,6 +297,7 @@ gap: 1.51vw;
         color: #D94C4C;
         font-size: 3.733vw;
         line-height: 150%;
+        position: absolute;
         @media(min-width:768px){
             font-size: 1.823vw;
         }
@@ -472,5 +496,109 @@ gap: 1.51vw;
         margin-bottom: 20px;
     }
 
+//стилизация формы при отправке
+    & .wpcf7-form-control{
+        cursor: pointer;
+        width: 100%;
+    }
 
+    &__sent{
+        display: none;
+    }
+
+    &__sent-close{
+        position: relative;
+        z-index: 1;
+    }
+
+    &__sent-close::after{
+        position: absolute;
+        content: "";
+        background-image: url('../img/icon/close-form.svg');
+        top: -3.467vw;
+        right: -1.333vw;
+        width: 8.8vw;
+        height: 8.8vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media(min-width: 768px){
+            top: -5.859vw;
+            right: -0.302vw;
+            width: 6.208vw;
+            height: 6.208vw;
+        }
+        @media(min-width:1360px){
+            top: -2.292vw;
+            right: -0.094vw;
+            width: 2.344vw;
+            height: 2.344vw;
+        }
+    }
+
+    &__sent-title{
+        padding-top: 8.533vw;
+        letter-spacing: -0.088vw;
+        margin-bottom: 5.067vw;
+        @media(min-width: 768px){
+            letter-spacing: -0.066vw;
+            margin-bottom: 2.344vw;
+            padding-top: 0;
+         }
+         @media(min-width:1360px){
+            max-width: 14.948vw;
+            letter-spacing: -0.034vw;
+            margin-bottom: 0.938vw;
+            padding-top: 5.938vw;
+         }
+    }
+
+    &__sent-text{
+
+    }
+
+    &__sent-img-mobile{
+        display: block;
+        position: absolute;
+        top: -6.133vw;
+        right: -4.267vw;
+        width: 92vw;
+        height: 154.667vw;
+        @media(min-width: 768px){
+           display: none;
+        }
+        @media(min-width:1360px){
+            display: none;
+        }
+    }
+    
+    &__sent-img-tablet{
+        display: none;
+        @media(min-width: 768px){
+            display: block;
+            position: absolute;
+            top: -8.594vw;
+            right: -3.776vw;
+            width: 92.188vw;
+            height: 89.844vw;
+        }
+        @media(min-width:1360px){
+            display: none;
+        }
+    }
+    
+    &__sent-img-desctop{
+        display: none;
+        @media(min-width: 768px){
+            display: none;
+        }
+        @media(min-width:1360px){
+            display: block;
+            position: absolute;
+            top: -3.281vw;
+            right: -1.979vw;
+            width: 35.729vw;
+            height: 35.625vw;
+        }
+    }
+    
 }
